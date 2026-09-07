@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/schooldesk",
+	"textures": {
+		"leg": "chinjufumod:block/muku_spruce",
+		"top": "minecraft:block/spruce_planks"
+	}
+}

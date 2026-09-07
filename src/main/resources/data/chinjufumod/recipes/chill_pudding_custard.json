@@ -1,0 +1,10 @@
+{
+	"type": "chinjufumod:chill_recipe",
+	"group": "cm_custard",
+	"ingredient": {
+		"item": "chinjufumod:item_raw_pudding_custard"
+	},
+	"result": { "item": "chinjufumod:block_food_pudding_custard", "count" : 3 },
+	"experience": 1.0,
+	"cookingtime": 400
+}

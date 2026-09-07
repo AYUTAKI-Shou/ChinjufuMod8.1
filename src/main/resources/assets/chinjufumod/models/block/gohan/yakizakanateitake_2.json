@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/yakizakanatei_2",
+	"textures": {
+		"kome": "chinjufumod:block/food_gohantakenoko"
+	}
+}

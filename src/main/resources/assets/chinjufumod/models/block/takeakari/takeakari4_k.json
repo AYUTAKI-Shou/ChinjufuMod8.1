@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/takeakari4",
+	"textures": {
+		"take": "chinjufumod:block/bamboo_k_side",
+		"take_uchi": "chinjufumod:block/bamboo_k_inside"
+	}
+}

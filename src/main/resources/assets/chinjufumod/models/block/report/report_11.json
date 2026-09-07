@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/report_box",
+	"textures": {
+		"face": "chinjufumod:block/report_11"
+	}
+}

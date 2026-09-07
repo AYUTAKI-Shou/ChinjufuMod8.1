@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/box_sack_top",
+	"textures": {
+		"bottom": "chinjufumod:block/sack_coco_bottom",
+		"side": "chinjufumod:block/sack_coco_side",
+		"top": "chinjufumod:block/sack_coco_top"
+	}
+}

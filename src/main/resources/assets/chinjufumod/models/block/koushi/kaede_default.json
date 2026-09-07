@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/koushi_default",
+	"textures": {
+		"muku": "chinjufumod:block/muku_kaede"
+	}
+}

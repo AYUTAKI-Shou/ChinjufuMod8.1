@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"@@",
+		"##"
+	],
+	"key": {
+		"#": { "tag": "forge:planks" },
+		"@": { "tag": "chinjufumod:materials_yarn" }
+	},
+	"result": { "item": "minecraft:loom" }
+}

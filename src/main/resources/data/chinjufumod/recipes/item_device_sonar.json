@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_search",
+
+	"ingredients": [
+		{ "item": "minecraft:bell" },
+		{ "item": "minecraft:prismarine_crystals" },
+		{ "tag": "forge:dusts/redstone" },
+		{ "tag": "forge:dusts/redstone" },
+		{ "tag": "forge:dusts/redstone" },
+		{ "tag": "forge:dusts/redstone" },
+		{ "item": "minecraft:stone_button" },
+		{ "tag": "forge:ingots/iron" },
+		{ "item": "chinjufumod:item_workorder" }
+	],
+
+	"result": { "item": "chinjufumod:item_device_sonar", "count": 1 }
+}

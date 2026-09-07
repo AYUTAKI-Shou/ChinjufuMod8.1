@@ -1,0 +1,23 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:item_ykt_hamakaze_kazari",
+			"chinjufumod:item_ykt_kawakaze_kazari",
+			"chinjufumod:item_ykt_oboro_kazari",
+			"chinjufumod:item_ykt_urakaze_kazari"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "tag": "chinjufumod:materials_yarn" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

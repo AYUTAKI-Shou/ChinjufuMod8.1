@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/tansu2",
+	"textures": {
+		"front": "chinjufumod:block/tansu_jungle_front",
+		"side": "chinjufumod:block/tansu_jungle_side",
+		"inside": "chinjufumod:block/tansu_jungle_inside"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wooden_buttons",
+    "chinjufumod:block_bamboo_button",
+    "chinjufumod:block_bamboo_y_button",
+    "chinjufumod:block_bamboo_k_button"
+  ]
+}

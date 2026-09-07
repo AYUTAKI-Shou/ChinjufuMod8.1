@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/sofa_cloth_right",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_lightgray"
+	}
+}

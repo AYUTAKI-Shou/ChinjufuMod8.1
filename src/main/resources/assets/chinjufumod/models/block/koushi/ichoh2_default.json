@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/koushi2_default",
+	"textures": {
+		"muku": "chinjufumod:block/muku_ichoh"
+	}
+}

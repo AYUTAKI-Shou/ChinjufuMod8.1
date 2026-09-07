@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "chinjufumod:item_kiji_pananko"
+	},
+	"result": "chinjufumod:item_food_pananko",
+	"experience": 0.5,
+	"cookingtime": 200
+}

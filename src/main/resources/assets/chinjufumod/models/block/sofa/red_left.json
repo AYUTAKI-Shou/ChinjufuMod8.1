@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/sofa_cloth_left",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_red"
+	}
+}

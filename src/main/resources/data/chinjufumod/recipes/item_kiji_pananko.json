@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_anko" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" }
+	],
+
+	"result": { "item": "chinjufumod:item_kiji_pananko", "count" : 4 }
+}

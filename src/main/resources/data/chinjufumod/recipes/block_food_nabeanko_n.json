@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		{ "tag": "forge:buckets/water" },
+		{ "item": "chinjufumod:item_azuki_boil" },
+		{ "item": "chinjufumod:item_azuki_boil" },
+		{ "item": "chinjufumod:item_azuki_boil" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "minecraft:sugar" },
+		{ "tag": "forge:dusts/salt" },
+		{ "item": "chinjufumod:block_food_karanabe" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabeanko_n", "count" : 1 }
+}

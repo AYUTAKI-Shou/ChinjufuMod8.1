@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/tobukuro_botr5",
+	"textures": {
+		"fuchi": "minecraft:block/spruce_planks",
+		"amado": "chinjufumod:block/muku_spruce"
+	}
+}

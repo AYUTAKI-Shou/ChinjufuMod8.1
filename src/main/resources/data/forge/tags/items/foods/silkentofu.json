@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:foods/silkentoufu",
+    "chinjufumod:item_food_toufu"
+  ]
+}

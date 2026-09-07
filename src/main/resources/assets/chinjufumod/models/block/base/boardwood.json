@@ -1,0 +1,67 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#front"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [ 2, 2, 0 ],
+			"to": [ 14, 14, 1 ],
+			"faces": {
+				"north": { "uv": [ 2.0, 2.0, 14.0, 14.0 ], "texture": "#side", "cullface": "north" },
+				"south": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#front" }
+			}
+		},
+		
+		{
+			"name": "up_______________________________________",
+			"from": [ 1, 14, 0 ],
+			"to": [ 15, 15, 1.5 ],
+			"faces": {
+				"up" : { "uv": [ 1.0, 15.0, 15.0, 13.5 ], "texture": "#side" },
+				"down" : { "uv": [ 1.0, 13.5, 15.0, 15.0 ], "texture": "#side" },
+				"north": { "uv": [ 1.0, 1.0, 15.0, 2.0 ], "texture": "#side", "cullface": "north" },
+				"south": { "uv": [ 1.0, 1.0, 15.0, 2.0 ], "texture": "#side" },
+				"west" : { "uv": [ 1.0, 6.5, 2.0, 5.0 ], "texture": "#side", "rotation": 90 },
+				"east" : { "uv": [ 1.0, 11.0, 2.0, 9.5 ], "texture": "#side", "rotation": 90 }
+			}
+		},
+		{
+			"name": "down",
+			"from": [ 1, 1, 0 ],
+			"to": [ 15, 2, 1.5 ],
+			"faces": {
+				"up" : { "uv": [ 1.0, 3.0, 15.0, 1.5 ], "texture": "#side" },
+				"down" : { "uv": [ 1.0, 1.5, 15.0, 3.0 ], "texture": "#side" },
+				"north": { "uv": [ 1.0, 14.0, 15.0, 15.0 ], "texture": "#side", "cullface": "north" },
+				"south": { "uv": [ 1.0, 14.0, 15.0, 15.0 ], "texture": "#side" },
+				"west" : { "uv": [ 14.0, 6.5, 15.0, 5.0 ], "texture": "#side", "rotation": 90 },
+				"east" : { "uv": [ 14.0, 11.0, 15.0, 9.5 ], "texture": "#side", "rotation": 90 }
+			}
+		},
+		
+		{
+			"name": "west_______________________________________",
+			"from": [ 1, 2, 0 ],
+			"to": [ 2, 14, 1.5 ],
+			"faces": {
+				"north": { "uv": [ 2.0, 8.0, 14.0, 9.0 ], "texture": "#side", "rotation": 90, "cullface": "north" },
+				"south": { "uv": [ 2.0, 8.0, 14.0, 9.0 ], "texture": "#side", "rotation": 90 },
+				"west" : { "uv": [ 2.0, 6.5, 14.0, 5.0 ], "texture": "#side", "rotation": 90 },
+				"east" : { "uv": [ 2.0, 11.0, 14.0, 9.5 ], "texture": "#side", "rotation": 90 }
+			}
+		},
+		{
+			"name": "east_1",
+			"from": [ 14, 2, 0 ],
+			"to": [ 15, 14, 1.5 ],
+			"faces": {
+				"north": { "uv": [ 2.0, 4.0, 14.0, 5.0 ], "texture": "#side", "rotation": 90, "cullface": "north" },
+				"south": { "uv": [ 2.0, 4.0, 14.0, 5.0 ], "texture": "#side", "rotation": 90 },
+				"west" : { "uv": [ 2.0, 6.5, 14.0, 5.0 ], "texture": "#side", "rotation": 90 },
+				"east" : { "uv": [ 2.0, 11.0, 14.0, 9.5 ], "texture": "#side", "rotation": 90 }
+			}
+		}
+	]
+}

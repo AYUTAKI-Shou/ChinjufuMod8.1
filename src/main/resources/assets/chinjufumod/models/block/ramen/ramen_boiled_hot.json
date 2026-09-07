@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/pastaboiled_hot",
+	"textures": {
+		"pasta": "chinjufumod:block/ramen_boil_flow"
+	}
+}

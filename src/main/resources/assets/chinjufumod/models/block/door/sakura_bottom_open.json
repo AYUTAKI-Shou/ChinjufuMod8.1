@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/door_left_bottom_open",
+	"textures": {
+		"bottom": "chinjufumod:block/door_sakura_left_bottom"
+	}
+}

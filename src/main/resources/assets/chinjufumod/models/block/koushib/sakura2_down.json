@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/koushib2_down",
+	"textures": {
+		"muku": "chinjufumod:block/muku_sakura"
+	}
+}

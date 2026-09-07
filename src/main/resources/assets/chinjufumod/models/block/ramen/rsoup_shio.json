@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/udon_soup",
+	"textures": {
+		"soup": "chinjufumod:block/ramen_shio_0"
+	}
+}

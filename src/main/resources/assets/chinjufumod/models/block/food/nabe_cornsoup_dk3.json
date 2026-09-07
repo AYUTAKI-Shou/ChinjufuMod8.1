@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabe_soup_dk3",
+	"textures": {
+		"soup": "chinjufumod:block/soup_still_n"
+	}
+}

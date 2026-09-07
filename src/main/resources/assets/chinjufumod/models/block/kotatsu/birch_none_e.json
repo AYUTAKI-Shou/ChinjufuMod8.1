@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/kotatsu_none_e",
+	"textures": {
+		"ten": "minecraft:block/birch_planks",
+		"futon": "chinjufumod:block/kotatsufuton_bir",
+		"leg": "chinjufumod:block/muku_birch"
+	}
+}

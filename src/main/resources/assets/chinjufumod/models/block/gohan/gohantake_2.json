@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/gohan_2",
+	"textures": {
+		"owannaka": "chinjufumod:block/food_gohantakenoko"
+	}
+}

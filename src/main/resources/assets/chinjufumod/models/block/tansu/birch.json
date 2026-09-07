@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/tansu2",
+	"textures": {
+		"front": "chinjufumod:block/tansu_birch_front",
+		"side": "chinjufumod:block/tansu_birch_side",
+		"inside": "chinjufumod:block/tansu_birch_inside"
+	}
+}

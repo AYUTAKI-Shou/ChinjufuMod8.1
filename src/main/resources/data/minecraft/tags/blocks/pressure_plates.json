@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wooden_pressure_plates",
+    "chinjufumod:block_bamboo_plate",
+    "chinjufumod:block_bamboo_y_plate",
+    "chinjufumod:block_bamboo_k_plate"
+  ]
+}

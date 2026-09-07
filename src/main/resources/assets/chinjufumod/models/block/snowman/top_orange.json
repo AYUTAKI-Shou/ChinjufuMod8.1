@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/snowman_top",
+	"textures": {
+		"color": "minecraft:block/orange_wool"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime_ball",
+    "chinjufumod:block_soyoil_bot",
+    "chinjufumod:block_soyoil_bot_2"
+  ]
+}

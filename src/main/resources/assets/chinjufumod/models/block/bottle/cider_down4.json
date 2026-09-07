@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/bottle_down",
+	"textures": {
+		"side": "chinjufumod:block/bottle_cider_4",
+		"top": "chinjufumod:block/bottle_cider_top",
+		"label": "chinjufumod:block/bottle_label_cider"
+	}
+}

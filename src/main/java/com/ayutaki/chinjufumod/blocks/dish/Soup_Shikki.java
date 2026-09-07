@@ -1,0 +1,82 @@
+package com.ayutaki.chinjufumod.blocks.dish;
+
+import java.util.Random;
+
+import com.ayutaki.chinjufumod.handler.CMEvents;
+import com.ayutaki.chinjufumod.registry.Dish_Blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.util.Hand;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
+
+public class Soup_Shikki extends BaseFood_Stage3WA {
+	/* Collision */
+	private static final VoxelShape AABB_BOX = Block.makeCuboidShape(6.5D, 0.0D, 6.5D, 9.5D, 2.0D, 9.5D);
+	private static final VoxelShape AABB_DOWN = Block.makeCuboidShape(6.5D, -8.0D, 6.5D, 9.5D, 0.1D, 9.5D);
+
+	public Soup_Shikki(Block.Properties props) {
+		super(props);
+	}
+
+	/* RightClick Action */
+	@Override
+	public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity playerIn, Hand hand, BlockRayTraceResult hit) {
+		ItemStack hStack = playerIn.getHeldItem(hand);
+		int i = state.get(STAGE_1_3);
+
+		if (i == 3) { CMEvents.textIsEmpty(worldIn, pos, playerIn); }
+		
+		else { //i != 3
+			if (hStack.isEmpty()) {
+				CMEvents.soundEat(worldIn, pos);
+				
+				/** add Potion Effect. **/
+				if (!worldIn.isRemote) {
+					boolean miso = (this == Dish_Blocks.MISOSOUP);
+					int SAT = miso? 1 : 2;
+					/** DIG_SPEED, 1200/20=60 seconds., SATURATION 2 =1 piece of MEAT **/
+					playerIn.addPotionEffect(new EffectInstance(Effects.HASTE, 1200, 0));
+					playerIn.addPotionEffect(new EffectInstance(Effects.SATURATION, SAT, 0)); }
+	
+				worldIn.setBlockState(pos, state.with(STAGE_1_3, Integer.valueOf(i + 1))); }
+			
+			else { //!empty
+				CMEvents.textFullItem(worldIn, pos, playerIn); }
+		}
+		/** SUCCESS to not put anything on top. **/
+		return ActionResultType.SUCCESS;
+	}
+
+	/* TickRandom */
+	@Override
+	public void tick(BlockState state, ServerWorld worldIn, BlockPos pos, Random rand) {
+		int i = state.get(STAGE_1_3);
+		
+		if (waterIn(state, worldIn, pos) && i != 3) {
+			worldIn.getPendingBlockTicks().scheduleTick(pos, this, 60);
+			
+			CMEvents.drop1_ROTTENFOOD(worldIn, pos);
+			worldIn.setBlockState(pos, state.with(STAGE_1_3, Integer.valueOf(3))); }
+		
+		else { }
+	}
+	
+	/* Collisions for each property. */
+	@Override
+	public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+		boolean notDown = !((Boolean)state.get(DOWN)).booleanValue();
+		return notDown? AABB_BOX : AABB_DOWN;
+	}
+}

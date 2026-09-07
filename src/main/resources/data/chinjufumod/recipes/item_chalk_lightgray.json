@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chalk",
+
+	"ingredients": [
+		{ "tag": "forge:dyes/light_gray" },
+		{ "item": "minecraft:bone_meal" },
+		{ "tag": "chinjufumod:cooking_water" }
+	],
+
+	"result": { "item": "chinjufumod:item_chalk_lightgray", "count" : 1 }
+}

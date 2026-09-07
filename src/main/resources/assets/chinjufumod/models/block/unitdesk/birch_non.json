@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/unitdesk_none",
+	"textures": {
+		"top": "minecraft:block/birch_planks"
+	}
+}

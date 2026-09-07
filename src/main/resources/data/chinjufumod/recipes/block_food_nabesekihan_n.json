@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_gohan",
+
+	"ingredients": [
+		{ "tag": "forge:buckets/water" },
+		{ "item": "chinjufumod:item_kome" },
+		{ "item": "chinjufumod:item_kome" },
+		{ "item": "chinjufumod:item_kome" },
+		{ "item": "chinjufumod:block_food_karanabe" },
+		{ "item": "chinjufumod:item_azuki_boil" },
+		{ "tag": "forge:dusts/salt" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabesekihan_n", "count" : 1 }
+}

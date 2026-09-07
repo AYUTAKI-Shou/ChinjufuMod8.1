@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/koushib_both",
+	"textures": {
+		"muku": "chinjufumod:block/muku_spruce"
+	}
+}
