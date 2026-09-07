@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/tamagoyakitei_d1",
+	"textures": {
+		"kome": "chinjufumod:block/food_gohan"
+	}
+}

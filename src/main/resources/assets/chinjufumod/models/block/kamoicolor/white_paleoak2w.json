@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/kamoislab_2west",
+	"textures": {
+		"shikkui": "chinjufumod:block/plaster_white",
+		"ki": "chinjufumod:block/pillar_paleoak_side",
+		"ki_top": "chinjufumod:block/pillar_paleoak_top",
+		"ki_inside": "chinjufumod:block/pillar_paleoak_inside"
+	}
+}

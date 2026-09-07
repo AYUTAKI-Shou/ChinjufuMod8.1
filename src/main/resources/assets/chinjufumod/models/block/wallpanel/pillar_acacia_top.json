@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "chinjufumod:block/pillar_acacia_top",
+		"back": "chinjufumod:block/pillar_acacia_top",
+		"side": "chinjufumod:block/pillar_acacia_top"
+	}
+}

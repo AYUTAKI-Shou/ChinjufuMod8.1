@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/yakisoba_down1",
+	"textures": {
+		"soba": "chinjufumod:block/yakisoba_bake"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/irori_sakana/base_n0sw",
+	"textures": {
+		"north": "chinjufumod:block/irori_sakana_cooked",
+		
+		"south": "chinjufumod:block/irori_sakana",
+		"west": "chinjufumod:block/irori_sakana"
+	}
+}

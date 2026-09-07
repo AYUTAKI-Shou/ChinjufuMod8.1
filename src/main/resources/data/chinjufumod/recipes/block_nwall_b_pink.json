@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_nwall_b",
+
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+
+	"key": {
+		"X": { "item": "chinjufumod:block_namako_b_pink" }
+	},
+
+	"result": { "id": "chinjufumod:block_nwall_b_pink", "count": 12 }
+}

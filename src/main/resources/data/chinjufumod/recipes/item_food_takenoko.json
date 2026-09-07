@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"tag": "forge:crops/bambooshoot"
+	},
+	"result": { "id": "chinjufumod:item_food_takenoko" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

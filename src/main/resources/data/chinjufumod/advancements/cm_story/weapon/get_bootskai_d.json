@@ -1,0 +1,36 @@
+{
+	"parent": "chinjufumod:cm_story/weapon/get_armor_d",
+	"display": {
+		"title": {
+			"translate": "advancements.cm_story.weapon.get_bootskai_d.title"
+		},
+		"description": {
+			"translate": "advancements.cm_story.weapon.get_bootskai.description"
+		},
+		"icon": { "count": 1, 
+			"id": "chinjufumod:item_fubuki_bootskai"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": [
+				"chinjufumod:item_fubuki_bootskai",
+				"chinjufumod:item_kasumi_bootskai",
+				"chinjufumod:item_shiratsuyu_bootskai",
+				"chinjufumod:item_shigure_bootskai",
+				"chinjufumod:item_akatsuki_bootskai" ] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	],
+	"rewards": { "experience":6 }
+}

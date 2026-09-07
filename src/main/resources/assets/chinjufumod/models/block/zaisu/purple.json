@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/zaisu",
+	"textures": {
+		"top": "chinjufumod:block/zabuton_purple_top",
+		"side": "chinjufumod:block/zabuton_purple_side"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/teppan_soba4",
+	"textures": {
+		"okonomi": "chinjufumod:block/okonomi_bake_re"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/curryset_3",
+	"textures": {
+		"rou": "chinjufumod:block/food_curryrou_tomato"
+	}
+}

@@ -1,0 +1,10 @@
+// 1.20.6	2026-02-26T01:53:09.4338165	Tags for minecraft:worldgen/biome mod id chinjufumod
+ff631e37585860fc602e703197967d16857c5bf7 data/forge/tags/worldgen/biome/is_cold/overworld.json
+4d5e460139f6f07019dfa524b785ed5bd9e22611 data/forge/tags/worldgen/biome/is_hot/overworld.json
+cf459472ba3c62f3062025522dfcbe1f281ca28e data/forge/tags/worldgen/biome/is_rare.json
+cf459472ba3c62f3062025522dfcbe1f281ca28e data/forge/tags/worldgen/biome/is_slope.json
+e103c6bb3eefc6a9014334491d21070fb962c574 data/minecraft/tags/worldgen/biome/has_structure/village_plains.json
+7f2ba282d170b40ea53ff19822b9f2c3d5423566 data/minecraft/tags/worldgen/biome/is_forest.json
+cf459472ba3c62f3062025522dfcbe1f281ca28e data/minecraft/tags/worldgen/biome/is_hill.json
+7f2ba282d170b40ea53ff19822b9f2c3d5423566 data/minecraft/tags/worldgen/biome/is_overworld.json
+e103c6bb3eefc6a9014334491d21070fb962c574 data/minecraft/tags/worldgen/biome/stronghold_biased_to.json

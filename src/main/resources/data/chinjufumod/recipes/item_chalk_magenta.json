@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chalk",
+
+	"ingredients": [
+		{ "tag": "forge:dyes/magenta" },
+		{ "item": "minecraft:bone_meal" },
+		{ "tag": "chinjufumod:cooking_water" }
+	],
+
+	"result": { "id": "chinjufumod:item_chalk_magenta", "count" : 1 }
+}

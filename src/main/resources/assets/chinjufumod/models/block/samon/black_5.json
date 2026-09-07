@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/samon",
+	"textures": {
+		"top": "chinjufumod:block/samon_black_5",
+		"side": "chinjufumod:block/samon_black_7"
+	}
+}

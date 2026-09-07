@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/lowdesk_corner",
+	"textures": {
+		"leg": "chinjufumod:block/muku_mangrove",
+		"top": "minecraft:block/mangrove_planks"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"parent": "chinjufumod:block/item/device_radar",
+	"textures": {
+		"front": "chinjufumod:item/device_sonar_front"
+	},
+	"gui_light": "front", "display": {
+		"gui": {
+			"rotation": [ 90, 0, 0 ],
+			"translation": [ 2.8, -2.5, 0 ],
+			"scale": [ 1.0, 1.0, 1.0 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ -90, 0, -90 ],
+			"translation": [ -0.25, -1, 4 ],
+			"scale": [ 0.425, 0.425, 0.425 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ -90, 0, -90 ],
+			"translation": [ -0.25, -1, 2 ],
+			"scale": [ 0.425, 0.425, 0.425 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 60, 0, 0 ],
+			"translation": [ -7.75, 1.5, 4 ],
+			"scale": [ 0.35, 0.35, 0.35 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 60, 0, 0 ],
+			"translation": [ -10, 1.5, 4 ],
+			"scale": [ 0.35, 0.35, 0.35 ]
+		},
+		"fixed": {
+			"rotation": [ -90, 180, 0 ],
+			"translation": [ -2.8, -2.5, 7.25 ],
+			"scale": [ 1.0, 1.0, 1.0 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.4, 0.4, 0.4 ]
+		}
+	}
+}

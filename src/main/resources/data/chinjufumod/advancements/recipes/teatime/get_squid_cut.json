@@ -1,0 +1,26 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_food_donkaisen_1",
+			"chinjufumod:block_food_frypan_n_seafood",
+			"chinjufumod:block_food_teppan_n_okonomis",
+			"chinjufumod:block_food_teppan_n_okonomisobas",
+			"chinjufumod:item_food_pizza_sn",
+			
+			"chinjufumod:smelting_squid_cooked"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "chinjufumod:item_squid_cut" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/ctable_corner",
+	"textures": {
+		"leg": "chinjufumod:block/muku_birch",
+		"top": "minecraft:block/birch_planks"
+	}
+}

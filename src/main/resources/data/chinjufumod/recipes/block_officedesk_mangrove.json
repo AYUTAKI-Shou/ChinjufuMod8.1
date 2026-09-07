@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_officedesk",
+
+	"pattern": [
+		"XXX",
+		"Y Y"
+	],
+
+	"key": {
+		"X": { "item": "minecraft:mangrove_slab" },
+		"Y": { "item": "minecraft:chest" }
+	},
+
+	"result": { "id": "chinjufumod:block_officedesk_mangrove", "count": 1 }
+}

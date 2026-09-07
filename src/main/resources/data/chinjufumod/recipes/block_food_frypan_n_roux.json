@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_curry",
+	
+	"ingredients": [
+		{ "tag": "forge:dusts/chili" },
+		{ "tag": "forge:dusts/cumin" },
+		{ "tag": "forge:dusts/turmeric" },
+		{ "tag": "forge:dusts/dashi" },
+		{ "tag": "forge:foods/butter" },
+		{ "tag": "forge:sugar" },
+		{ "tag": "forge:dusts/salt" },
+		{ "tag": "forge:foods/flour" },
+		{ "item": "chinjufumod:block_food_frypan" }
+	],
+
+	"result": { "id": "chinjufumod:block_food_frypan_n_roux", "count" : 1 }
+}

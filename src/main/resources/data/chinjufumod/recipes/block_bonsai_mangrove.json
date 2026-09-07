@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bonsai",
+
+	"ingredients": [
+		{ "item": "minecraft:mangrove_propagule" },
+		{ "item": "minecraft:dirt" },
+		{ "item": "minecraft:flower_pot" }
+	],
+
+	"result": { "id": "chinjufumod:block_bonsai_mangrove", "count": 1 }
+}

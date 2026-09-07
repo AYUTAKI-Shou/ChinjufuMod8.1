@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_zaisu",
+
+	"pattern": [
+		"XY",
+		"XX"
+	],
+
+	"key": {
+		"X": { "tag": "forge:wooden_slabs" },
+		"Y": { "item": "chinjufumod:block_mzabuton_red" }
+	},
+
+	"result": { "id": "chinjufumod:block_zaisu_red", "count": 1 }
+}

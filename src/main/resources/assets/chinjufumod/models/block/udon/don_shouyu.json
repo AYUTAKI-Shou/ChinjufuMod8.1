@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/udon_tare",
+	"textures": {
+		"tare": "chinjufumod:block/shouyu_still"
+	}
+}

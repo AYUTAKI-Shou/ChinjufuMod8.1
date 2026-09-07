@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_leng",
+	"textures": {
+		"front": "minecraft:block/mangrove_log",
+		"back": "minecraft:block/mangrove_log",
+		"side": "minecraft:block/mangrove_log"
+	}
+}

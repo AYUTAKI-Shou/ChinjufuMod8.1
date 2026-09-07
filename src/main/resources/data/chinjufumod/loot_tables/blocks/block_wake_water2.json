@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{ "rolls": 1.0, "bonus_rolls": 0.0,
+			"entries": [ { "type": "minecraft:empty" } ] 
+		}
+	],
+	"random_sequence": "chinjufumod:blocks/block_wake_water2"
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_board",
+
+	"ingredients": [
+		{ "item": "minecraft:dark_oak_slab" },
+		{ "item": "chinjufumod:item_sumi_c" },
+		{ "item": "chinjufumod:item_sumi_c" }
+	],
+
+	"result": { "id": "chinjufumod:block_board_darkoak", "count" : 4 }
+}

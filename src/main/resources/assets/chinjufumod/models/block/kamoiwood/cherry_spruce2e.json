@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/kamoislab_2east",
+	"textures": {
+		"shikkui": "minecraft:block/cherry_planks",
+		"ki": "chinjufumod:block/pillar_spruce_side",
+		"ki_top": "chinjufumod:block/pillar_spruce_top",
+		"ki_inside": "chinjufumod:block/pillar_spruce_inside"
+	}
+}

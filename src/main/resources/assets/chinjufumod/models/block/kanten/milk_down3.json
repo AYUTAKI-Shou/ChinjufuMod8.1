@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/kanten_d3",
+	"textures": {
+		"kanten": "chinjufumod:block/kanten_milk"
+	}
+}

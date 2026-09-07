@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/teppan_soba1",
+	"textures": {
+		"okonomi": "chinjufumod:block/okonomic_raw",
+		"cabbage_top": "chinjufumod:block/okonomicabbage_raw"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:item_kiji_senbei",
+			
+			"chinjufumod:item_food_onigiri",
+			"chinjufumod:item_food_onigirishake",
+			"chinjufumod:item_bentou",
+			"chinjufumod:item_bentoushake",
+			"chinjufumod:item_food_mochiohagi",
+			"chinjufumod:item_food_mochisakura"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "chinjufumod:item_mushigome" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"variants": {
+	"facing=north,stage=1": { "model": "chinjufumod:block/kamoicolor/white_mangrove1n" },
+	"facing=south,stage=1": { "model": "chinjufumod:block/kamoicolor/white_mangrove1s" },
+	"facing=west,stage=1": { "model": "chinjufumod:block/kamoicolor/white_mangrove1w" },
+	"facing=east,stage=1": { "model": "chinjufumod:block/kamoicolor/white_mangrove1e" },
+
+		"facing=north,stage=2": { "model": "chinjufumod:block/kamoicolor/white_mangrove2n" },
+		"facing=south,stage=2": { "model": "chinjufumod:block/kamoicolor/white_mangrove2s" },
+		"facing=west,stage=2": { "model": "chinjufumod:block/kamoicolor/white_mangrove2w" },
+		"facing=east,stage=2": { "model": "chinjufumod:block/kamoicolor/white_mangrove2e" },
+
+	"facing=north,stage=3": { "model": "chinjufumod:block/kamoicolor/white_mangrove3n" },
+	"facing=south,stage=3": { "model": "chinjufumod:block/kamoicolor/white_mangrove3s" },
+	"facing=west,stage=3": { "model": "chinjufumod:block/kamoicolor/white_mangrove3w" },
+	"facing=east,stage=3": { "model": "chinjufumod:block/kamoicolor/white_mangrove3e" },
+
+		"facing=north,stage=4": { "model": "chinjufumod:block/kamoicolor/white_mangrove4n" },
+		"facing=south,stage=4": { "model": "chinjufumod:block/kamoicolor/white_mangrove4s" },
+		"facing=west,stage=4": { "model": "chinjufumod:block/kamoicolor/white_mangrove4w" },
+		"facing=east,stage=4": { "model": "chinjufumod:block/kamoicolor/white_mangrove4e" }
+	}
+}

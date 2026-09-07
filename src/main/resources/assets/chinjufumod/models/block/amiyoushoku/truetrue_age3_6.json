@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/amiyoushoku_up_6",
+	"textures": {
+		"side_b": "chinjufumod:block/ami_b3"
+	}
+}

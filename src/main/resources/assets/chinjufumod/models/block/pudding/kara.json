@@ -1,0 +1,166 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:block/dish_lightb",
+		"glass": "chinjufumod:block/dish_lightb",
+		"saji": "chinjufumod:block/dish_lightg",
+		"sajioki": "chinjufumod:block/dish_white"
+	},
+	"elements": [
+		{
+			"name": "glass_soko_________________1",
+			"from": [ 7, 0, 7 ],
+			"to": [ 9, 0.2, 9 ],
+			"faces": {
+				"up" : { "texture": "#glass" },
+				"down" : { "texture": "#glass" },
+				"north": { "texture": "#glass" },
+				"south": { "texture": "#glass" },
+				"west" : { "texture": "#glass" },
+				"east" : { "texture": "#glass" }
+			}
+		},
+		{
+			"name": "glass_n",
+			"from": [ 6.8, 0.2, 6.8 ],
+			"to": [ 9.2, 2, 7 ],
+			"faces": {
+				"up" : { "texture": "#glass" },
+				"down" : { "texture": "#glass" },
+				"north": { "texture": "#glass" },
+				"south": { "texture": "#glass" },
+				"west" : { "texture": "#glass" },
+				"east" : { "texture": "#glass" }
+			}
+		},
+		{
+			"name": "glass_s",
+			"from": [ 6.8, 0.2, 9 ],
+			"to": [ 9.2, 2, 9.2 ],
+			"faces": {
+				"up" : { "texture": "#glass" },
+				"down" : { "texture": "#glass" },
+				"north": { "texture": "#glass" },
+				"south": { "texture": "#glass" },
+				"west" : { "texture": "#glass" },
+				"east" : { "texture": "#glass" }
+			}
+		},
+		{
+			"name": "glass_e",
+			"from": [ 9, 0.2, 7 ],
+			"to": [ 9.2, 2, 9 ],
+			"faces": {
+				"up" : { "texture": "#glass" },
+				"down" : { "texture": "#glass" },
+				"west" : { "texture": "#glass" },
+				"east" : { "texture": "#glass" }
+			}
+		},
+		{
+			"name": "glass_w",
+			"from": [ 6.8, 0.2, 7 ],
+			"to": [ 7, 2, 9 ],
+			"faces": {
+				"up" : { "texture": "#glass" },
+				"down" : { "texture": "#glass" },
+				"west" : { "texture": "#glass" },
+				"east" : { "texture": "#glass" }
+			}
+		},
+
+		{
+			"name": "sajioki",
+			"from": [ 5.5, 0, 10 ],
+			"to": [ 8, 0.1, 11.8 ],
+			"faces": {
+				"up" : { "texture": "#sajioki" },
+				"down" : { "texture": "#sajioki" },
+				"north": { "texture": "#sajioki" },
+				"south": { "texture": "#sajioki" },
+				"west" : { "texture": "#sajioki" },
+				"east" : { "texture": "#sajioki" }
+			}
+		},
+
+		{
+			"name": "saji_n",
+			"from": [ 6.2, 0.2, 10.5 ],
+			"to": [ 7.4, 0.3, 10.6 ],
+			"faces": {
+				"up" : { "texture": "#saji" },
+				"down" : { "texture": "#saji" },
+				"north": { "texture": "#saji" },
+				"south": { "texture": "#saji" },
+				"west" : { "texture": "#saji" },
+				"east" : { "texture": "#saji" }
+			}
+		},
+		{
+			"name": "saji_e",
+			"from": [ 7.3, 0.2, 10.6 ],
+			"to": [ 7.4, 0.3, 11.2 ],
+			"faces": {
+				"up" : { "texture": "#saji" },
+				"down" : { "texture": "#saji" },
+				"north": { "texture": "#saji" },
+				"south": { "texture": "#saji" },
+				"west" : { "texture": "#saji" },
+				"east" : { "texture": "#saji" }
+			}
+		},
+		{
+			"name": "saji_s",
+			"from": [ 6.2, 0.2, 11.2 ],
+			"to": [ 7.4, 0.3, 11.3 ],
+			"faces": {
+				"up" : { "texture": "#saji" },
+				"down" : { "texture": "#saji" },
+				"north": { "texture": "#saji" },
+				"south": { "texture": "#saji" },
+				"west" : { "texture": "#saji" },
+				"east" : { "texture": "#saji" }
+			}
+		},
+		{
+			"name": "saji_w",
+			"from": [ 6.2, 0.2, 10.6 ],
+			"to": [ 6.4, 0.3, 11.2 ],
+			"faces": {
+				"up" : { "texture": "#saji" },
+				"down" : { "texture": "#saji" },
+				"north": { "texture": "#saji" },
+				"south": { "texture": "#saji" },
+				"west" : { "texture": "#saji" },
+				"east" : { "texture": "#saji" }
+			}
+		},
+
+		{
+			"name": "saji_soko",
+			"from": [ 6.4, 0.1, 10.6 ],
+			"to": [ 7.3, 0.2, 11.2 ],
+			"faces": {
+				"up" : { "texture": "#saji" },
+				"down" : { "texture": "#saji" },
+				"north": { "texture": "#saji" },
+				"south": { "texture": "#saji" },
+				"west" : { "texture": "#saji" },
+				"east" : { "texture": "#saji" }
+			}
+		},
+		{
+			"name": "saji_e",
+			"from": [ 7.4, 0.2, 10.8 ],
+			"to": [ 10.5, 0.3, 11.1 ],
+			"faces": {
+				"up" : { "texture": "#saji" },
+				"down" : { "texture": "#saji" },
+				"north": { "texture": "#saji" },
+				"south": { "texture": "#saji" },
+				"west" : { "texture": "#saji" },
+				"east" : { "texture": "#saji" }
+			}
+		}
+	]
+}

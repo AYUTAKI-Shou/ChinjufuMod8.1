@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/curtain_openleft",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_pink",
+		"obi": "minecraft:block/magenta_wool"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GGG",
+		"QQQ",
+		"WWW"
+	],
+	"key": {
+		"Q": { "item": "minecraft:quartz" },
+		"G": { "item": "minecraft:glass" },
+		"W": { "tag": "forge:wooden_slabs" }
+	},
+	"result": { "id": "minecraft:daylight_detector" }
+}

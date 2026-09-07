@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_dressingtable",
+
+	"pattern": [
+		"X  ",
+		"Y  ",
+		"XXX"
+	],
+
+	"key": {
+		"X": { "item": "minecraft:mangrove_slab" },
+		"Y": { "tag": "forge:glass_panes/colorless" }
+	},
+
+	"result": { "id": "chinjufumod:block_dressingtable_mangrove", "count": 1 }
+}

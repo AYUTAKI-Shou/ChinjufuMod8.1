@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_ramen",
+
+	"ingredients": [
+		{ "tag": "forge:sugar" },
+		{ "tag": "forge:sauces/soysauce" },
+		{ "tag": "forge:sauces/soysauce" },
+		{ "tag": "forge:crops/greenonion" },
+		{ "tag": "forge:cooked_pork" },
+		{ "tag": "forge:eggs" },
+		{ "item": "chinjufumod:item_food_donburi" },
+		{ "item": "chinjufumod:item_food_donburi" }
+	],
+
+	"result": { "id": "chinjufumod:item_food_tare_shouyu", "count" : 2 }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_mushigome" },
+		{ "item": "chinjufumod:item_anko" },
+		{ "tag": "forge:leaves/cherry" },
+		{ "tag": "forge:sugar" },
+		{ "tag": "forge:dusts/salt" }
+	],
+
+	"result": { "id": "chinjufumod:item_food_mochisakura", "count": 7 }
+}

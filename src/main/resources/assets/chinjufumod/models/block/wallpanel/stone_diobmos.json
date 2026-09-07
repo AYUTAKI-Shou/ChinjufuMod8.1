@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "chinjufumod:block/stonebrick_mos_dio",
+		"back": "chinjufumod:block/stonebrick_mos_dio",
+		"side": "chinjufumod:block/stonebrick_mos_dio"
+	}
+}

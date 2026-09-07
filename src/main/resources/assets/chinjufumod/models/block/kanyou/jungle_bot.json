@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/kanyou_bot",
+	"textures": {
+		"miki": "minecraft:block/jungle_log",
+		"miki_top": "minecraft:block/jungle_log_top"
+	}
+}

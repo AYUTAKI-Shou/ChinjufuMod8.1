@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_ikegaki_low",
+
+	"pattern": [
+		"X"
+	],
+
+	"key": {
+		"X": { "item": "minecraft:oak_sapling" }
+	},
+
+	"result": { "id": "chinjufumod:block_low_oak", "count": 1 }
+}

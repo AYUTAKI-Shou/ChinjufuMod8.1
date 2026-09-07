@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanyou",
+
+	"ingredients": [
+		{ "item": "minecraft:mangrove_propagule" },
+		{ "item": "minecraft:mangrove_propagule" },
+		{ "item": "minecraft:dirt" },
+		{ "item": "minecraft:flower_pot" }
+	],
+
+	"result": { "id": "chinjufumod:block_kanyoumangrove_bot", "count": 1 }
+}

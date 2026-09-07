@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_windowtall",
+
+	"pattern": [
+		"XY",
+		"XY"
+	],
+
+	"key": {
+		"X": { "tag": "forge:glass/colorless" },
+		"Y": { "item": "minecraft:mangrove_planks" }
+	},
+
+	"result": { "id": "chinjufumod:block_windowtall_mangrove", "count": 8 }
+}

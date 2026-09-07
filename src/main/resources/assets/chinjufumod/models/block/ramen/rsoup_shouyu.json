@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/udon_soup", "render_type": "translucent",
+	"textures": {
+		"soup": "chinjufumod:block/ramen_shouyu_0"
+	}
+}

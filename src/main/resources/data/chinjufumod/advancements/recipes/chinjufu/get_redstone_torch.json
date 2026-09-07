@@ -1,0 +1,36 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_amp",
+			"chinjufumod:block_amp_white",
+			"chinjufumod:block_amp_orange",
+			"chinjufumod:block_amp_magenta",
+			"chinjufumod:block_amp_lightblue",
+			"chinjufumod:block_amp_yellow",
+			"chinjufumod:block_amp_lime",
+			"chinjufumod:block_amp_pink",
+			"chinjufumod:block_amp_gray",
+			"chinjufumod:block_amp_cyan",
+			"chinjufumod:block_amp_purple",
+			"chinjufumod:block_amp_blue", 
+			"chinjufumod:block_amp_brown",
+			"chinjufumod:block_amp_green",
+			"chinjufumod:block_amp_red",
+			"chinjufumod:block_amp_black",
+			"chinjufumod:block_kit_stove"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:redstone_torch" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

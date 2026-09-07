@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/tabakusa",
+	"textures": {
+		"top": "chinjufumod:block/taba_kusa_top",
+		"side": "chinjufumod:block/taba_kusa"
+	}
+}

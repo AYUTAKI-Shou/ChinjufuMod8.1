@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "chinjufumod:block/plaster_lightg",
+		"back": "chinjufumod:block/plaster_lightg",
+		"side": "chinjufumod:block/plaster_lightg"
+	}
+}

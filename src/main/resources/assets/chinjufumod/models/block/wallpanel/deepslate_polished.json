@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "minecraft:block/polished_deepslate",
+		"back": "minecraft:block/polished_deepslate",
+		"side": "minecraft:block/polished_deepslate"
+	}
+}

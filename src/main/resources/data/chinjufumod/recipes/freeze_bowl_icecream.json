@@ -1,0 +1,11 @@
+{
+	"type": "chinjufumod:freeze_recipe",
+	"category": "food",
+	"group": "cm_icecream",
+	"ingredient": {
+		"item": "chinjufumod:item_raw_icecream"
+	},
+	"result": { "id": "chinjufumod:item_bowl_icecream", "count" : 1 },
+	"experience": 0.5,
+	"cookingtime": 400
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/kamoislab_3north",
+	"textures": {
+		"shikkui": "chinjufumod:block/plaster_orange",
+		"ki": "chinjufumod:block/pillar_cherry_side",
+		"ki_top": "chinjufumod:block/pillar_cherry_top",
+		"ki_inside": "chinjufumod:block/pillar_cherry_inside"
+	}
+}

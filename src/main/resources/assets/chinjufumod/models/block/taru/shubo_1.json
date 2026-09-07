@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/taru",
+	"textures": {
+		"front" : "chinjufumod:block/bucket_front_shubo_1",
+		"side": "chinjufumod:block/bucket_side_shubo_1",
+		"inside": "chinjufumod:block/bucket_inside_shubo_1",
+		"end" : "chinjufumod:block/bucket_end_shubo_1"
+	}
+}

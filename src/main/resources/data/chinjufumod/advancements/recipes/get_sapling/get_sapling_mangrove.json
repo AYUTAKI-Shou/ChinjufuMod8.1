@@ -1,0 +1,23 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_bonsai_mangrove",
+			"chinjufumod:block_kanyoumangrove_bot",
+			"chinjufumod:block_low_mangrove",
+			"chinjufumod:block_longmangrove_bot"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:mangrove_propagule" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_boxh2",
+
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+
+	"key": {
+		"X": { "tag": "forge:crops/tomato" },
+		"Y": { "item": "chinjufumod:block_boxh_empty" }
+	},
+
+	"result": { "id": "chinjufumod:block_boxh_tomato", "count": 1 }
+}

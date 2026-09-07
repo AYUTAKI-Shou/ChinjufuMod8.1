@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_custard",
+
+	"ingredients": [
+		{ "item": "minecraft:egg" },
+		{ "item": "minecraft:egg" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "minecraft:sugar" },
+		{ "tag": "forge:buckets/milk" },
+		{ "item": "minecraft:bowl" }
+	],
+
+	"result": { "id": "chinjufumod:item_custard", "count" : 1 }
+}

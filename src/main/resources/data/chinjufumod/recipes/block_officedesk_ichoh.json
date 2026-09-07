@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_officedesk",
+
+	"pattern": [
+		"XXX",
+		"Y Y"
+	],
+
+	"key": {
+		"X": { "tag": "forge:wooden_slabs/ginkgo" },
+		"Y": { "item": "minecraft:chest" }
+	},
+
+	"result": { "id": "chinjufumod:block_officedesk_ichoh", "count": 1 }
+}

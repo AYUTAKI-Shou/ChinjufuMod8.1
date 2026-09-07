@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_cream",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_custard_cream" },
+		{ "tag": "forge:crops/apple" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" }
+	],
+
+	"result": { "id": "chinjufumod:item_kiji_panapple", "count" : 4 }
+}

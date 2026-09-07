@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bin",
+
+	"ingredients": [
+		{ "tag": "forge:eggs" },
+		{ "tag": "forge:foods/oil" },
+		{ "tag": "forge:dusts/salt" },
+		{ "tag": "forge:foods/vinegar" },
+		{ "tag": "forge:dusts/blackpepper" },
+		{ "item": "minecraft:glass_bottle" }
+	],
+
+	"result": { "id": "chinjufumod:block_mayo_bot", "count": 1 }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabe_kanten_4",
+	"textures": {
+		"kanten": "chinjufumod:block/kanten_citrus_still"
+	}
+}

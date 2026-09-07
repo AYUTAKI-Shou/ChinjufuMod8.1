@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_okonomiyaki",
+
+	"ingredients": [
+		{ "tag": "forge:raw_pork" },
+		{ "tag": "forge:crops/cabbage" },
+		{ "tag": "forge:crops/carrot" },
+		{ "tag": "forge:crops/onion" },
+		{ "tag": "forge:sauces/worcestersauce" },
+		{ "item": "chinjufumod:item_food_sobaplate" },
+		{ "item": "minecraft:bowl" }
+	],
+
+	"result": { "id": "chinjufumod:block_food_teppan_n_yakisoba", "count" : 1 }
+}

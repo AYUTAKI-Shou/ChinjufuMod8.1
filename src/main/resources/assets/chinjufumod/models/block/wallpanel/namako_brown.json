@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "chinjufumod:block/namakowall_brown",
+		"back": "chinjufumod:block/namakowall_brown",
+		"side": "chinjufumod:block/namakowall_brown"
+	}
+}

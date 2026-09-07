@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/present",
+	"textures": {
+		"hako": "chinjufumod:block/wrapping_red",
+		"ribbon": "chinjufumod:block/ribbon_blue",
+		"nakami": "minecraft:item/lapis_lazuli"
+	}
+}

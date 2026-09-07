@@ -1,0 +1,35 @@
+{
+	"parent": "chinjufumod:cm_story/weapon/get_armor_b",
+	"display": {
+		"title": {
+			"translate": "advancements.cm_story.weapon.get_bootskai_b.title"
+		},
+		"description": {
+			"translate": "advancements.cm_story.weapon.get_bootskai.description"
+		},
+		"icon": { "count": 1, 
+			"id": "chinjufumod:item_kongou_bootskai"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": [
+				"chinjufumod:item_kongou_bootskai",
+				"chinjufumod:item_fusou_bootskai",
+				"chinjufumod:item_ise_bootskai",
+				"chinjufumod:item_nagato_bootskai" ] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	],
+	"rewards": { "experience":6 }
+}

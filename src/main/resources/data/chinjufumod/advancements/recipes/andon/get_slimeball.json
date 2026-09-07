@@ -1,0 +1,45 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_andon_white",
+			
+			"chinjufumod:block_candle_white",
+			"chinjufumod:block_candle_orange",
+			"chinjufumod:block_candle_magenta",
+			"chinjufumod:block_candle_lightb",
+			"chinjufumod:block_candle_yellow",
+			"chinjufumod:block_candle_lime",
+			"chinjufumod:block_candle_pink", 
+			"chinjufumod:block_candle_gray",
+			"chinjufumod:block_candle_lightg",
+			"chinjufumod:block_candle_cyan",
+			"chinjufumod:block_candle_purple",
+			"chinjufumod:block_candle_blue",
+			"chinjufumod:block_candle_brown",
+			"chinjufumod:block_candle_green",
+			"chinjufumod:block_candle_red",
+			"chinjufumod:block_candle_black",
+			
+			"chinjufumod:block_ishitourou_stone",
+			"chinjufumod:block_ishitourou_gra",
+			"chinjufumod:block_ishitourou_dio",
+			"chinjufumod:block_ishitourou_and",
+			"chinjufumod:block_takeakari",
+			"chinjufumod:block_takeakari_y",
+			"chinjufumod:block_takeakari_k"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "#chinjufumod:materials_oil" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabe_zenzai_3",
+	"textures": {
+		"zenzai": "chinjufumod:block/zenzai_mochi"
+	}
+}

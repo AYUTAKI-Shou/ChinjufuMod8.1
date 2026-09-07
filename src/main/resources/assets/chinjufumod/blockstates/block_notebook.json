@@ -1,0 +1,43 @@
+{
+	"variants": {
+	"down=false,facing=north,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook", "y": 180 },
+	"down=false,facing=south,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook" },
+	"down=false,facing=west,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook", "y": 90 },
+	"down=false,facing=east,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook", "y": 270 },
+	
+	"down=false,facing=north,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_h", "y": 180 },
+	"down=false,facing=south,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_h" },
+	"down=false,facing=west,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_h", "y": 90 },
+	"down=false,facing=east,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_h", "y": 270 },
+	
+	"down=true,facing=north,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook_d", "y": 180 },
+	"down=true,facing=south,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook_d" },
+	"down=true,facing=west,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook_d", "y": 90 },
+	"down=true,facing=east,has_book=false,open=false": { "model": "chinjufumod:block/deskbook/notebook_d", "y": 270 },
+	
+	"down=true,facing=north,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_dh", "y": 180 },
+	"down=true,facing=south,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_dh" },
+	"down=true,facing=west,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_dh", "y": 90 },
+	"down=true,facing=east,has_book=true,open=false": { "model": "chinjufumod:block/deskbook/notebook_dh", "y": 270 },
+	
+		"down=false,facing=north,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_o", "y": 180 },
+		"down=false,facing=south,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_o" },
+		"down=false,facing=west,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_o", "y": 90 },
+		"down=false,facing=east,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_o", "y": 270 },
+		
+		"down=false,facing=north,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_h", "y": 180 },
+		"down=false,facing=south,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_h" },
+		"down=false,facing=west,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_h", "y": 90 },
+		"down=false,facing=east,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_h", "y": 270 },
+		
+		"down=true,facing=north,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_do", "y": 180 },
+		"down=true,facing=south,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_do" },
+		"down=true,facing=west,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_do", "y": 90 },
+		"down=true,facing=east,has_book=false,open=true": { "model": "chinjufumod:block/deskbook/notebook_do", "y": 270 },
+		
+		"down=true,facing=north,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_dh", "y": 180 },
+		"down=true,facing=south,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_dh" },
+		"down=true,facing=west,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_dh", "y": 90 },
+		"down=true,facing=east,has_book=true,open=true": { "model": "chinjufumod:block/deskbook/notebook_dh", "y": 270 }
+	}
+}

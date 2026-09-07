@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/teppan_okonomi",
+	"textures": {
+		"okonomi": "chinjufumod:block/okonomis_bake_re"
+	}
+}

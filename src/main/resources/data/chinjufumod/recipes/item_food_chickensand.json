@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_tea",
+
+	"ingredients": [
+		{ "tag": "forge:sauces/mayonnaise" },
+		{ "tag": "forge:cooked_chicken" },
+		{ "tag": "forge:crops/cabbage" },
+		{ "item": "chinjufumod:item_food_bun" },
+		{ "item": "chinjufumod:item_food_bun" }
+	],
+
+	"result": { "id": "chinjufumod:item_food_chickensand", "count" : 4 }
+}

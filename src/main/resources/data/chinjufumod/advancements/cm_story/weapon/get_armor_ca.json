@@ -1,0 +1,50 @@
+{
+	"parent": "chinjufumod:cm_story/weapon/get_workorder",
+	"display": {
+		"title": {
+			"translate": "advancements.cm_story.weapon.get_armor_ca.title"
+		},
+		"description": {
+			"translate": "advancements.cm_story.weapon.get_armor.description"
+		},
+		"icon": { "count": 1, 
+			"id": "chinjufumod:item_akagi_chestplate"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": [
+				"chinjufumod:item_ryujou_helmet",
+				"chinjufumod:item_ryujou_chestplate",
+				"chinjufumod:item_ryujou_leggings",
+				"chinjufumod:item_ryujou_boots",
+				
+				"chinjufumod:item_zuihou_helmet",
+				"chinjufumod:item_zuihou_chestplate",
+				"chinjufumod:item_zuihou_leggings",
+				"chinjufumod:item_zuihou_boots",
+				
+				"chinjufumod:item_akagi_helmet",
+				"chinjufumod:item_akagi_chestplate",
+				"chinjufumod:item_akagi_leggings",
+				"chinjufumod:item_akagi_boots",
+				
+				"chinjufumod:item_kaga_helmet",
+				"chinjufumod:item_kaga_chestplate",
+				"chinjufumod:item_kaga_leggings",
+				"chinjufumod:item_kaga_boots" ] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	],
+	"rewards": { "experience": 3 }
+}

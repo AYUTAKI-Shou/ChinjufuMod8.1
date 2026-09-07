@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/candledown",
+	"textures": {
+		"sara": "chinjufumod:block/candle_brown"
+	 }
+}

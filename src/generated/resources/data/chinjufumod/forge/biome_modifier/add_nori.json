@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:stony_shore",
+  "features": "chinjufumod:nori_place",
+  "step": "vegetal_decoration"
+}

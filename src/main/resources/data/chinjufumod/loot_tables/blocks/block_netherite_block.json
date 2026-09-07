@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{ "rolls": 1.0, "bonus_rolls": 0.0,
+			"entries": [
+				{ "type": "minecraft:alternatives",
+				
+					"children": [
+						{ "type": "minecraft:item", 
+							"conditions": [ 
+								{ "condition": "minecraft:match_tool",  
+									"predicate": { "predicates": { 
+										"minecraft:enchantments": [ { "enchantment": "minecraft:silk_touch", "levels": { "min": 1 } } ] } } } ],
+							"name": "chinjufumod:block_netherite_block" },
+						
+						{ "type": "minecraft:loot_table", "value": "chinjufumod:blocks/sub/block_netherite_block" }
+					]
+				}
+			]
+		},
+		
+		{ "rolls": 1.0, "bonus_rolls": 0.0,
+			"entries": [
+				{ "type": "minecraft:alternatives",
+				
+					"children": [
+						{ "type": "minecraft:item",
+							"conditions": [ 
+								{ "condition": "minecraft:match_tool",  
+									"predicate": { "predicates": { 
+										"minecraft:enchantments": [ { "enchantment": "minecraft:silk_touch", "levels": { "min": 1 } } ] } } } ],
+							"name": "chinjufumod:block_netherite_block" },
+						
+						{ "type": "minecraft:loot_table", "value": "chinjufumod:blocks/sub/block_netherite_block" }
+					]
+				}
+			],
+			"conditions": [ { "block": "chinjufumod:block_netherite_block", "condition": "minecraft:block_state_property", "properties": { "type": "double" } } ]
+		}
+	],
+	"random_sequence": "chinjufumod:blocks/block_netherite_block"
+}

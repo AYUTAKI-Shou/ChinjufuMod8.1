@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_icecream",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_custard" },
+		{ "tag": "forge:spices/vanilla" },
+		{ "item": "minecraft:bowl" }
+	],
+
+	"result": { "id": "chinjufumod:item_raw_icecream", "count" : 1 }
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_ami",
+
+	"pattern": [
+		"YYY",
+		" X "
+	],
+
+	"key": {
+		"X": { "item": "minecraft:stick" },
+		"Y": { "tag": "forge:nuggets/iron" }
+	},
+
+	"result": { "id": "chinjufumod:item_kaihori", "count": 1 }
+}

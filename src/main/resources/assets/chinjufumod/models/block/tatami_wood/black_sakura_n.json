@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/tatami_wood_north",
+	"textures": {
+		"top": "chinjufumod:block/tatami_black",
+		"side": "chinjufumod:block/tatami_side_black",
+		"wood": "chinjufumod:block/planks_sakura"
+	}
+}

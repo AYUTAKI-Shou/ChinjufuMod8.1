@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/logchair",
+	"textures": {
+		"side": "minecraft:block/oak_log",
+		"top": "minecraft:block/oak_log_top"
+	}
+}

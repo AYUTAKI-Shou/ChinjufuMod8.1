@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "chinjufumod:block/stonepillar_top_dio",
+		"back": "chinjufumod:block/stonepillar_top_dio",
+		"side": "chinjufumod:block/stonepillar_dio"
+	}
+}
