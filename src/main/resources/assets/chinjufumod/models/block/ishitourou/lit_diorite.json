@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/ishitourou_lit",
+	"textures": {
+ 		"ishi": "minecraft:blocks/stone_diorite_smooth"
+	}
+}

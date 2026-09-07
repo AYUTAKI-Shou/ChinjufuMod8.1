@@ -1,0 +1,146 @@
+package com.ayutaki.chinjufumod.blocks.kitchen;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.ayutaki.chinjufumod.blocks.base.Regi_addState;
+import com.ayutaki.chinjufumod.blocks.dish.Abstract_Teppan;
+import com.ayutaki.chinjufumod.registry.Items_Teatime;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.properties.PropertyBool;
+import net.minecraft.block.properties.PropertyDirection;
+import net.minecraft.block.state.BlockFaceShape;
+import net.minecraft.block.state.BlockStateContainer;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.Mirror;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
+
+public class Base_Cooktop extends Regi_addState {
+	/* Property */
+	public static final PropertyDirection H_FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
+	public static final PropertyBool TEPPAN = PropertyBool.create("teppen");
+	
+	public Base_Cooktop(String name) {
+		super(name);
+		setSoundType(SoundType.WOOD);
+		setHardness(1.0F);
+		setResistance(10.0F);
+		setLightOpacity(1);
+		
+		setDefaultState(this.blockState.getBaseState().withProperty(H_FACING, EnumFacing.NORTH)
+				.withProperty(TEPPAN, Boolean.valueOf(false)));
+	}
+
+	/* BlockState when it was placed. */
+	@Override
+	public IBlockState getStateForPlacement(World worldIn, BlockPos pos, EnumFacing facing,
+			float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer) {
+		return this.getDefaultState().withProperty(H_FACING, placer.getHorizontalFacing().getOpposite());
+	}
+
+	@Override
+	public int getMetaFromState(IBlockState state) {
+		return ((EnumFacing) state.getValue(H_FACING)).getHorizontalIndex();
+	}
+
+	@Override
+	public IBlockState withRotation(IBlockState state, Rotation rot) {
+		return state.withProperty(H_FACING, rot.rotate((EnumFacing)state.getValue(H_FACING)));
+	}
+
+	@Override
+	public IBlockState withMirror(IBlockState state, Mirror mirrorIn) {
+		return state.withRotation(mirrorIn.toRotation((EnumFacing)state.getValue(H_FACING)));
+	}
+
+	@Override
+	public IBlockState getStateFromMeta(int meta) {
+		return this.getDefaultState().withProperty(H_FACING, EnumFacing.getHorizontal(meta));
+	}
+
+	/* Reaction to Neighboring blocks. */
+	public boolean changeTeppan(IBlockAccess worldIn, BlockPos pos) {
+		IBlockState state = worldIn.getBlockState(pos);
+		Block block = state.getBlock();
+
+		return block instanceof Abstract_Teppan;
+	}
+
+	@Override
+	public IBlockState getActualState(IBlockState state, IBlockAccess worldIn, BlockPos pos) {
+		return state.withProperty(TEPPAN, Boolean.valueOf(this.changeTeppan(worldIn, pos.up())));
+	}
+	
+	/* Create BlockStates in this block. */
+	@Override
+	protected BlockStateContainer createBlockState() {
+		return new BlockStateContainer(this, new IProperty[] { H_FACING, TEPPAN });
+	}
+
+	/* A torch can be placed on top. true or false */
+	@Override
+	public boolean isTopSolid(IBlockState state) {
+		return false;
+	}
+
+	/* A torch can be placed on the side. */
+	@Override
+	public BlockFaceShape getBlockFaceShape(IBlockAccess worldIn, IBlockState state, BlockPos pos, EnumFacing face) {
+		return BlockFaceShape.UNDEFINED;
+	}
+
+	/* Rendering */
+	@Override
+	public boolean isOpaqueCube(IBlockState state) {
+		return false;
+	}
+
+	@Override
+	public boolean isFullCube(IBlockState state) {
+		return false;
+	}
+
+	@Override
+	public BlockRenderLayer getBlockLayer() {
+		return BlockRenderLayer.CUTOUT;
+	}
+	
+	/* The best harvesting tool. */
+	@Override
+	public String getHarvestTool(IBlockState state) {
+		return "axe";
+	}
+	
+	/*Drop Item and Clone Item.*/
+	public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
+		return false;
+	}
+
+	@Override
+	public List<ItemStack> getDrops(IBlockAccess worldIn, BlockPos pos, IBlockState state, int fortune) {
+		List<ItemStack> stack = new ArrayList<ItemStack>();
+		stack.add(cloneStack());
+		return stack;
+	}
+
+	@Override
+	public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World worldIn, BlockPos pos, EntityPlayer playerIn) {
+		return cloneStack();
+	}
+	
+	private ItemStack cloneStack() {
+		return new ItemStack(Items_Teatime.KIT_STOVE, 1, 0);
+	}
+}

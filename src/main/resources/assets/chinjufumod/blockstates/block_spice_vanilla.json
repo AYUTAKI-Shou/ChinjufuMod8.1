@@ -1,0 +1,31 @@
+{
+	"variants": {
+		"stage=0": { "model": "chinjufumod:spice/vanilla_0" },
+		"stage=1": { "model": "chinjufumod:spice/vanilla_1" },
+		"stage=2": { "model": "chinjufumod:spice/vanilla_2" },
+		"stage=3": { "model": "chinjufumod:spice/vanilla_3" },
+		"stage=4": { "model": "chinjufumod:spice/vanilla_4" },
+		"stage=5": { "model": "chinjufumod:spice/vanilla_4" },
+		"stage=6": { "model": "chinjufumod:spice/vanilla_4" },
+		"stage=7": { "model": "chinjufumod:spice/vanilla_4" },
+			
+		"stage=8": { "model": "chinjufumod:spice/vanilla_top02" },
+		"stage=9": { "model": "chinjufumod:spice/vanilla_top02" },
+		"stage=10": { "model": "chinjufumod:spice/vanilla_top02" },
+		"stage=11": [ 
+			{ "model": "chinjufumod:spice/vanilla_top3" },
+			{ "model": "chinjufumod:spice/vanilla_top3r" } ],
+		"stage=12": [ 
+			{ "model": "chinjufumod:spice/vanilla_top4" },
+			{ "model": "chinjufumod:spice/vanilla_top4r" } ],
+		"stage=13": [ 
+			{ "model": "chinjufumod:spice/vanilla_top5" },
+			{ "model": "chinjufumod:spice/vanilla_top5r" } ],
+		"stage=14": [ 
+			{ "model": "chinjufumod:spice/vanilla_top6" },
+			{ "model": "chinjufumod:spice/vanilla_top6r" } ],
+		"stage=15": [ 
+			{ "model": "chinjufumod:spice/vanilla_top7" },
+			{ "model": "chinjufumod:spice/vanilla_top7r" } ]
+	}
+}

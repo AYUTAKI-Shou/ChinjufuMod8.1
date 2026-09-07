@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "minecraft:blocks/log_acacia",
+		"back": "minecraft:blocks/log_acacia",
+		"side": "minecraft:blocks/log_acacia"
+	}
+}

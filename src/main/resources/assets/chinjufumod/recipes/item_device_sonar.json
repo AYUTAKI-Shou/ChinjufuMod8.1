@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_search",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_bell" },
+		{ "item": "minecraft:prismarine_crystals" },
+		{ "type": "forge:ore_dict", "ore": "dustRedstone" },
+		{ "type": "forge:ore_dict", "ore": "dustRedstone" },
+		{ "type": "forge:ore_dict", "ore": "dustRedstone" },
+		{ "type": "forge:ore_dict", "ore": "dustRedstone" },
+		{ "item": "minecraft:stone_button", "data": 0 },
+		{ "item": "minecraft:iron_ingot" },
+		{ "item": "chinjufumod:item_workorder" }
+	],
+
+	"result": { "item": "chinjufumod:item_device_sonar", "data": 0, "count": 1 }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/pizzad_3",
+	"textures": {
+		"pizza": "chinjufumod:block/pizza_bake_squid"
+	}
+}

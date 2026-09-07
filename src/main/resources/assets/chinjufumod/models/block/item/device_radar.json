@@ -1,0 +1,71 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:item/device_radar_side",
+		"side": "chinjufumod:item/device_radar_side",
+		"kit": "chinjufumod:item/kit_firstaid"
+	},
+	"elements": [
+		{
+			"name": "kit_hontai",
+			"from": [ 0, 14, 0 ],
+			"to": [ 9.7125, 16, 11.1 ],
+			"faces": {
+				"up" : { "uv": [ 1.0, 0.0, 15.0, 16.0 ], "texture": "#front" },
+				"down" : { "uv": [ 1.0, 0.0, 15.0, 16.0 ], "texture": "#side" },
+				"north": { "texture": "#side" },
+				"south": { "texture": "#side" },
+				"west" : { "texture": "#side" },
+				"east" : { "texture": "#side" }
+			}
+		},
+		{
+			"name": "band_up",
+			"from": [ 2.85625, 13.1, 0.05 ],
+			"to": [ 6.85625, 14.1, 11.05 ],
+			"faces": {
+				"up" : { "uv": [ 12.0, 12.0, 1.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"down" : { "uv": [ 1.0, 12.0, 12.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"north": { "uv": [ 0.0, 12.0, 1.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"south": { "uv": [ 11.0, 12.0, 12.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"west" : { "uv": [ 12.0, 12.0, 1.0, 13.0 ], "texture": "#kit" },
+				"east" : { "uv": [ 1.0, 15.0, 12.0, 16.0 ], "texture": "#kit" }
+			}
+		},
+		{
+			"name": "band_north",
+			"from": [ 2.85625, 4.1, 0.05 ],
+			"to": [ 6.85625, 13.1, 1.05 ],
+			"faces": {
+				"north": { "uv": [ 0.0, 12.0, 9.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"south": { "uv": [ 0.0, 12.0, 9.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"west" : { "uv": [ 0.0, 12.0, 9.0, 13.0 ], "texture": "#kit", "rotation": 90 },
+				"east" : { "uv": [ 0.0, 12.0, 9.0, 13.0 ], "texture": "#kit", "rotation": 90 }
+			}
+		},
+		{
+			"name": "band_down",
+			"from": [ 2.85625, 3.1, 0.05 ],
+			"to": [ 6.85625, 4.1, 11.05 ],
+			"faces": {
+				"up" : { "uv": [ 12.0, 12.0, 1.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"down" : { "uv": [ 1.0, 12.0, 12.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"north": { "uv": [ 0.0, 12.0, 1.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"south": { "uv": [ 11.0, 12.0, 12.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"west" : { "uv": [ 12.0, 12.0, 1.0, 13.0 ], "texture": "#kit" },
+				"east" : { "uv": [ 1.0, 15.0, 12.0, 16.0 ], "texture": "#kit" }
+			}
+		},
+		{
+			"name": "band_south",
+			"from": [ 2.85625, 4.1, 10.05 ],
+			"to": [ 6.85625, 13.1, 11.05 ],
+			"faces": {
+				"north": { "uv": [ 0.0, 12.0, 9.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"south": { "uv": [ 0.0, 12.0, 9.0, 16.0 ], "texture": "#kit", "rotation": 90 },
+				"west" : { "uv": [ 0.0, 12.0, 9.0, 13.0 ], "texture": "#kit", "rotation": 90 },
+				"east" : { "uv": [ 0.0, 12.0, 9.0, 13.0 ], "texture": "#kit", "rotation": 90 }
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/koushi_both",
+	"textures": {
+		"muku": "chinjufumod:block/muku_jungle"
+	}
+}

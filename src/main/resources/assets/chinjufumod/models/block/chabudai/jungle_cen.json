@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/chabudai1_cen",
+	"textures": {
+		"ten": "minecraft:blocks/planks_jungle",
+		"leg": "chinjufumod:block/muku_jungle"
+	}
+}

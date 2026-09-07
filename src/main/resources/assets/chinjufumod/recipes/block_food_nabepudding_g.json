@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_custard",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_mushigome", "data": 5 },
+		{ "item": "chinjufumod:item_chaba", "data": 4 },
+		{ "item": "chinjufumod:item_food_dish", "data": 7 },
+		{ "item": "chinjufumod:item_food_dish", "data": 7 },
+		{ "item": "chinjufumod:item_food_dish", "data": 7 },
+		{ "type": "forge:ore_dict", "ore": "bucketWater" },
+		{ "item": "chinjufumod:item_tanmono" },
+		{ "item": "chinjufumod:item_tanmono" },
+		{ "item": "chinjufumod:block_food_karanabe" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabepudding_n", "data": 2, "count" : 1 }
+}

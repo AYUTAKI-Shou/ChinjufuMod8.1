@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"facing=up": { "model": "chinjufumod:amp/pink", "x": 90 },
+		"facing=down": { "model": "chinjufumod:amp/pink", "x": 270 },
+		"facing=north": { "model": "chinjufumod:amp/pink", "y": 180 },
+		"facing=south": { "model": "chinjufumod:amp/pink", "y": 0 },
+		"facing=west": { "model": "chinjufumod:amp/pink", "y": 90 },
+		"facing=east": { "model": "chinjufumod:amp/pink", "y": 270 }
+	}
+}

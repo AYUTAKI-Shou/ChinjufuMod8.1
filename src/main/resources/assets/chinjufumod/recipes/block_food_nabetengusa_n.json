@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanten",
+
+	"ingredients": [
+		{ "type": "forge:ore_dict", "ore": "bucketWater" },
+		{ "type": "forge:ore_dict", "ore": "foodVinegar" },
+		{ "type": "forge:ore_dict", "ore": "driedGracilaria" },
+		{ "type": "forge:ore_dict", "ore": "driedGracilaria" },
+		{ "item": "chinjufumod:block_food_karanabe" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabeazuki_n", "data": 5, "count" : 1 }
+}

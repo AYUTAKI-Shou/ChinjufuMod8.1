@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/tobukuro_wl3",
+	"textures": {
+		"fuchi": "minecraft:blocks/planks_big_oak",
+		"amado": "chinjufumod:block/muku_darkoak"
+	}
+}

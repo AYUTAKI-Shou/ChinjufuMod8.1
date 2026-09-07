@@ -1,0 +1,26 @@
+{
+	"parent": "chinjufumod:block/admiralchair_hand",
+	"textures": {
+		"bum": "chinjufumod:block/ac_red_top",
+		"side": "chinjufumod:block/ac_red_side",
+		"top": "chinjufumod:block/ac_red_t",
+		"bottom": "chinjufumod:block/ac_red_b"
+	},
+	"display": {
+		"gui": {
+			"rotation": [ 30, 225, 0 ],
+			"translation": [ 0, -2, 0],
+			"scale": [ 0.4, 0.4, 0.4 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, -2, -2.5 ],
+			"scale": [ 0.4, 0.4, 0.4 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 4, 0 ],
+			"scale": [ 0.3, 0.3, 0.3 ]
+		}
+	}
+}

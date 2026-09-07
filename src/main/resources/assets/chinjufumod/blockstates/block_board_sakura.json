@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "chinjufumod:board/sakura", "y": 180 },
+		"facing=south": { "model": "chinjufumod:board/sakura" },
+		"facing=west": { "model": "chinjufumod:board/sakura", "y": 90 },
+		"facing=east": { "model": "chinjufumod:board/sakura", "y": 270 }
+	}
+}

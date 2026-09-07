@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabe_yokan_2",
+	"textures": {
+		"kanten": "chinjufumod:block/kanten_matcha21"
+	}
+}

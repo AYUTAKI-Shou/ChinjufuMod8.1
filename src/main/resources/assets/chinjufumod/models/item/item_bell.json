@@ -1,0 +1,32 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "chinjufumod:item/bell_cm"
+	},
+	"display": {
+		"gui": {
+			"translation": [ 0, -1, 0 ],
+			"scale": [ 0.8, 0.8, 0.8 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 70, 0, 0 ],
+			"translation": [ 0, -2.25, -3.25 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 20, -90, 25 ],
+			"translation": [ 1.13, 0, 1.13 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, -1, 1 ],
+			"scale": [ 0.8, 0.8, 0.8 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 1, 0 ],
+			"scale": [ 0.3, 0.3, 0.3 ]
+		}
+	}
+}

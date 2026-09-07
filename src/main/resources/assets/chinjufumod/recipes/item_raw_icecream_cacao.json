@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_icecream",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_mushigome", "data": 5 },
+		{ "type": "forge:ore_dict", "ore": "dustCocoa" },
+		{ "item": "minecraft:bowl" }
+	],
+
+	"result": { "item": "chinjufumod:item_raw_kanten", "data": 13, "count" : 1 }
+}

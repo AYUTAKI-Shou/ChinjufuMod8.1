@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/curtainlarge_left_top_open",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_cyan"
+	}
+}

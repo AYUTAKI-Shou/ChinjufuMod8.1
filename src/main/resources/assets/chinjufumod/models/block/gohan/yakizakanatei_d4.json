@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/yakizakanatei_d4",
+	"textures": {
+		"kome": "chinjufumod:block/food_gohan"
+	}
+}

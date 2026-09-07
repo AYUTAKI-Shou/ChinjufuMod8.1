@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_search",
+
+	"pattern": [
+		" X ",
+		"XYX",
+		"XZX"
+	],
+
+	"key": {
+		"X": { "item": "minecraft:gold_ingot", "data": 0 },
+		"Y": { "item": "minecraft:gold_nugget" },
+		"Z": { "item": "minecraft:glowstone_dust" }
+	},
+
+	"result": { "item": "chinjufumod:item_bell", "data": 0, "count": 1 }
+}

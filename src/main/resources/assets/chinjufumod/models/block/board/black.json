@@ -1,0 +1,23 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:block/blackboard_front",
+		"front": "chinjufumod:block/blackboard_front",
+		"side": "minecraft:blocks/planks_oak"
+	},
+	"elements": [
+		{
+			"name": "up_1",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 1.5 ],
+			"faces": {
+				"up" : { "uv": [ 0.0, 2.0, 16.0, 3.5 ], "texture": "#side", "cullface": "up" },
+				"down" : { "uv": [ 0.0, 15.5, 16.0, 14.0 ], "texture": "#side", "cullface": "down" },
+				"north": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#side", "cullface": "north" },
+				"south": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#front" },
+				"west" : { "uv": [ 0.0, 7.5, 16.0, 6.0 ], "texture": "#side", "rotation": 90, "cullface": "west" },
+				"east" : { "uv": [ 0.0, 10.0, 16.0, 11.5 ], "texture": "#side", "rotation": 90, "cullface": "east" }
+			}
+		}
+	]
+}

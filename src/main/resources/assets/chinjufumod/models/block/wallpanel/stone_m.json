@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "minecraft:blocks/cobblestone",
+		"back": "minecraft:blocks/cobblestone",
+		"side": "minecraft:blocks/cobblestone"
+	}
+}

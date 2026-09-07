@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_gohan",
+
+	"ingredients": [
+		{ "type": "forge:ore_dict", "ore": "bucketWater" },
+		{ "item": "chinjufumod:item_kome" },
+		{ "item": "chinjufumod:item_kome" },
+		{ "item": "chinjufumod:item_kome" },
+		{ "item": "chinjufumod:block_food_karanabe" },
+		{ "item": "chinjufumod:item_pan_kiji", "data": 0 },
+		[ { "type": "forge:ore_dict", "ore": "dustSalt" }, { "type": "forge:ore_dict", "ore": "foodSalt" }, { "type": "forge:ore_dict", "ore": "itemSalt" } ]
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabeazuki_n", "data": 1, "count" : 1 }
+}

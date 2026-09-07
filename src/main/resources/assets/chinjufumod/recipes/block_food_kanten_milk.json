@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanten",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_bowl_kanten", "data": 4 },
+		{ "item": "chinjufumod:item_food_sara" },
+		{ "item": "chinjufumod:item_food_sara" },
+		{ "item": "chinjufumod:item_food_sara" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_kanten", "data": 4, "count" : 3 }
+}

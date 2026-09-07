@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		{ "type": "forge:ore_dict", "ore": "bucketWater" },
+		{ "type": "forge:ore_dict", "ore": "seedAzuki" },
+		{ "type": "forge:ore_dict", "ore": "seedAzuki" },
+		{ "type": "forge:ore_dict", "ore": "seedAzuki" },
+		{ "type": "forge:ore_dict", "ore": "seedAzuki" },
+		{ "type": "forge:ore_dict", "ore": "seedAzuki" },
+		{ "type": "forge:ore_dict", "ore": "seedAzuki" },
+		{ "item": "chinjufumod:block_food_karanabe" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabeazuki_n", "data": 2, "count" : 1 }
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "chinjufumod:block/base/amp",
+	"textures": {
+		"side": "chinjufumod:block/iron_side_blue",
+		"long": "chinjufumod:block/iron_long_blue",
+		"triangle": "chinjufumod:block/triangle_blue",
+		"diamond": "chinjufumod:block/diamond_blue",
+		"torch": "minecraft:blocks/redstone_torch_on"
+	}
+}

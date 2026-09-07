@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabe_pudding_b",
+	"textures": {
+		"custard": "chinjufumod:block/custard"
+	}
+}

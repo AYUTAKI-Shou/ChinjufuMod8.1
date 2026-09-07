@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/ctable_center",
+	"textures": {
+		"leg": "chinjufumod:block/muku_jungle",
+		"top": "minecraft:blocks/planks_jungle"
+	}
+}

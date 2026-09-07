@@ -1,0 +1,76 @@
+package com.ayutaki.chinjufumod.blocks.wallpane;
+
+import java.util.List;
+
+import javax.annotation.Nullable;
+
+import com.ayutaki.chinjufumod.blocks.base.BaseStage3_Face;
+import com.ayutaki.chinjufumod.blocks.base.CollisionHelper;
+
+import net.minecraft.block.state.BlockFaceShape;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.resources.I18n;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.entity.Entity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+public class BaseStage3_WP extends BaseStage3_Face {
+
+	private static final AxisAlignedBB AABB_SOUTH = CollisionHelper.getBlockBounds(EnumFacing.SOUTH, 0.0, 0.0, 0.0, 0.0625, 1.0, 1.0);
+	private static final AxisAlignedBB AABB_EAST = CollisionHelper.getBlockBounds(EnumFacing.EAST, 0.0, 0.0, 0.0, 0.0625, 1.0, 1.0);
+	private static final AxisAlignedBB AABB_WEST = CollisionHelper.getBlockBounds(EnumFacing.WEST, 0.0, 0.0, 0.0, 0.0625, 1.0, 1.0);
+	private static final AxisAlignedBB AABB_NORTH = CollisionHelper.getBlockBounds(EnumFacing.NORTH, 0.0, 0.0, 0.0, 0.0625, 1.0, 1.0);
+	private static final AxisAlignedBB[] AABB = { AABB_SOUTH, AABB_WEST, AABB_NORTH, AABB_EAST };
+
+	public BaseStage3_WP(String name) {
+		super(name);
+		setHardness(1.0F);
+		setLightOpacity(1);
+	}
+
+	/* Collision */
+	@Override
+	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
+		EnumFacing facing = state.getValue(H_FACING);
+		return AABB[facing.getHorizontalIndex()];
+	}
+
+	@Override
+	public void addCollisionBoxToList(IBlockState state, World worldIn, BlockPos pos, AxisAlignedBB entityBox,
+			List<AxisAlignedBB> collidingBoxes, @Nullable Entity entityIn, boolean t_f) {
+
+		EnumFacing facing = state.getValue(H_FACING);
+		super.addCollisionBoxToList(pos, entityBox, collidingBoxes, AABB[facing.getHorizontalIndex()]);
+	}
+
+	/* A torch can be placed on top. true or false */
+	@Override
+	public boolean isTopSolid(IBlockState state) {
+		return false;
+	}
+
+	/* A torch can be placed on the side. */
+	@Override
+	public BlockFaceShape getBlockFaceShape(IBlockAccess worldIn, IBlockState state, BlockPos pos, EnumFacing face) {
+		return BlockFaceShape.UNDEFINED;
+	}
+
+	/* The best harvesting tool. */
+	@Override
+	public String getHarvestTool(IBlockState state) {
+		return "pickaxe";
+	}
+
+	@Override
+	@SideOnly(Side.CLIENT)
+	public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> blockTip, ITooltipFlag advanced) {
+		blockTip.add(I18n.format("tips.wp_stage3.name"));
+	}
+}

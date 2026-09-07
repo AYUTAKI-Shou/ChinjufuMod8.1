@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/deskcloth",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_green",
+		"side": "chinjufumod:block/cloth_white"
+	}
+}

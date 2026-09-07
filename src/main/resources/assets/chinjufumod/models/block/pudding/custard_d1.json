@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/pudding_d1",
+	"textures": {
+		"custard": "chinjufumod:block/custard"
+	}
+}

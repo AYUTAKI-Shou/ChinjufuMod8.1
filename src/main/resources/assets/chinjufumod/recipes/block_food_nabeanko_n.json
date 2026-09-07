@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		{ "type": "forge:ore_dict", "ore": "bucketWater" },
+		{ "item": "chinjufumod:item_pan_kiji", "data": 0 },
+		{ "item": "chinjufumod:item_pan_kiji", "data": 0 },
+		{ "item": "chinjufumod:item_pan_kiji", "data": 0 },
+		{ "item": "minecraft:sugar" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "minecraft:sugar" },
+		[ { "type": "forge:ore_dict", "ore": "dustSalt" }, { "type": "forge:ore_dict", "ore": "foodSalt" }, { "type": "forge:ore_dict", "ore": "itemSalt" } ],
+		{ "item": "chinjufumod:block_food_karanabe" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabeazuki_n", "data": 3, "count" : 1 }
+}

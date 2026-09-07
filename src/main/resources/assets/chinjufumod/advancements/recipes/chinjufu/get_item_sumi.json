@@ -1,0 +1,33 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_blackboard",
+			"chinjufumod:block_board_oak",
+			"chinjufumod:block_board_spruce",
+			"chinjufumod:block_board_birch",
+			"chinjufumod:block_board_jungle",
+			"chinjufumod:block_board_acacia",
+			"chinjufumod:block_board_darkoak",
+			"chinjufumod:block_board_sakura",
+			"chinjufumod:block_board_kaede",
+			"chinjufumod:block_board_ichoh",
+			
+			"chinjufumod:block_lettertray_c",
+			"chinjufumod:block_fudetray_c",
+			"chinjufumod:other_sumi_to_coal"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "item": "chinjufumod:item_sumi_c" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

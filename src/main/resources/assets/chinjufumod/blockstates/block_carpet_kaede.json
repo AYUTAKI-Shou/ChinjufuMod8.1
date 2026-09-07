@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"normal": [
+			{ "model": "chinjufumod:wooden12/carpet_kaede" },
+			{ "model": "chinjufumod:wooden12/carpet_kaede", "y": 90 },
+			{ "model": "chinjufumod:wooden12/carpet_kaede", "y": 180 },
+			{ "model": "chinjufumod:wooden12/carpet_kaede", "y": 270 }
+		]
+	}
+}

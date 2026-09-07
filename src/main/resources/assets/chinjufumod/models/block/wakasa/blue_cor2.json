@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/kasa_cor2",
+	"textures": {
+		"kasa": "chinjufumod:block/mkasa_blue",
+		"kasa_l": "chinjufumod:block/mkasa_blue_long"
+	}
+}

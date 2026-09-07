@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/logchair",
+	"textures": {
+		"side": "chinjufumod:block/log_ichoh",
+		"top": "chinjufumod:block/log_ichoh_top"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:item_raw_icecream",
+			"chinjufumod:item_raw_icecream_greentea",
+			"chinjufumod:item_raw_icecream_redtea",
+			"chinjufumod:item_raw_icecream_cacao",
+			
+			"chinjufumod:block_food_nabepudding_n",
+			"chinjufumod:block_food_nabepudding_g",
+			"chinjufumod:block_food_nabepudding_r",
+			"chinjufumod:block_food_nabepudding_c"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "item": "chinjufumod:item_mushigome", "data": 5 } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

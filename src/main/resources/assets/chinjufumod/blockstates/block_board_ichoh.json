@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "chinjufumod:board/ichoh", "y": 180 },
+		"facing=south": { "model": "chinjufumod:board/ichoh" },
+		"facing=west": { "model": "chinjufumod:board/ichoh", "y": 90 },
+		"facing=east": { "model": "chinjufumod:board/ichoh", "y": 270 }
+	}
+}

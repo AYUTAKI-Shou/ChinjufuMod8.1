@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/amado_top",
+	"textures": {
+		"fuchi": "minecraft:blocks/planks_spruce",
+		"amado": "chinjufumod:block/muku_spruce"
+	}
+}

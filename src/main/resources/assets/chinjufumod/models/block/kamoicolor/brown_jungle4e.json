@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/kamoislab_4east",
+	"textures": {
+		"shikkui": "chinjufumod:block/plaster_brown",
+		"ki": "chinjufumod:block/pillar_jungle_side",
+		"ki_top": "chinjufumod:block/pillar_jungle_top",
+		"ki_inside": "chinjufumod:block/pillar_jungle_inside"
+	}
+}

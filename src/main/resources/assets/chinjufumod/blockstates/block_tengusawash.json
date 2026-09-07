@@ -1,0 +1,55 @@
+{
+	"variants": {
+		"down=false,stage=1": [
+			{ "model": "chinjufumod:kanten/tengusa_f" },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 270 } ],
+		"down=false,stage=2": [
+			{ "model": "chinjufumod:kanten/tengusa_f" },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 270 } ],
+		"down=false,stage=3": [
+			{ "model": "chinjufumod:kanten/tengusa_f" },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 270 } ],
+		"down=false,stage=4": [
+			{ "model": "chinjufumod:kanten/tengusa_f" },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_f", "y": 270 } ],
+		"down=false,stage=5": [
+			{ "model": "chinjufumod:kanten/tengusa_1" },
+			{ "model": "chinjufumod:kanten/tengusa_1", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_1", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_1", "y": 270 } ],
+
+		"down=true,stage=1": [
+			{ "model": "chinjufumod:kanten/tengusa_downf" },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 270 } ],
+		"down=true,stage=2": [
+			{ "model": "chinjufumod:kanten/tengusa_downf" },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 270 } ],
+		"down=true,stage=3": [
+			{ "model": "chinjufumod:kanten/tengusa_downf" },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 270 } ],
+		"down=true,stage=4": [
+			{ "model": "chinjufumod:kanten/tengusa_downf" },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_downf", "y": 270 } ],
+		"down=true,stage=5": [
+			{ "model": "chinjufumod:kanten/tengusa_down1" },
+			{ "model": "chinjufumod:kanten/tengusa_down1", "y": 180 },
+			{ "model": "chinjufumod:kanten/tengusa_down1", "y": 90 },
+			{ "model": "chinjufumod:kanten/tengusa_down1", "y": 270 } ]
+	}
+}

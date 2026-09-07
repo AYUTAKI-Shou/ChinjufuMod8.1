@@ -1,0 +1,28 @@
+package com.ayutaki.chinjufumod.blocks.base;
+
+import com.ayutaki.chinjufumod.ChinjufuMod;
+
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.util.ResourceLocation;
+
+public abstract class Regi_Stairs extends BlockStairs {
+
+	public Regi_Stairs(String name, IBlockState state) {
+		super(state);
+		setRegistryName(new ResourceLocation(ChinjufuMod.MOD_ID, name));
+		setUnlocalizedName(name);
+
+		setLightOpacity(1);
+		this.useNeighborBrightness = true;
+	}
+
+	/** The best harvesting tool. **/
+	@Override
+	public abstract String getHarvestTool(IBlockState state);
+
+	@Override
+	public int getHarvestLevel(IBlockState state) {
+		return 0;
+	}
+}

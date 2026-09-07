@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/uchiwa_45",
+	"textures": {
+		"uchiwa": "chinjufumod:block/uchiwa_red"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/kotatsu_none_e",
+	"textures": {
+		"ten": "minecraft:blocks/planks_big_oak",
+		"futon": "chinjufumod:block/kotatsufuton_doak",
+		"leg": "chinjufumod:block/muku_darkoak"
+	}
+}

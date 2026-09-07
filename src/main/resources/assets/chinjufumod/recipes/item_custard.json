@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_custard",
+
+	"ingredients": [
+		{ "type": "forge:ore_dict", "ore": "egg" },
+		{ "type": "forge:ore_dict", "ore": "egg" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "minecraft:sugar" },
+		{ "type": "forge:ore_dict", "ore": "bucketMilk" },
+		{ "item": "minecraft:bowl" }
+	],
+
+	"result": { "item": "chinjufumod:item_mushigome", "data": 5, "count" : 1 }
+}

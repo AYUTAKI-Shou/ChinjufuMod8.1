@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_cream",
+
+	"ingredients": [
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		[ { "type": "forge:ore_dict", "ore": "cropVanillabean" }, { "type": "forge:ore_dict", "ore": "cropVanillabeans" } ],
+		{ "item": "chinjufumod:block_taru_hakkou", "data": 0 }
+	],
+
+	"result": { "item": "chinjufumod:block_taru_hakkou", "data": 7, "count": 1 }
+}

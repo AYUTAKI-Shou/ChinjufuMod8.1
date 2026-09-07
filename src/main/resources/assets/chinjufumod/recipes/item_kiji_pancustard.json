@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_cream",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_mushigome", "data": 6 },
+		{ "item": "chinjufumod:item_komugi", "data": 3 },
+		{ "item": "chinjufumod:item_komugi", "data": 3 },
+		{ "item": "chinjufumod:item_komugi", "data": 3 },
+		{ "item": "chinjufumod:item_komugi", "data": 3 }
+	],
+
+	"result": { "item": "chinjufumod:item_pan_kiji", "data": 2, "count" : 4 }
+}

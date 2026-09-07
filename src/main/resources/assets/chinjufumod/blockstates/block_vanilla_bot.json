@@ -1,0 +1,47 @@
+{
+	"variants": {
+		"facing=north,stage=1": { "model": "chinjufumod:bin/vanilla_1", "y": 180 },
+		"facing=south,stage=1": { "model": "chinjufumod:bin/vanilla_1" },
+		"facing=west,stage=1": { "model": "chinjufumod:bin/vanilla_1", "y": 90 },
+		"facing=east,stage=1": { "model": "chinjufumod:bin/vanilla_1", "y": 270 },
+
+		"facing=north,stage=2": [
+			{ "model": "chinjufumod:bin/vanilla_2", "y": 180 },
+			{ "model": "chinjufumod:bin/vanilla_2b", "y": 180 }],
+		"facing=south,stage=2": [
+			{ "model": "chinjufumod:bin/vanilla_2" },
+			{ "model": "chinjufumod:bin/vanilla_2b" }],
+		"facing=west,stage=2": [
+			{ "model": "chinjufumod:bin/vanilla_2", "y": 90 },
+			{ "model": "chinjufumod:bin/vanilla_2b", "y": 90 }],
+		"facing=east,stage=2": [
+			{ "model": "chinjufumod:bin/vanilla_2", "y": 270 },
+			{ "model": "chinjufumod:bin/vanilla_2b", "y": 270 }],
+
+		"facing=north,stage=3": [
+			{ "model": "chinjufumod:bin/vanilla_3", "y": 180 },
+			{ "model": "chinjufumod:bin/vanilla_3b", "y": 180 }],
+		"facing=south,stage=3": [
+			{ "model": "chinjufumod:bin/vanilla_3" },
+			{ "model": "chinjufumod:bin/vanilla_3b" }],
+		"facing=west,stage=3": [
+			{ "model": "chinjufumod:bin/vanilla_3", "y": 90 },
+			{ "model": "chinjufumod:bin/vanilla_3b", "y": 90 }],
+		"facing=east,stage=3": [
+			{ "model": "chinjufumod:bin/vanilla_3", "y": 270 },
+			{ "model": "chinjufumod:bin/vanilla_3b", "y": 270 }],
+
+		"facing=north,stage=4": [
+			{ "model": "chinjufumod:bin/vanilla_4", "y": 180 },
+			{ "model": "chinjufumod:bin/vanilla_4b", "y": 180 }],
+		"facing=south,stage=4": [
+			{ "model": "chinjufumod:bin/vanilla_4" },
+			{ "model": "chinjufumod:bin/vanilla_4b" }],
+		"facing=west,stage=4": [
+			{ "model": "chinjufumod:bin/vanilla_4", "y": 90 },
+			{ "model": "chinjufumod:bin/vanilla_4b", "y": 90 }],
+		"facing=east,stage=4": [
+			{ "model": "chinjufumod:bin/vanilla_4", "y": 270 },
+			{ "model": "chinjufumod:bin/vanilla_4b", "y": 270 }]
+	}
+}

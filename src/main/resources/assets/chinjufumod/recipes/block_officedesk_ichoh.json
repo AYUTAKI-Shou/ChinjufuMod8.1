@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_officedesk",
+
+	"pattern": [
+		"XXX",
+		"Y Y"
+	],
+
+	"key": {
+		"X": { "type": "forge:ore_dict", "ore": "slabWoodGinkgo" },
+		"Y": { "item": "minecraft:chest", "data": 0 }
+	},
+
+	"result": { "item": "chinjufumod:block_officedesk", "data": 8, "count": 1 }
+}

@@ -1,0 +1,43 @@
+{
+	"variants": {
+		"down=false,facing=north,stage=1": { "model": "chinjufumod:deskbook/notebook", "y": 180 },
+		"down=false,facing=south,stage=1": { "model": "chinjufumod:deskbook/notebook", "y": 0 },
+		"down=false,facing=west,stage=1": { "model": "chinjufumod:deskbook/notebook", "y": 90 },
+		"down=false,facing=east,stage=1": { "model": "chinjufumod:deskbook/notebook", "y": 270 },
+
+		"down=false,facing=north,stage=2": { "model": "chinjufumod:deskbook/notebook_o", "y": 180 },
+		"down=false,facing=south,stage=2": { "model": "chinjufumod:deskbook/notebook_o", "y": 0 },
+		"down=false,facing=west,stage=2": { "model": "chinjufumod:deskbook/notebook_o", "y": 90 },
+		"down=false,facing=east,stage=2": { "model": "chinjufumod:deskbook/notebook_o", "y": 270 },
+
+		"down=false,facing=north,stage=3": { "model": "chinjufumod:deskbook/notebookb", "y": 180 },
+		"down=false,facing=south,stage=3": { "model": "chinjufumod:deskbook/notebookb", "y": 0 },
+		"down=false,facing=west,stage=3": { "model": "chinjufumod:deskbook/notebookb", "y": 90 },
+		"down=false,facing=east,stage=3": { "model": "chinjufumod:deskbook/notebookb", "y": 270 },
+
+		"down=false,facing=north,stage=4": { "model": "chinjufumod:deskbook/notebookb_o", "y": 180 },
+		"down=false,facing=south,stage=4": { "model": "chinjufumod:deskbook/notebookb_o", "y": 0 },
+		"down=false,facing=west,stage=4": { "model": "chinjufumod:deskbook/notebookb_o", "y": 90 },
+		"down=false,facing=east,stage=4": { "model": "chinjufumod:deskbook/notebookb_o", "y": 270 },
+		
+		"down=true,facing=north,stage=1": { "model": "chinjufumod:deskbook/notebook_d", "y": 180 },
+		"down=true,facing=south,stage=1": { "model": "chinjufumod:deskbook/notebook_d", "y": 0 },
+		"down=true,facing=west,stage=1": { "model": "chinjufumod:deskbook/notebook_d", "y": 90 },
+		"down=true,facing=east,stage=1": { "model": "chinjufumod:deskbook/notebook_d", "y": 270 },
+
+		"down=true,facing=north,stage=2": { "model": "chinjufumod:deskbook/notebook_do", "y": 180 },
+		"down=true,facing=south,stage=2": { "model": "chinjufumod:deskbook/notebook_do", "y": 0 },
+		"down=true,facing=west,stage=2": { "model": "chinjufumod:deskbook/notebook_do", "y": 90 },
+		"down=true,facing=east,stage=2": { "model": "chinjufumod:deskbook/notebook_do", "y": 270 },
+
+		"down=true,facing=north,stage=3": { "model": "chinjufumod:deskbook/notebookb_d", "y": 180 },
+		"down=true,facing=south,stage=3": { "model": "chinjufumod:deskbook/notebookb_d", "y": 0 },
+		"down=true,facing=west,stage=3": { "model": "chinjufumod:deskbook/notebookb_d", "y": 90 },
+		"down=true,facing=east,stage=3": { "model": "chinjufumod:deskbook/notebookb_d", "y": 270 },
+
+		"down=true,facing=north,stage=4": { "model": "chinjufumod:deskbook/notebookb_do", "y": 180 },
+		"down=true,facing=south,stage=4": { "model": "chinjufumod:deskbook/notebookb_do", "y": 0 },
+		"down=true,facing=west,stage=4": { "model": "chinjufumod:deskbook/notebookb_do", "y": 90 },
+		"down=true,facing=east,stage=4": { "model": "chinjufumod:deskbook/notebookb_do", "y": 270 }
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "minecraft:blocks/glass_silver",
+		"back": "minecraft:blocks/glass_silver",
+		"side": "minecraft:blocks/glass_silver"
+	}
+}

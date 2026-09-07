@@ -1,0 +1,20 @@
+{
+	"variants": {
+		"stage=0": { "model": "chinjufumod:kanten/nabe_matcha_0" },
+		"stage=1": { "model": "chinjufumod:kanten/nabe_matcha_1" },
+		"stage=2": { "model": "chinjufumod:kanten/nabe_matcha_2" },
+		"stage=3": { "model": "chinjufumod:kanten/nabe_matcha_3" },
+		"stage=4": { "model": "chinjufumod:kanten/nabe_matcha_4" },
+		"stage=5": { "model": "chinjufumod:kanten/nabe_matcha_5" },
+		"stage=6": { "model": "chinjufumod:kanten/nabe_matcha_6" },
+		"stage=7": { "model": "chinjufumod:kanten/nabe_matcha_7" },
+		"stage=8": { "model": "chinjufumod:kanten/nabe_matcha_0", "y": 90 },
+		"stage=9": { "model": "chinjufumod:kanten/nabe_matcha_1", "y": 90 },
+		"stage=10": { "model": "chinjufumod:kanten/nabe_matcha_2", "y": 90 },
+		"stage=11": { "model": "chinjufumod:kanten/nabe_matcha_3", "y": 90 },
+		"stage=12": { "model": "chinjufumod:kanten/nabe_matcha_4", "y": 90 },
+		"stage=13": { "model": "chinjufumod:kanten/nabe_matcha_5", "y": 90 },
+		"stage=14": { "model": "chinjufumod:kanten/nabe_matcha_6", "y": 90 },
+		"stage=15": { "model": "chinjufumod:kanten/nabe_matcha_7", "y": 90 }
+	}
+}

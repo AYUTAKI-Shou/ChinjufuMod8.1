@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/kitchen/base_reizou_openleft",
+	"textures": {
+		"lamp": "chinjufumod:block/reizou_on"
+	}
+}

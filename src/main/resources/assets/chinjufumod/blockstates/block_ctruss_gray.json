@@ -1,0 +1,20 @@
+{
+	"variants": {
+		"power=0": { "model": "chinjufumod:truss/gray" },
+		"power=1": { "model": "chinjufumod:truss/gray" },
+		"power=2": { "model": "chinjufumod:truss/gray" },
+		"power=3": { "model": "chinjufumod:truss/gray" },
+		"power=4": { "model": "chinjufumod:truss/gray" },
+		"power=5": { "model": "chinjufumod:truss/gray" },
+		"power=6": { "model": "chinjufumod:truss/gray" },
+		"power=7": { "model": "chinjufumod:truss/gray" },
+		"power=8": { "model": "chinjufumod:truss/gray" },
+		"power=9": { "model": "chinjufumod:truss/gray" },
+		"power=10": { "model": "chinjufumod:truss/gray" },
+		"power=11": { "model": "chinjufumod:truss/gray" },
+		"power=12": { "model": "chinjufumod:truss/gray" },
+		"power=13": { "model": "chinjufumod:truss/gray" },
+		"power=14": { "model": "chinjufumod:truss/gray" },
+		"power=15": { "model": "chinjufumod:truss/gray" }
+	}
+}

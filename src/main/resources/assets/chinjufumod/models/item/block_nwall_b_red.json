@@ -1,0 +1,18 @@
+{
+	"parent": "chinjufumod:block/base/wall_inventory",
+	"textures": {
+		"wall": "chinjufumod:block/namakowall_b_red"
+	},
+	"display": {
+		"gui": {
+			"rotation": [ 30, 135, 0 ],
+			"translation": [ 0, 0, 0],
+			"scale":[ 0.625, 0.625, 0.625 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 90, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

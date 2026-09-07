@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/cafechair",
+	"textures": {
+		"top": "chinjufumod:block/chair_black_top",
+		"side": "chinjufumod:block/chair_black_side"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "chinjufumod:block/base/kasa_none2",
+	"textures": {
+		"kasa": "chinjufumod:block/mkasa_black",
+		"kasa_l": "chinjufumod:block/mkasa_black_long",
+		"hone": "chinjufumod:block/mhone",
+		"hone_l": "chinjufumod:block/mhone_long",
+		"leg": "chinjufumod:block/muku_darkoak"
+	}
+}

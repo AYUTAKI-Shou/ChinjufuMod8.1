@@ -1,0 +1,35 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:item_chalk_white",
+			"chinjufumod:item_chalk_orange",
+			"chinjufumod:item_chalk_magenta",
+			"chinjufumod:item_chalk_lightblue",
+			"chinjufumod:item_chalk_yellow",
+			"chinjufumod:item_chalk_lime",
+			"chinjufumod:item_chalk_pink",
+			"chinjufumod:item_chalk_gray",
+			"chinjufumod:item_chalk_lightgray",
+			"chinjufumod:item_chalk_cyan",
+			"chinjufumod:item_chalk_purple",
+			"chinjufumod:item_chalk_blue",
+			"chinjufumod:item_chalk_brown",
+			"chinjufumod:item_chalk_green",
+			"chinjufumod:item_chalk_red",
+			"chinjufumod:item_chalk_black"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "item": "minecraft:dye", "data": 15 } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

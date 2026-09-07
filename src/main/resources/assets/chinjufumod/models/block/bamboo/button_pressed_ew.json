@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/bamboo_button_pressed_ew",
+	"textures": {
+		"front": "chinjufumod:block/bamboo_side",
+		"inside": "chinjufumod:block/bamboo_inside"
+	}
+}

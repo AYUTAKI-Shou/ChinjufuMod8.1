@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "chinjufumod:board/birch", "y": 180 },
+		"facing=south": { "model": "chinjufumod:board/birch" },
+		"facing=west": { "model": "chinjufumod:board/birch", "y": 90 },
+		"facing=east": { "model": "chinjufumod:board/birch", "y": 270 }
+	}
+}

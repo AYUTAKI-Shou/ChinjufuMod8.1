@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/chouzubachi_4",
+	"textures": {
+ 		"ishi": "minecraft:blocks/stone_granite_smooth"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:block/snow_cm"
+	}
+}

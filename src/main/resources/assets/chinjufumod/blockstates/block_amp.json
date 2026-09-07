@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"facing=up": { "model": "chinjufumod:amp/lightgray", "x": 90 },
+		"facing=down": { "model": "chinjufumod:amp/lightgray", "x": 270 },
+		"facing=north": { "model": "chinjufumod:amp/lightgray", "y": 180 },
+		"facing=south": { "model": "chinjufumod:amp/lightgray", "y": 0 },
+		"facing=west": { "model": "chinjufumod:amp/lightgray", "y": 90 },
+		"facing=east": { "model": "chinjufumod:amp/lightgray", "y": 270 }
+	}
+}

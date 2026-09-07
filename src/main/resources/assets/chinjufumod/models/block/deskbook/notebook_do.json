@@ -1,0 +1,93 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:block/notebook",
+		"note": "chinjufumod:block/notebook",
+		"note_in": "chinjufumod:block/notebook_g"
+	},
+	"elements": [
+		{
+			"name": "note_shita_______________________________________________",
+			"from": [ 8.2, -8, 4 ],
+			"to": [ 14.1, -7.9, 12 ],
+			"faces": {
+				"up" : { "uv": [ 10.25, 1.0, 16.0, 9.0 ], "texture": "#note" },
+				"down" : { "uv": [ 1.0, 9.0, 9.0, 1.0 ], "texture": "#note" },
+				"north": { "uv": [ 9.0, 8.0, 1.0, 8.25 ], "texture": "#note" },
+				"south": { "uv": [ 1.0, 0.75, 9.0, 1.0 ], "texture": "#note" },
+				"east" : { "uv": [ 2.0, 9.0, 2.25, 1.0 ], "texture": "#note", "rotation": 270 }
+			}
+		},
+		{
+			"name": "note_se",
+			"from": [ 7.8, -8, 4 ],
+			"to": [ 8.2, -7.9, 12 ],
+			"faces": {
+				"up" : { "uv": [ 10.0, 1.0, 11.0, 9.0 ], "texture": "#note" },
+				"down" : { "uv": [ 9.0, 9.0, 10.0, 1.0 ], "texture": "#note" },
+				"north": { "uv": [ 0.5, 0.75, 2.0, 1.0 ], "texture": "#note", "rotation": 270 },
+				"south": { "uv": [ 0.5, 8.0, 2.0, 8.25 ], "texture": "#note", "rotation": 270 }
+			}
+		},
+		{
+			"name": "note_ue",
+			"from": [ 2, -8, 4 ],
+			"to": [ 7.8, -7.9, 12 ],
+			"faces": {
+				"up" : { "uv": [ 10.25, 1.0, 16.0, 9.0 ], "texture": "#note" },
+				"down" : { "uv": [ 9.0, 9.0, 1.0, 1.0 ], "texture": "#note" },
+				"north": { "uv": [ 1.0, 8.0, 9.0, 8.25 ], "texture": "#note" },
+				"south": { "uv": [ 9.0, 0.75, 1.0, 1.0 ], "texture": "#note" },
+				"west" : { "uv": [ 2.0, 9.0, 2.25, 1.0 ], "texture": "#note", "rotation": 90 }
+			}
+		},
+		{
+			"name": "note_naka1",
+			"from": [ 2.05, -7.9, 4 ],
+			"to": [ 7.85, -7.7, 12 ],
+			"faces": {
+				"up" : { "uv": [ 0.0, 0.0, 9.0, 16.0 ], "texture": "#note_in" },
+				"north": { "uv": [ 9.1, 11.0, 4.0, 13.0 ], "texture": "#note" },
+				"south": { "uv": [ 4.0, 11.0, 9.1, 13.0 ], "texture": "#note" },
+				"west" : { "uv": [ 0.25, 11.0, 7.75, 13.0 ], "texture": "#note" },
+				"east" : { "uv": [ 7.75, 11.0, 0.25, 13.0 ], "texture": "#note" }
+			}
+		},
+		{
+			"name": "note_naka2",
+			"from": [ 8.15, -7.9, 4 ],
+			"to": [ 13.95, -7.7, 12 ],
+			"faces": {
+				"up" : { "uv": [ 7.0, 0.0, 16.0, 16.0 ], "texture": "#note_in" },
+				"north": { "uv": [ 4.0, 11.0, 9.1, 13.0 ], "texture": "#note" },
+				"south": { "uv": [ 9.1, 11.0, 4.0, 13.0 ], "texture": "#note" },
+				"west" : { "uv": [ 0.25, 11.0, 7.75, 13.0 ], "texture": "#note" },
+				"east" : { "uv": [ 7.75, 11.0, 0.25, 13.0 ], "texture": "#note" }
+			}
+		},
+		{
+			"name": "note_nori_L",
+			"from": [ -3.35, -3.25, 4.001 ],
+			"to": [ -3.2, -3, 11.999 ],
+			"rotation": { "origin": [ 8, 7.99, 8 ], "axis": "z", "angle": 45, "rescale": false },
+			"faces": {
+				"up" : { "uv": [ 7.75, 12.0, 0.25, 11.0 ], "texture": "#note", "rotation": 270 },
+				"north": { "uv": [ 0.0, 12.0, 1.0, 11.0 ], "texture": "#note" },
+				"south": { "uv": [ 0.0, 12.0, 1.0, 11.0 ], "texture": "#note" },
+				"east" : { "uv": [ 7.75, 12.0, 0.25, 15.0 ], "texture": "#note" }
+			}
+		},
+		{
+			"name": "note_nori_R",
+			"from": [ -3.25, -3.35, 4.002 ],
+			"to": [ -3, -3.2, 11.998 ],
+			"rotation": { "origin": [ 8.005, 8.01, 8 ], "axis": "z", "angle": 45, "rescale": false },
+			"faces": {
+				"up" : { "uv": [ 7.75, 15.0, 0.25, 12.0 ], "texture": "#note", "rotation": 270 },
+				"north": { "uv": [ 0.0, 12.0, 1.0, 11.0 ], "texture": "#note" },
+				"south": { "uv": [ 0.0, 12.0, 1.0, 11.0 ], "texture": "#note" },
+				"east" : { "uv": [ 7.75, 12.0, 0.25, 11.0 ], "texture": "#note" }
+			}
+		}
+	]
+}

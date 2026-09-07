@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chalk",
+
+	"ingredients": [
+		{ "type": "forge:ore_dict", "ore": "dyePurple" },
+		{ "item": "minecraft:dye", "data": 15 },
+		[ { "item": "chinjufumod:item_measurecup_full", "data": 0 }, { "item": "minecraft:potion", "data": 0 } ]
+	],
+
+	"result": { "item": "chinjufumod:item_chalk_purple", "data": 0, "count" : 1 }
+}

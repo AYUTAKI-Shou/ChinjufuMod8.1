@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/snowmand_bot",
+	"textures": {
+		"color": "minecraft:blocks/wool_colored_gray"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:block/tengusa_01",
+		"crop": "chinjufumod:block/tengusa_01"
+	},
+	"elements": [
+		{ "from": [ 1.5, -16, 7.99 ],
+			"to": [ 14.5, -3, 8.01 ],
+			"rotation": { "origin": [ 2, 8, 8 ], "axis": "y", "angle": 45, "rescale": false },
+			"faces": {
+				"north": { "uv": [ 0, 0, 15, 16 ], "texture": "#crop" },
+				"south": { "uv": [ 0, 0, 15, 16 ], "texture": "#crop" }
+			}
+		},
+		{ "from": [ 7.99, -16, 1.5 ],
+			"to": [ 8.01, -3, 14.5 ],
+			"rotation": { "origin": [ 2, 8, 8 ], "axis": "y", "angle": 45, "rescale": false },
+			"faces": {
+				"west": { "uv": [ 0, 0, 15, 16 ], "texture": "#crop" },
+				"east": { "uv": [ 0, 0, 15, 16 ], "texture": "#crop" }
+			}
+		}
+	]
+}

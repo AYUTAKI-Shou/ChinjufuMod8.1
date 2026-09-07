@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/unitdesk_corner",
+	"textures": {
+		"top": "minecraft:blocks/planks_big_oak"
+	}
+}

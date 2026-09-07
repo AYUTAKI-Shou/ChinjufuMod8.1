@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_cream",
+
+	"ingredients": [
+		{ "type": "forge:ore_dict", "ore": "egg" },
+		{ "type": "forge:ore_dict", "ore": "egg" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "minecraft:sugar" },
+		{ "type": "forge:ore_dict", "ore": "bucketMilk" },
+		{ "type": "forge:ore_dict", "ore": "foodFlour" },
+		{ "type": "forge:ore_dict", "ore": "foodVanilla" },
+		{ "item": "chinjufumod:block_food_karanabe" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabeazuki_n", "data": 4, "count" : 1 }
+}

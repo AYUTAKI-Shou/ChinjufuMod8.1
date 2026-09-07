@@ -1,0 +1,43 @@
+{
+	"variants": {
+	"down=false,facing=north,stage=1": { "model": "chinjufumod:deskbook/note2_1", "y": 180 },
+	"down=false,facing=south,stage=1": { "model": "chinjufumod:deskbook/note2_1" },
+	"down=false,facing=west,stage=1": { "model": "chinjufumod:deskbook/note2_1", "y": 90 },
+	"down=false,facing=east,stage=1": { "model": "chinjufumod:deskbook/note2_1", "y": 270 },
+	
+	"down=false,facing=north,stage=2": { "model": "chinjufumod:deskbook/note2_2", "y": 180 },
+	"down=false,facing=south,stage=2": { "model": "chinjufumod:deskbook/note2_2" },
+	"down=false,facing=west,stage=2": { "model": "chinjufumod:deskbook/note2_2", "y": 90 },
+	"down=false,facing=east,stage=2": { "model": "chinjufumod:deskbook/note2_2", "y": 270 },
+	
+	"down=false,facing=north,stage=3": { "model": "chinjufumod:deskbook/note2_3", "y": 180 },
+	"down=false,facing=south,stage=3": { "model": "chinjufumod:deskbook/note2_3" },
+	"down=false,facing=west,stage=3": { "model": "chinjufumod:deskbook/note2_3", "y": 90 },
+	"down=false,facing=east,stage=3": { "model": "chinjufumod:deskbook/note2_3", "y": 270 },
+	
+	"down=false,facing=north,stage=4": { "model": "chinjufumod:deskbook/note2_4", "y": 180 },
+	"down=false,facing=south,stage=4": { "model": "chinjufumod:deskbook/note2_4" },
+	"down=false,facing=west,stage=4": { "model": "chinjufumod:deskbook/note2_4", "y": 90 },
+	"down=false,facing=east,stage=4": { "model": "chinjufumod:deskbook/note2_4", "y": 270 },
+		
+		"down=true,facing=north,stage=1": { "model": "chinjufumod:deskbook/note2d_1", "y": 180 },
+		"down=true,facing=south,stage=1": { "model": "chinjufumod:deskbook/note2d_1" },
+		"down=true,facing=west,stage=1": { "model": "chinjufumod:deskbook/note2d_1", "y": 90 },
+		"down=true,facing=east,stage=1": { "model": "chinjufumod:deskbook/note2d_1", "y": 270 },
+		
+		"down=true,facing=north,stage=2": { "model": "chinjufumod:deskbook/note2d_2", "y": 180 },
+		"down=true,facing=south,stage=2": { "model": "chinjufumod:deskbook/note2d_2" },
+		"down=true,facing=west,stage=2": { "model": "chinjufumod:deskbook/note2d_2", "y": 90 },
+		"down=true,facing=east,stage=2": { "model": "chinjufumod:deskbook/note2d_2", "y": 270 },
+		
+		"down=true,facing=north,stage=3": { "model": "chinjufumod:deskbook/note2d_3", "y": 180 },
+		"down=true,facing=south,stage=3": { "model": "chinjufumod:deskbook/note2d_3" },
+		"down=true,facing=west,stage=3": { "model": "chinjufumod:deskbook/note2d_3", "y": 90 },
+		"down=true,facing=east,stage=3": { "model": "chinjufumod:deskbook/note2d_3", "y": 270 },
+		
+		"down=true,facing=north,stage=4": { "model": "chinjufumod:deskbook/note2d_4", "y": 180 },
+		"down=true,facing=south,stage=4": { "model": "chinjufumod:deskbook/note2d_4" },
+		"down=true,facing=west,stage=4": { "model": "chinjufumod:deskbook/note2d_4", "y": 90 },
+		"down=true,facing=east,stage=4": { "model": "chinjufumod:deskbook/note2d_4", "y": 270 }
+	}
+}

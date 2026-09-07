@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/ranma_left",
+	"textures": {
+		"muku": "chinjufumod:block/muku_acacia"
+	}
+}

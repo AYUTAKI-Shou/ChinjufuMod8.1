@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/boardwood",
+	"textures": {
+		"front": "chinjufumod:block/blackboard_front",
+		"side": "minecraft:blocks/planks_jungle"
+	}
+}
