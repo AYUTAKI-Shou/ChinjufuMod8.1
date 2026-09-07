@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chestplate",
+
+	"ingredients": [
+		"minecraft:iron_chestplate",
+		"#c:dyes/pink",
+		"chinjufumod:item_workorder",
+		"minecraft:coal",
+		"chinjufumod:item_ammunition_kc"
+	],
+
+	"result": { "id": "chinjufumod:item_yura_chestplate", "count": 1 }
+}

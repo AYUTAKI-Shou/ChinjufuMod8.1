@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "chinjufumod:shiratsuyu"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "chinjufumod:shiratsuyu"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_keiryukui",
+
+	"pattern": [
+		"YZ ",
+		"XXX"
+	],
+
+	"key": {
+		"X": "minecraft:stone",
+		"Y": "#c:dyes/yellow",
+		"Z": "#c:dyes/black"
+	},
+
+	"result": { "id": "chinjufumod:block_keikai", "count": 12 }
+}

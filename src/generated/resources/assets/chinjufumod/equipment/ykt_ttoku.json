@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "chinjufumod:ykt_ttoku"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "chinjufumod:ykt_ttoku"
+      }
+    ]
+  }
+}

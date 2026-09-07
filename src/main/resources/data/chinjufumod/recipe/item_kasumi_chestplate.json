@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chestplate",
+
+	"ingredients": [
+		"minecraft:iron_chestplate",
+		"#c:dyes/lime",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_kasumi_chestplate", "count": 1 }
+}

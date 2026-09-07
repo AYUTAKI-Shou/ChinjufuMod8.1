@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"I",
+		"S",
+		"#"
+	],
+	"key": {
+		"#": "#minecraft:planks",
+		"S": "#c:rods/wooden",
+		"I": "#c:ingots/iron"
+	},
+	"result": { "id": "minecraft:tripwire_hook", "count": 2 }
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_tansu",
+
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "#c:planks/sakura",
+		"Y": "#c:wooden_slabs/sakura"
+	},
+
+	"result": { "id": "chinjufumod:block_tansu_sakura", "count": 1 }
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_chestnut",
+	
+	"ingredient": "#c:crops/chestnut",
+	
+	"result": { "id": "chinjufumod:item_food_chestnut" },
+	"experience": 0.1,
+	"cookingtime": 100
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_carpet",
+
+	"pattern": [
+		"XX"
+	],
+
+	"key": {
+		"X": "#c:leaves/ginkgo"
+	},
+
+	"result": { "id": "chinjufumod:block_carpet_ichoh", "count": 8 }
+}

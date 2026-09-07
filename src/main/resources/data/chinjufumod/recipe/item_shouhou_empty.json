@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_school",
+
+	"pattern": [
+		"X ",
+		"XY",
+		"X "
+	],
+
+	"key": {
+		"X": "minecraft:paper",
+		"Y": "#chinjufumod:materials_yarn"
+	},
+
+	"result": { "id": "chinjufumod:item_shouhou_empty", "count": 1 }
+}

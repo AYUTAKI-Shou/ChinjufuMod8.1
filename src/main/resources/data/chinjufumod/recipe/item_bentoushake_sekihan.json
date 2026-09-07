@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bentou",
+
+	"ingredients": [
+		"chinjufumod:item_bentouhako",
+		"chinjufumod:item_bentouhako",
+		"#c:foods/cooked_salmon",
+		"#c:foods/cooked_salmon",
+		"chinjufumod:block_food_tgy_1",
+		"chinjufumod:item_food_hakusai2",
+		"chinjufumod:item_mushisekihan"
+	],
+
+	"result": { "id": "chinjufumod:item_bentoushake_sekihan", "count": 2 }
+}

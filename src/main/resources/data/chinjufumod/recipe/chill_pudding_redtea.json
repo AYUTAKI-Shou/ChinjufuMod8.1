@@ -1,0 +1,10 @@
+{
+	"type": "chinjufumod:chill_recipe",
+	"category": "food",
+	"group": "cm_custard",
+	"ingredient": "chinjufumod:item_raw_pudding_redtea",
+	
+	"result": { "id": "chinjufumod:block_food_pudding_redtea", "count" : 3 },
+	"experience": 1.0,
+	"cookingtime": 400
+}

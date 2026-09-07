@@ -1,0 +1,24 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_boxh_coco",
+			"chinjufumod:block_taru_cocoa_f",
+			
+			"hinjufumod:block_food_nabepudding_c",			
+			"chinjufumod:item_raw_icecream_cacao"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:cocoa_beans" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

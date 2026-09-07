@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/niwaishi_6",
+	"textures": {
+		"rock": "minecraft:block/stone"
+	}
+}

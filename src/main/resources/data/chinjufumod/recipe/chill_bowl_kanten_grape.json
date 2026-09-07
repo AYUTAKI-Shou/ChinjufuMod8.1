@@ -1,0 +1,10 @@
+{
+	"type": "chinjufumod:chill_recipe",
+	"category": "food",
+	"group": "cm_kanten",
+	"ingredient": "chinjufumod:item_raw_kanten_grape",
+	
+	"result": { "id": "chinjufumod:item_bowl_kanten_grape", "count" : 1 },
+	"experience": 0.5,
+	"cookingtime": 400
+}

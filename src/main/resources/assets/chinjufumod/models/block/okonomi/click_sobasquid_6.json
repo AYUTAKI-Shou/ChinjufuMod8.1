@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/click_soba6",
+	"textures": {
+		"okonomi": "chinjufumod:block/okonomis_bake_re"
+	}
+}

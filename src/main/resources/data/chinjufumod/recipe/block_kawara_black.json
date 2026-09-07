@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_jpblock",
+	
+	"ingredient": "chinjufumod:item_claykawara",
+	
+	"result": { "id": "chinjufumod:block_kawara_black" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

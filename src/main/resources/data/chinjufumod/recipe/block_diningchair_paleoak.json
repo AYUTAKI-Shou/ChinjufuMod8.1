@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_diningchair",
+
+	"pattern": [
+		"X  ",
+		"XXX",
+		"Y Y"
+	],
+
+	"key": {
+		"X": "minecraft:pale_oak_slab",
+		"Y": "#c:rods/wooden"
+	},
+
+	"result": { "id": "chinjufumod:block_diningchair_paleoak", "count": 1 }
+}

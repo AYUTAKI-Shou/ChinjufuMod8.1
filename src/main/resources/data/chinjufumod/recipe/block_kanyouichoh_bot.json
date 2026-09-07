@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanyou",
+
+	"ingredients": [
+		"#c:saplings/ginkgo",
+		"#c:saplings/ginkgo",
+		"minecraft:dirt",
+		"minecraft:flower_pot"
+	],
+
+	"result": { "id": "chinjufumod:block_kanyouichoh_bot", "count": 1 }
+}

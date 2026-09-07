@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": "#minecraft:planks",
+		"X": "minecraft:diamond"
+	},
+	"result": { "id": "minecraft:jukebox" }
+}

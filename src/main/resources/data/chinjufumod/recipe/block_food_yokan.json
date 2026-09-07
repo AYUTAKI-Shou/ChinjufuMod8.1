@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanten",
+
+	"ingredients": [
+		"chinjufumod:item_bowl_yokan",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:item_food_sara"
+	],
+
+	"result": { "id": "chinjufumod:block_food_yokan", "count" : 6 }
+}

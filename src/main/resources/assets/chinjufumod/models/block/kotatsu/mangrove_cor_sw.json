@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/kotatsu_cor_sw",
+	"textures": {
+		"ten": "minecraft:block/mangrove_planks",
+		"futon": "chinjufumod:block/kotatsufuton_mangrove",
+		"leg": "chinjufumod:block/muku_mangrove"
+	}
+}

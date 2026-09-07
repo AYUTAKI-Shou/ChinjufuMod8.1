@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_bench",
+
+	"pattern": [
+		"YZ ",
+		"XYX",
+		"X X"
+	],
+
+	"key": {
+		"X": "#c:rods/wooden",
+		"Y": "minecraft:oak_slab",
+		"Z": "#minecraft:wool_carpets"
+	},
+
+	"result": { "id": "chinjufumod:block_bench", "count": 1 }
+}

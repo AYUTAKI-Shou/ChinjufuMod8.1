@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bonsai",
+
+	"ingredients": [
+		"minecraft:acacia_sapling",
+		"minecraft:dirt",
+		"minecraft:flower_pot"
+	],
+
+	"result": { "id": "chinjufumod:block_bonsai_acacia", "count": 1 }
+}

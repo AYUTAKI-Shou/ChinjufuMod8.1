@@ -1,0 +1,30 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_food_nabecream",
+			"chinjufumod:block_food_nabecorns_n",
+			"chinjufumod:block_food_stewnabe_n",
+			"chinjufumod:block_zundou_milk",
+			
+			"chinjufumod:item_butter",
+			"chinjufumod:item_kiji_bun",
+			"chinjufumod:item_kiji_scone",
+			"chinjufumod:item_food_cake",
+			"chinjufumod:item_custard",
+			"chinjufumod:item_choco_raw"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "#c:buckets/milk" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_watagashi",
+
+	"pattern": [
+		" X "
+	],
+
+	"key": {
+		"X": "chinjufumod:block_watagashi_red"
+	},
+
+	"result": { "id": "chinjufumod:item_food_watagashi_r", "count": 1 }
+}

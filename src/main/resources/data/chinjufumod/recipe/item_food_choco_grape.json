@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_choco",
+
+	"ingredients": [
+		"#c:crops/grape",
+		"chinjufumod:item_choco_raw"
+	],
+
+	"result": { "id": "chinjufumod:item_food_choco_grape", "count": 3 }
+}

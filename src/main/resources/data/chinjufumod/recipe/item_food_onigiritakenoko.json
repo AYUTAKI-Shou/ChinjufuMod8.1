@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_onigiri",
+
+	"ingredients": [
+		"chinjufumod:item_mushigome_take",
+		"chinjufumod:item_food_noriita",
+		"chinjufumod:item_food_noriita"
+	],
+
+	"result": { "id": "chinjufumod:item_food_onigiritakenoko", "count" : 4 }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_jptea",
+
+	"ingredients": [
+		"#c:crops/tea_leaves",
+		"#c:crops/tea_leaves",
+		"#c:crops/tea_leaves",
+		"#c:crops/tea_leaves"
+	],
+
+	"result": { "id": "chinjufumod:item_chaba_green", "count": 2 }
+}

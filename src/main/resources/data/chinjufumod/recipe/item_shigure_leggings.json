@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_leggings",
+
+	"ingredients": [
+		"minecraft:iron_leggings",
+		"#c:dyes/black",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_shigure_leggings", "count": 1 }
+}

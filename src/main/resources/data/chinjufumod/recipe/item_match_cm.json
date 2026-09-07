@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_match",
+
+	"ingredients": [
+		"minecraft:gunpowder",
+		"#c:rods/wooden"
+	],
+
+	"result": { "id": "chinjufumod:item_match_cm", "count": 12 }
+}

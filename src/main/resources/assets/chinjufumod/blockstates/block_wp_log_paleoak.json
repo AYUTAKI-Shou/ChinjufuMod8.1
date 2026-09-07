@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"facing=north,stage=1": { "model": "chinjufumod:block/wallpanel/log_paleoak", "y": 180 },
+		"facing=south,stage=1": { "model": "chinjufumod:block/wallpanel/log_paleoak" },
+		"facing=west,stage=1": { "model": "chinjufumod:block/wallpanel/log_paleoak", "y": 90 },
+		"facing=east,stage=1": { "model": "chinjufumod:block/wallpanel/log_paleoak", "y": 270 },
+		"facing=north,stage=2": { "model": "chinjufumod:block/wallpanel/log_paleoak_leng", "y": 180 },
+		"facing=south,stage=2": { "model": "chinjufumod:block/wallpanel/log_paleoak_leng" },
+		"facing=west,stage=2": { "model": "chinjufumod:block/wallpanel/log_paleoak_leng", "y": 90 },
+		"facing=east,stage=2": { "model": "chinjufumod:block/wallpanel/log_paleoak_leng", "y": 270 },
+		"facing=north,stage=3": { "model": "chinjufumod:block/wallpanel/log_top_paleoak", "y": 180 },
+		"facing=south,stage=3": { "model": "chinjufumod:block/wallpanel/log_top_paleoak" },
+		"facing=west,stage=3": { "model": "chinjufumod:block/wallpanel/log_top_paleoak", "y": 90 },
+		"facing=east,stage=3": { "model": "chinjufumod:block/wallpanel/log_top_paleoak", "y": 270 }
+	}
+}

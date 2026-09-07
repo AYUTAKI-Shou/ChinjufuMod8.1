@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/dressingtable_top",
+	"textures": {
+		"top": "chinjufumod:block/dtable_top_mangrove",
+		"bottom": "chinjufumod:block/dtable_bott_mangrove",
+		"up": "minecraft:block/mangrove_planks",
+		"leg": "chinjufumod:block/muku_mangrove"
+	}
+}

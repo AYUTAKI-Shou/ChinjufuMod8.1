@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bonsai",
+
+	"ingredients": [
+		"#c:saplings/autumn_oak",
+		"minecraft:dirt",
+		"minecraft:flower_pot"
+	],
+
+	"result": { "id": "chinjufumod:block_bonsai_oakkare", "count": 1 }
+}

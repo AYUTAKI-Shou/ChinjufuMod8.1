@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_chalk",
+
+	"pattern": [
+		"X",
+		"Y"
+	],
+
+	"key": {
+		"X": "#minecraft:wooden_slabs",
+		"Y": "#minecraft:wool"
+	},
+
+	"result": { "id": "chinjufumod:item_blackboard_eraser", "count" : 1 }
+}

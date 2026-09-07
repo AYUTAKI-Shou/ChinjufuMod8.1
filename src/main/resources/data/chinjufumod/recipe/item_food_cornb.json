@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_smelt",
+	
+	"ingredient": "#c:crops/corn",
+	
+	"result": { "id": "chinjufumod:item_food_cornb" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

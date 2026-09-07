@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/officedesk_ro",
+	"textures": {
+		"muku": "chinjufumod:block/muku_sakura"
+	}
+}

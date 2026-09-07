@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bin",
+
+	"ingredients": [
+		"minecraft:egg",
+		"#c:cookingoil",
+		"#c:dusts/salt",
+		"#c:vinegar",
+		"#c:dusts/black_pepper",
+		"minecraft:glass_bottle"
+	],
+
+	"result": { "id": "chinjufumod:block_mayo_bot", "count": 1 }
+}

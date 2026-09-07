@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_smelt",
+	
+	"ingredient": "chinjufumod:item_squid_cut",
+	
+	"result": { "id": "chinjufumod:item_squid_cooked" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

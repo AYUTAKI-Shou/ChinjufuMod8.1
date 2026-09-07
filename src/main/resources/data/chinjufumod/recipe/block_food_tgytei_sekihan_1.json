@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_tgytei",
+
+	"ingredients": [
+		"chinjufumod:block_food_jpteacup_1",
+		"chinjufumod:block_food_tgy_1",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:block_food_sekihan",
+		"chinjufumod:block_food_misosp_1",
+		"chinjufumod:block_food_hsd_1"
+	],
+
+	"result": { "id": "chinjufumod:block_food_tgytei_sekihan_1", "count" : 1 }
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_jptea",
+
+	"ingredients": [
+		"#c:crops/citrus",
+		"#c:crops/citrus",
+		"#c:crops/citrus",
+		"#c:crops/citrus",
+		"#c:crops/citrus",
+		"chinjufumod:item_food_sara"
+	],
+
+	"result": { "id": "chinjufumod:block_food_mikan", "count" : 1 }
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_officedesk_mangrove",
+			"chinjufumod:block_dressingtable_mangrove",
+			"chinjufumod:block_unitdesk_mangrove",
+			"chinjufumod:block_cafetable_mangrove",
+			"chinjufumod:block_diningchair_mangrove",
+			"chinjufumod:block_bench_mangrove",
+			"chinjufumod:block_schoolchair_mangrove",
+			"chinjufumod:block_schooldesk_mangrove",
+			"chinjufumod:block_teacherdesk_mangrove",
+			"chinjufumod:block_lowdesk_mangrove",
+			
+			"chinjufumod:block_mizuoke",
+			
+			"chinjufumod:block_ranma_mangrove",
+			"chinjufumod:block_ranmab_mangrove",
+			"chinjufumod:block_ranmac_mangrove",
+			"chinjufumod:block_kanki_mangrove",
+			"chinjufumod:block_koushi_mangrove",
+			"chinjufumod:block_itabei_mangrove",
+			"chinjufumod:block_kido_mangrove"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:mangrove_slab" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

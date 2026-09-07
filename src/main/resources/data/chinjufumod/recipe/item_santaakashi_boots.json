@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_santa",
+
+	"pattern": [
+		"Y Z",
+		"X X"
+	],
+
+	"key": {
+		"X": "#chinjufumod:materials_boots",
+		"Y": "minecraft:white_carpet",
+		"Z": "#c:dyes/pink"
+	},
+
+	"result": { "id": "chinjufumod:item_santaakashi_boots", "count": 1 }
+}

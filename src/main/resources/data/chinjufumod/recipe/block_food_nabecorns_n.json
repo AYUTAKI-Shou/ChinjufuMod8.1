@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_nabe",
+
+	"ingredients": [
+		"#c:buckets/milk",
+		"#c:dusts/salt",
+		"#c:dusts/black_pepper",
+		"#c:butter",
+		"#c:crops/corn",
+		"chinjufumod:block_food_karanabe"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabecorns_n", "count" : 1 }
+}

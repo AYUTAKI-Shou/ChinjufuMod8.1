@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_alcohol",
+
+	"ingredients": [
+		"chinjufumod:item_moromi",
+		"chinjufumod:item_food_sakebot"
+	],
+
+	"result": { "id": "chinjufumod:block_bot_sakenama_1", "count": 1 }
+}

@@ -1,0 +1,23 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_bonsai_cherry",
+			"chinjufumod:block_kanyoucherry_bot",
+			"chinjufumod:block_low_cherry",
+			"chinjufumod:block_longcherry_bot"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:cherry_sapling" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

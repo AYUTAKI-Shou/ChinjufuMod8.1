@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_alcohol",
+
+	"ingredients": [
+		"#c:yeast",
+		"chinjufumod:item_komekouji",
+		"chinjufumod:item_mushigome",
+		"#c:buckets/water",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_shubo_f", "count": 1 }
+}

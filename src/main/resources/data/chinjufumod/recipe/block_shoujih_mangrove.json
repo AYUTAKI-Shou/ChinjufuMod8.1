@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_shoujih",
+
+	"pattern": [
+		"XX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_shouji_mangrove"
+	},
+
+	"result": { "id": "chinjufumod:block_shoujih_mangrove", "count": 4 }
+}

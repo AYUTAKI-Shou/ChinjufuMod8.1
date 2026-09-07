@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_board",
+
+	"ingredients": [
+		"#c:wooden_slabs/sakura",
+		"chinjufumod:item_sumi_c",
+		"chinjufumod:item_sumi_c"
+	],
+
+	"result": { "id": "chinjufumod:block_board_sakura", "count" : 4 }
+}

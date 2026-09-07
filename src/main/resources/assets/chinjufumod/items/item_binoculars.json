@@ -1,0 +1,14 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "chinjufumod:item/item_binoculars"
+		},
+		"on_true": {
+			"type": "minecraft:model",
+			"model": "chinjufumod:item/item_binoculars_spyglass"
+		},
+		"property": "minecraft:using_item"
+	}
+}

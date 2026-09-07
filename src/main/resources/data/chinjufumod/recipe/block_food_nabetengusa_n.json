@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanten",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"#c:vinegar",
+		"#c:dried_gelidiaceae",
+		"#c:dried_gelidiaceae",
+		"chinjufumod:block_food_karanabe"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabetengusa_n", "count" : 1 }
+}

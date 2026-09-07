@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_sozai",
+	
+	"ingredient": "minecraft:hay_block",
+	
+	"result": { "id": "chinjufumod:item_warahai" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

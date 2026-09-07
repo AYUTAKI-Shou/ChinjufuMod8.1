@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_boots",
+
+	"ingredients": [
+		"minecraft:iron_boots",
+		"#c:dyes/white",
+		"chinjufumod:item_workorder",
+		"minecraft:coal",
+		"#c:ingots/iron",
+		"chinjufumod:item_ammunition_kc",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_fusou_boots", "count": 1 }
+}

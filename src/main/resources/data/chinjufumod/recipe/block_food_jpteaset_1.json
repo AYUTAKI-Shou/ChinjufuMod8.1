@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_jptea",
+
+	"ingredients": [
+		"chinjufumod:item_food_senbei",
+		"chinjufumod:item_food_senbei",
+		"chinjufumod:item_food_senbei",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:block_food_jpteacup_1"
+	],
+
+	"result": { "id": "chinjufumod:block_food_jpteaset_1", "count" : 1 }
+}

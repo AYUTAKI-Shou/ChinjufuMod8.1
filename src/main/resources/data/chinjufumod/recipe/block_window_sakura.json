@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_window",
+
+	"pattern": [
+		"XY"
+	],
+
+	"key": {
+		"X": "#c:glass_blocks/colorless",
+		"Y": "#c:planks/sakura"
+	},
+
+	"result": { "id": "chinjufumod:block_window_sakura", "count": 8 }
+}

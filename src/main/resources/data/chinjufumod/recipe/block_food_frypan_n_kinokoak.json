@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_sushi",
+
+	"ingredients": [
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:sugar",
+		"#c:foods/sauces/soysauce",
+		"chinjufumod:block_food_frypan"
+	],
+
+	"result": { "id": "chinjufumod:block_food_frypan_n_kinokoak", "count" : 1 }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/pastasauce_d2",
+	"textures": {
+		"pasta": "chinjufumod:block/tomato_pasta",
+		"sauce": "chinjufumod:block/tomato_sauce"
+	}
+}

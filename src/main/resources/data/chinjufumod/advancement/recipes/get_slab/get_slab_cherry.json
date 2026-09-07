@@ -1,0 +1,39 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_officedesk_cherry",
+			"chinjufumod:block_dressingtable_cherry",
+			"chinjufumod:block_unitdesk_cherry",
+			"chinjufumod:block_cafetable_cherry",
+			"chinjufumod:block_diningchair_cherry",
+			"chinjufumod:block_bench_cherry",
+			"chinjufumod:block_schoolchair_cherry",
+			"chinjufumod:block_schooldesk_cherry",
+			"chinjufumod:block_teacherdesk_cherry",
+			"chinjufumod:block_lowdesk_cherry",
+			
+			"chinjufumod:block_mizuoke",
+			
+			"chinjufumod:block_ranma_cherry",
+			"chinjufumod:block_ranmab_cherry",
+			"chinjufumod:block_ranmac_cherry",
+			"chinjufumod:block_kanki_cherry",
+			"chinjufumod:block_koushi_cherry",
+			"chinjufumod:block_itabei_cherry",
+			"chinjufumod:block_kido_cherry"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:cherry_slab" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

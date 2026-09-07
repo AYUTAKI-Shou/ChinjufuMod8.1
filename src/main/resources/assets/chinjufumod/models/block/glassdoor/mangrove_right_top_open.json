@@ -1,0 +1,10 @@
+{
+	"parent": "chinjufumod:block/base/garasudo_right_top_open",
+	"textures": {
+		"ji": "minecraft:block/glass",
+		"ita": "minecraft:block/mangrove_planks",
+		"waku": "chinjufumod:block/muku_mangrove",
+		"totte": "chinjufumod:block/muku_darkoak",
+		"rail": "chinjufumod:block/muku_mangrove"
+	}
+}

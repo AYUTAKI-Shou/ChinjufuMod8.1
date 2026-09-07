@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_search",
+
+	"ingredients": [
+		"minecraft:bell",
+		"minecraft:quartz",
+		"#c:dusts/redstone",
+		"#c:dusts/redstone",
+		"#c:dusts/redstone",
+		"#c:dusts/redstone",
+		"minecraft:stone_button",
+		"#c:ingots/iron",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_device_radar", "count": 1 }
+}

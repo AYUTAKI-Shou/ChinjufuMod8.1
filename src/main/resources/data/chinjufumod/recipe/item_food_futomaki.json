@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_sushi",
+
+	"ingredients": [
+		"chinjufumod:block_food_tgy_1",
+		"#c:foods/raw_salmon",
+		"chinjufumod:item_food_frypan_b_kinokoak",
+		"chinjufumod:item_food_noriita",
+		"chinjufumod:item_food_noriita",
+		"chinjufumod:item_food_noriita",
+		"chinjufumod:block_food_sushimeshi"
+	],
+
+	"result": { "id": "chinjufumod:item_food_futomaki", "count" : 12 }
+}

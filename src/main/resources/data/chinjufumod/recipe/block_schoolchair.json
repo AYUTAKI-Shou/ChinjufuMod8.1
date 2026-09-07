@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_schoolchair",
+
+	"pattern": [
+		"Y  ",
+		"XYX",
+		"X X"
+	],
+
+	"key": {
+		"X": "#c:rods/wooden",
+		"Y": "minecraft:oak_slab"
+	},
+
+	"result": { "id": "chinjufumod:block_schoolchair", "count": 1 }
+}

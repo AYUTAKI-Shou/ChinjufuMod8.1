@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_tatami",
+
+	"pattern": [
+		"YYY",
+		"YXY",
+		"YYY"
+	],
+
+	"key": {
+		"X": "#minecraft:planks",
+		"Y": "#chinjufumod:materials_tatami"
+	},
+
+	"result": { "id": "chinjufumod:block_tatamih", "count": 4 }
+}

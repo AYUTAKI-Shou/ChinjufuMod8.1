@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_sushi",
+
+	"ingredients": [
+		"minecraft:bowl",
+		"minecraft:sugar",
+		"#c:dusts/salt",
+		"#c:vinegar",
+		"chinjufumod:item_mushigome"
+	],
+
+	"result": { "id": "chinjufumod:block_food_sushimeshi", "count" : 1 }
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_cafechair",
+
+	"pattern": [
+		" X ",
+		" Y ",
+		"YYY"
+	],
+
+	"key": {
+		"X": "minecraft:pink_wool",
+		"Y": "#c:rods/wooden"
+	},
+
+	"result": { "id": "chinjufumod:block_cafechair_pink", "count": 1 }
+}

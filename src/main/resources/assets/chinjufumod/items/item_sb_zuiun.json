@@ -1,0 +1,14 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "chinjufumod:item/item_sb_zuiun"
+		},
+		"on_true": {
+			"type": "minecraft:model",
+			"model": "chinjufumod:item/item_sb_zuiun_pull"
+		},
+		"property": "minecraft:using_item"
+	}
+}

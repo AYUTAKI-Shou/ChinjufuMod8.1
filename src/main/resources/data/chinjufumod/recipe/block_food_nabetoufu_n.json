@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_nabe",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"chinjufumod:item_nigari",
+		"chinjufumod:item_nimame",
+		"chinjufumod:block_food_karanabe"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabetoufu_n", "count" : 1 }
+}

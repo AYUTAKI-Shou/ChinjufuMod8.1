@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "chinjufumod:item/block_kanyoumangrove_bot",
+		"tints": [ 
+			{ "type": "minecraft:constant", "value": -1 },
+			{ "type": "minecraft:grass", "temperature": 0.8, "downfall": 0.2 } ]
+	}
+}

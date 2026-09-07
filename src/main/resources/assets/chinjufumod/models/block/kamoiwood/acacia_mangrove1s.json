@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/kamoislab_1south",
+	"textures": {
+		"shikkui": "minecraft:block/acacia_planks",
+		"ki": "chinjufumod:block/pillar_mangrove_side",
+		"ki_top": "chinjufumod:block/pillar_mangrove_top",
+		"ki_inside": "chinjufumod:block/pillar_mangrove_inside"
+	}
+}

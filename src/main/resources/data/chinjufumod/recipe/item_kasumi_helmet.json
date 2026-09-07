@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_helmet",
+
+	"ingredients": [
+		"minecraft:iron_helmet",
+		"#c:dyes/lime",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_kasumi_helmet", "count": 1 }
+}

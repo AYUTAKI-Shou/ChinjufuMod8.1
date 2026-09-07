@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "chinjufumod:kongou"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "chinjufumod:kongou"
+      }
+    ]
+  }
+}

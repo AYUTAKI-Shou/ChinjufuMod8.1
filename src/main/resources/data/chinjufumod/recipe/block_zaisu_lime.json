@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_zaisu",
+
+	"pattern": [
+		"XY",
+		"XX"
+	],
+
+	"key": {
+		"X": "#minecraft:wooden_slabs",
+		"Y": "chinjufumod:block_mzabuton_lime"
+	},
+
+	"result": { "id": "chinjufumod:block_zaisu_lime", "count": 1 }
+}

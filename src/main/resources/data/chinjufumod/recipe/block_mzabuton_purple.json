@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_mzabuton",
+
+	"pattern": [
+		"X",
+		"Y",
+		"X"
+	],
+
+	"key": {
+		"X": "minecraft:purple_carpet",
+		"Y": "minecraft:white_carpet"
+	},
+
+	"result": { "id": "chinjufumod:block_mzabuton_purple", "count": 1 }
+}

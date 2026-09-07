@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_trapdoor",
+
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_bamboo_y_cube"
+	},
+
+	"result": { "id": "chinjufumod:block_bamboo_y_trapdoor", "count": 2 }
+}

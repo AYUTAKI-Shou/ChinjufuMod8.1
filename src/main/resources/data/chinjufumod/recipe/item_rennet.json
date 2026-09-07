@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_cheese",
+
+	"pattern": [
+		"XXX"
+	],
+
+	"key": {
+		"X": "minecraft:brown_mushroom"
+	},
+
+	"result": { "id": "chinjufumod:item_rennet", "count": 1 }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_ikegaki_low",
+
+	"pattern": [
+		"X"
+	],
+
+	"key": {
+		"X": "#c:saplings/acer"
+	},
+
+	"result": { "id": "chinjufumod:block_low_kaede", "count": 1 }
+}

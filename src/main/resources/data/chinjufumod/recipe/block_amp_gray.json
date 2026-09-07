@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_amp",
+
+	"pattern": [
+		"YXY"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_ctruss_gray",
+		"Y": "minecraft:redstone_torch"
+	},
+
+	"result": { "id": "chinjufumod:block_amp_gray", "count": 1 }
+}

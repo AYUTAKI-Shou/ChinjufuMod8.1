@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chestnut",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"chinjufumod:block_food_karanabe",
+		"#c:crops/chestnut",
+		"#c:crops/chestnut",
+		"#c:crops/chestnut",
+		"#c:crops/chestnut",
+		"#c:crops/chestnut",
+		"#c:crops/chestnut"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabekuri_n", "count" : 1 }
+}

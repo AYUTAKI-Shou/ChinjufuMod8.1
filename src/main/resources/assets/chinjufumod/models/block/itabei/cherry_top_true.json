@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/itabei_top_t",
+	"textures": {
+		"planks": "chinjufumod:block/muku_cherry"
+	}
+}

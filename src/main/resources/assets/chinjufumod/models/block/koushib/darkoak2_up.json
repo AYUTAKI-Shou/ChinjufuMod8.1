@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/koushib2_up",
+	"textures": {
+		"muku": "chinjufumod:block/muku_darkoak"
+	}
+}

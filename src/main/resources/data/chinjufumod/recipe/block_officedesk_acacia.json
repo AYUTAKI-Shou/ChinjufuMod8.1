@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_officedesk",
+
+	"pattern": [
+		"XXX",
+		"Y Y"
+	],
+
+	"key": {
+		"X": "minecraft:acacia_slab",
+		"Y": "minecraft:chest"
+	},
+
+	"result": { "id": "chinjufumod:block_officedesk_acacia", "count": 1 }
+}

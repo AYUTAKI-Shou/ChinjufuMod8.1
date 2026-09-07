@@ -1,0 +1,23 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_bonsai_paleoak",
+			"chinjufumod:block_kanyoupaleoak_bot",
+			"chinjufumod:block_low_paleoak",
+			"chinjufumod:block_longpaleoak_bot"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:pale_oak_sapling" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

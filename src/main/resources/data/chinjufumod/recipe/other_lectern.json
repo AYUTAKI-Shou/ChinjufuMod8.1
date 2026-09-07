@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		" B ",
+		" S "
+	],
+	"key": {
+		"S": "#minecraft:wooden_slabs",
+		"B": "minecraft:bookshelf"
+	},
+	"result": { "id": "minecraft:lectern" }
+}

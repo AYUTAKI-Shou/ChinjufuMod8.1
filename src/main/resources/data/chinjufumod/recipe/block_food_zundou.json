@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_zundou",
+
+	"pattern": [
+		"X X",
+		"X X",
+		"XXX"
+	],
+
+	"key": {
+		"X": "#c:ingots/aluminum"
+	},
+
+	"result": { "id": "chinjufumod:block_food_zundou", "count" : 1 }
+}

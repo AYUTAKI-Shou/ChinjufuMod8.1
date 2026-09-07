@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_zundou_aku",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"chinjufumod:item_warahai",
+		"chinjufumod:block_food_zundou"
+	],
+
+	"result": { "id": "chinjufumod:block_zundou_aku", "count": 1 }
+}

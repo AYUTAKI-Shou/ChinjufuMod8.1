@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{ "rolls": 1.0, "bonus_rolls": 0.0,
+			"entries": [
+				{ "type": "minecraft:item",
+					"functions": [ { "add": false, "count": 8.0, "function": "minecraft:set_count" } ],
+					"name": "chinjufumod:item_ammunition_kc" }
+			]
+		},
+		
+		{ "rolls": 1.0, "bonus_rolls": 0.0,
+			"entries": [
+				{ "type": "minecraft:item", "name": "chinjufumod:block_empty_box" }
+			]
+		}
+	],
+	"functions": [ { "function": "minecraft:explosion_decay" } ],
+	"random_sequence": "chinjufumod:blocks/sub/block_ammunition_box"
+}

@@ -1,0 +1,32 @@
+{
+  "values": [
+    "#c:crops/bambooshoot",
+    "#c:crops/beetroot",
+    "#c:crops/blackpepper",
+    "#c:crops/cabbage",
+    "#c:crops/carrot",
+    "#c:crops/cherry",
+    "#c:crops/chestnut",
+    "#c:crops/chili_pepper",
+    "#c:crops/chinese_cabbage",
+    "#c:crops/citrus",
+    "#c:crops/corn",
+    "#c:crops/cumin",
+    "#c:crops/grape",
+    "#c:crops/greenonion",
+    "#c:crops/nether_wart",
+    "#c:crops/onion",
+    "#c:crops/orange",
+    "#c:crops/pepper",
+    "#c:crops/peppercorn",
+    "#c:crops/potato",
+    "#c:crops/rice",
+    "#c:crops/soybean",
+    "#c:crops/spinach",
+    "#c:crops/tea_leaves",
+    "#c:crops/tomato",
+    "#c:crops/turmeric",
+    "#c:crops/wheat",
+    "#c:crops/vanillabeans"
+  ]
+}

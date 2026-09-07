@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_sushi",
+
+	"ingredients": [
+		"#c:foods/sauces/soysauce",
+		"chinjufumod:item_food_sara"
+	],
+
+	"result": { "id": "chinjufumod:block_food_shouyusara_1", "count" : 1 }
+}

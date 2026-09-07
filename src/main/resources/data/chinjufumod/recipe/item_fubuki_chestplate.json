@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chestplate",
+
+	"ingredients": [
+		"minecraft:iron_chestplate",
+		"minecraft:snowball",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_fubuki_chestplate", "count": 1 }
+}

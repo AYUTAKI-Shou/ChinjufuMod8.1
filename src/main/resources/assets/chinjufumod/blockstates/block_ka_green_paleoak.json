@@ -1,0 +1,23 @@
+{
+	"variants": {
+	"facing=north,stage=1": { "model": "chinjufumod:block/kamoicolor/green_paleoak1n" },
+	"facing=south,stage=1": { "model": "chinjufumod:block/kamoicolor/green_paleoak1s" },
+	"facing=west,stage=1": { "model": "chinjufumod:block/kamoicolor/green_paleoak1w" },
+	"facing=east,stage=1": { "model": "chinjufumod:block/kamoicolor/green_paleoak1e" },
+
+		"facing=north,stage=2": { "model": "chinjufumod:block/kamoicolor/green_paleoak2n" },
+		"facing=south,stage=2": { "model": "chinjufumod:block/kamoicolor/green_paleoak2s" },
+		"facing=west,stage=2": { "model": "chinjufumod:block/kamoicolor/green_paleoak2w" },
+		"facing=east,stage=2": { "model": "chinjufumod:block/kamoicolor/green_paleoak2e" },
+
+	"facing=north,stage=3": { "model": "chinjufumod:block/kamoicolor/green_paleoak3n" },
+	"facing=south,stage=3": { "model": "chinjufumod:block/kamoicolor/green_paleoak3s" },
+	"facing=west,stage=3": { "model": "chinjufumod:block/kamoicolor/green_paleoak3w" },
+	"facing=east,stage=3": { "model": "chinjufumod:block/kamoicolor/green_paleoak3e" },
+
+		"facing=north,stage=4": { "model": "chinjufumod:block/kamoicolor/green_paleoak4n" },
+		"facing=south,stage=4": { "model": "chinjufumod:block/kamoicolor/green_paleoak4s" },
+		"facing=west,stage=4": { "model": "chinjufumod:block/kamoicolor/green_paleoak4w" },
+		"facing=east,stage=4": { "model": "chinjufumod:block/kamoicolor/green_paleoak4e" }
+	}
+}

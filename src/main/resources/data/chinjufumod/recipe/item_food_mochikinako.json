@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		"chinjufumod:item_mochi",
+		"chinjufumod:item_soy",
+		"minecraft:sugar"
+	],
+
+	"result": { "id": "chinjufumod:item_food_mochikinako", "count": 4 }
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_pasta",
+
+	"ingredients": [
+		"#c:crops/tomato",
+		"#c:crops/tomato",
+		"#c:crops/tomato",
+		"#c:crops/onion",
+		"#c:dusts/salt",
+		"#c:dusts/black_pepper",
+		"chinjufumod:block_food_frypan"
+	],
+
+	"result": { "id": "chinjufumod:block_food_frypan_n_tomatos", "count" : 1 }
+}

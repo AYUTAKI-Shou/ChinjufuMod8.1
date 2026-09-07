@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_custard",
+
+	"ingredients": [
+		"chinjufumod:item_custard",
+		"chinjufumod:item_chaba_matcha",
+		"chinjufumod:item_food_driglass",
+		"chinjufumod:item_food_driglass",
+		"chinjufumod:item_food_driglass",
+		"#c:buckets/water",
+		"chinjufumod:item_tanmono",
+		"chinjufumod:item_tanmono",
+		"chinjufumod:block_food_karanabe"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabepudding_g", "count" : 1 }
+}

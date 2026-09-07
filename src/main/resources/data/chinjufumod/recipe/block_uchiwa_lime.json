@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_uchiwa",
+
+	"ingredients": [
+		"#c:rods/wooden",
+		"minecraft:paper",
+		"minecraft:paper",
+		"#c:dyes/lime"
+	],
+
+	"result": { "id": "chinjufumod:block_uchiwa_lime", "count" : 1 }
+}

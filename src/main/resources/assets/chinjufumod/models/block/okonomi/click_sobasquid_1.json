@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/click_soba1",
+	"textures": {
+		"okonomi": "chinjufumod:block/okonomis_raw",
+		"cabbage_top": "chinjufumod:block/okonomis_raw"
+	}
+}

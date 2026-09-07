@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/curtaintall_right_top",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_cyan"
+	}
+}

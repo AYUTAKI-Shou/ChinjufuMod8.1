@@ -1,0 +1,10 @@
+{
+	"type": "chinjufumod:freeze_recipe",
+	"category": "food",
+	"group": "cm_icecream",
+	"ingredient": "#c:buckets/water",
+	
+	"result": { "id": "minecraft:ice", "count" : 1 },
+	"experience": 0.25,
+	"cookingtime": 400
+}

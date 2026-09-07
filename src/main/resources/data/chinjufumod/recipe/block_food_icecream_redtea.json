@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_icecream",
+
+	"ingredients": [
+		"chinjufumod:item_bowl_icecream_redtea",
+		"chinjufumod:item_food_driglass",
+		"chinjufumod:item_food_driglass",
+		"chinjufumod:item_food_driglass"
+	],
+
+	"result": { "id": "chinjufumod:block_food_icecream_redtea", "count" : 3 }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bin",
+
+	"ingredients": [
+		"minecraft:dried_kelp",
+		"minecraft:dried_kelp",
+		"minecraft:dried_kelp",
+		"minecraft:dried_kelp",
+		"minecraft:glass_bottle"
+	],
+
+	"result": { "id": "chinjufumod:block_dashi_bot", "count" : 1 }
+}

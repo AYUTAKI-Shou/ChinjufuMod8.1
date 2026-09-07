@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_nsh_b",
+
+	"pattern": [
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_namako_b_purple"
+	},
+
+	"result": { "id": "chinjufumod:block_nsh_b_purple", "count": 6 }
+}

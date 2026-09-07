@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bin",
+
+	"ingredients": [
+		"chinjufumod:item_soy",
+		"chinjufumod:item_soy",
+		"chinjufumod:item_soy",
+		"minecraft:glass_bottle"
+	],
+
+	"result": { "id": "chinjufumod:block_soyoil_bot", "count" : 1 }
+}

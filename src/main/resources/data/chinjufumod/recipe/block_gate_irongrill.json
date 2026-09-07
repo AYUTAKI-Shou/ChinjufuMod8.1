@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_gate",
+
+	"pattern": [
+		"XX",
+		"XX",
+		"XX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_ironfence_bot"
+	},
+
+	"result": { "id": "chinjufumod:block_gate_irongrill", "count": 4 }
+}

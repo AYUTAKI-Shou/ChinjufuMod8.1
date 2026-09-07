@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_yukata",
+
+	"pattern": [
+		"XXX",
+		"X X",
+		"X Y"
+	],
+
+	"key": {
+		"X": "chinjufumod:item_tanmono",
+		"Y": "#c:dyes/black"
+	},
+
+	"result": { "id": "chinjufumod:item_ykt_ttokub_long", "count": 1 }
+}

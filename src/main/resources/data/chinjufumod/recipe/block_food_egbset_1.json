@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_eggb",
+
+	"ingredients": [
+		"#c:crops/carrot",
+		"chinjufumod:block_food_cornsp_1",
+		"chinjufumod:item_food_bun",
+		"#c:crops/cabbage",
+		"#c:crops/spinach",
+		"#c:crops/tomato",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:block_food_egb_1"
+	],
+
+	"result": { "id": "chinjufumod:block_food_egbset_1", "count" : 1 }
+}

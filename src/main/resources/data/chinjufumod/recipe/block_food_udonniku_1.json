@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_udon",
+
+	"ingredients": [
+		"#c:foods/cooked_beef",
+		"chinjufumod:block_food_udonsu_1"
+	],
+
+	"result": { "id": "chinjufumod:block_food_udonniku_1", "count" : 1 }
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_seasonal",
+
+	"pattern": [
+		"XX",
+		"YY"
+	],
+
+	"key": {
+		"X": "minecraft:red_wool",
+		"Y": "minecraft:birch_planks"
+	},
+
+	"result": { "id": "chinjufumod:block_hinadan", "count": 6 }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_bin",
+
+	"ingredients": [
+		"minecraft:sugar",
+		"minecraft:potion",
+		"#c:dusts/salt",
+		"chinjufumod:item_kome"
+	],
+
+	"result": { "id": "chinjufumod:block_bin_nyusan_f", "count" : 1 }
+}

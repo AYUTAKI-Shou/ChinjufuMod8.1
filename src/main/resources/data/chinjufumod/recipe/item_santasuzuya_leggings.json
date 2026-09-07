@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_santa",
+
+	"pattern": [
+		"XXX",
+		"X X",
+		"Y Z"
+	],
+
+	"key": {
+		"X": "minecraft:red_carpet",
+		"Y": "minecraft:white_carpet",
+		"Z": "#c:dyes/lime"
+	},
+
+	"result": { "id": "chinjufumod:item_santasuzuya_leggings", "count": 1 }
+}

@@ -1,0 +1,10 @@
+{
+	"type": "chinjufumod:chill_recipe",
+	"category": "food",
+	"group": "cm_kanten",
+	"ingredient": "chinjufumod:item_raw_kanten_milk",
+	
+	"result": { "id": "chinjufumod:item_bowl_kanten_milk", "count" : 1 },
+	"experience": 0.5,
+	"cookingtime": 400
+}

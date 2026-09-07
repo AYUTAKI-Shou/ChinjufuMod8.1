@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_boxh",
+
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "#c:foods/raw_rabbit",
+		"Y": "chinjufumod:block_boxh_empty"
+	},
+
+	"result": { "id": "chinjufumod:block_boxh_rabbit", "count": 1 }
+}

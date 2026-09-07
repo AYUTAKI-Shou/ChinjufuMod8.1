@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_kst",
+
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_kawara_red"
+	},
+
+	"result": { "id": "chinjufumod:block_kst_red", "count": 4 }
+}

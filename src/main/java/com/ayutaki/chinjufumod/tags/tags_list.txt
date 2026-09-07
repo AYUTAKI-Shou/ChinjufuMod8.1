@@ -1,0 +1,232 @@
+net.minecraft.tags.BlockTags//////////
+
+DIRT
+VALID_SPAWN
+ANIMALS_SPAWNABLE_ON
+ARMADILLO_SPAWNABLE_ON
+AXOLOTLS_SPAWNABLE_ON ...ウーパールーパー
+BATS_SPAWNABLE_ON
+FOXES_SPAWNABLE_ON
+FROGS_SPAWNABLE_ON
+GOATS_SPAWNABLE_ON
+MOOSHROOMS_SPAWNABLE_ON
+PARROTS_SPAWNABLE_ON
+POLAR_BEARS_SPAWNABLE_ON_ALTERNATE ...ホッキョクグマ
+RABBITS_SPAWNABLE_ON 
+WOLVES_SPAWNABLE_ON
+
+CROPS
+
+PLANKS
+WOODEN_SLABS
+SLABS
+WOODEN_STAIRS
+STAIRS
+
+WOODEN_BUTTONS
+BUTTONS
+WOODEN_DOORS
+DOORS
+WOODEN_FENCES
+FENCE_GATES
+FENCES
+WOODEN_PRESSURE_PLATES
+PRESSURE_PLATES
+WOODEN_TRAPDOORS
+TRAPDOORS
+
+LEAVES
+FLOWERS
+BEE_ATTRACTIVE ...tulip
+
+LOGS_THAT_BURN
+OVERWORLD_NATURAL_LOGS
+LOGS
+
+SAPLINGS
+
+SAND
+STONE_BRICKS
+WALLS
+
+MINEABLE_WITH_AXE
+MINEABLE_WITH_HOE
+MINEABLE_WITH_PICKAXE
+MINEABLE_WITH_SHOVEL
+NEEDS_IRON_TOOL
+
+
+net.minecraft.tags.ItemTags//////////
+
+WOOL
+WOOL_CARPETS
+
+PLANKS
+WOODEN_SLABS
+SLABS
+WOODEN_STAIRS
+STAIRS
+
+WOODEN_BUTTONS
+BUTTONS
+WOODEN_DOORS
+DOORS
+WOODEN_FENCES
+FENCE_GATES
+FENCES
+WOODEN_PRESSURE_PLATES
+PRESSURE_PLATES
+WOODEN_TRAPDOORS
+TRAPDOORS
+
+LOGS_THAT_BURN
+LOGS
+
+SAPLINGS
+
+STONE_BRICKS
+SAND
+
+FOOT_ARMOR
+LEG_ARMOR
+CHEST_ARMOR
+HEAD_ARMOR
+FOOT_ARMOR_ENCHANTABLE
+LEG_ARMOR_ENCHANTABLE
+CHEST_ARMOR_ENCHANTABLE
+HEAD_ARMOR_ENCHANTABLE
+
+SWORD_ENCHANTABLE
+SHARP_WEAPON_ENCHANTABLE 
+WEAPON_ENCHANTABLE
+BOW_ENCHANTABLE
+
+
+https://wiki.fabricmc.net/community:common_tags//////////
+
+c:buckets/empty
+c:buckets/milk
+c:buckets/water
+
+c:cheese
+	foodtxf:cheese
+
+c:clams
+
+c:crops/apple	minecraft:apple	croptopia
+c:crops/beetroot	minecraft:beetroot	fabric-convention-tags-v2
+c:crops/cabbage	croptopia:cabbage	croptopia
+	farmersdelight:cabbage	farmersdelight
+	farmersdelight:cabbage_leaf	farmersdelight
+c:crops/carrot	minecraft:carrot	fabric-convention-tags-v2
+c:crops/cherry	croptopia:cherry	croptopia
+c:crops/chile_pepper	croptopia:chile_pepper	croptopia
+c:crops/cocoa_bean	minecraft:cocoa_beans	fabric-convention-tags-v2
+c:crops/corn	croptopia:corn	croptopia
+c:crops/grape	croptopia:grape	croptopia
+c:crops/greenonion	croptopia:greenonion	croptopia
+c:crops/nether_wart		minecraft:nether_wart	fabric-convention-tags-v2
+c:crops/onion	croptopia:onion	croptopia
+	farmersdelight:onion	farmersdelight
+c:crops/orange	croptopia:orange	croptopia
+c:crops/pepper	croptopia:pepper	croptopia
+c:crops/potato	minecraft:potato	fabric-convention-tags-v2
+c:crops/rice	croptopia:rice	croptopia
+	farmersdelight:rice	farmersdelight
+	more_food:rice	more_food
+c:crops/soybean	croptopia:soybean	croptopia
+c:crops/spinach	croptopia:spinach	croptopia
+c:crops/tea_leaves	croptopia:tea_leaves	croptopia
+c:crops/tomato	better_mcdonalds_mod:tomato	better_mcdonalds_mod
+	croptopia:tomato	croptopia
+	farmersdelight:tomato	farmersdelight
+c:crops/turmeric	croptopia:turmeric	croptopia
+c:crops/wheat	minecraft:wheat	fabric-convention-tags-v2
+
+c:dusts/glowstone	 minecraft:glowstone_dust	fabric-convention-tags-v2
+c:dusts/redstone minecraft:redstone	fabric-convention-tags-v2
+c:dusts/salt better_mcdonalds_mod:salt	better_mcdonalds_mod
+
+c:dyes/black	minecraft:black_dye	bigglobe, fabric-convention-tags-v2
+c:dyes/blue	minecraft:blue_dye	fabric-convention-tags-v2
+c:dyes/brown	minecraft:brown_dye	fabric-convention-tags-v2
+c:dyes/cyan	minecraft:cyan_dye	fabric-convention-tags-v2
+c:dyes/gray	minecraft:gray_dye	fabric-convention-tags-v2
+c:dyes/green	minecraft:green_dye	fabric-convention-tags-v2
+c:dyes/light_blue	minecraft:light_blue_dye	fabric-convention-tags-v2
+c:dyes/light_gray	minecraft:light_gray_dye	fabric-convention-tags-v2
+c:dyes/lime	minecraft:lime_dye	fabric-convention-tags-v2
+c:dyes/magenta	minecraft:magenta_dye	fabric-convention-tags-v2
+c:dyes/orange	minecraft:orange_dye	fabric-convention-tags-v2
+c:dyes/pink	minecraft:pink_dye	fabric-convention-tags-v2
+c:dyes/purple	minecraft:purple_dye	fabric-convention-tags-v2
+c:dyes/red	minecraft:red_dye	fabric-convention-tags-v2
+c:dyes/white	minecraft:white_dye	fabric-convention-tags-v2
+c:dyes/yellow	minecraft:yellow_dye
+
+c:feathers	minecraft:feather
+
+c:fence_gates	eternal_starlight:lunar_mosaic_fence_gate	eternal_starlight
+c:fence_gates/wooden	biomesoplenty:fir_fence_gate
+
+c:fences	eternal_starlight:lunar_mosaic_fence	eternal_starlight
+c:fences/wooden	biomesoplenty:fir_fence
+
+c:foods/cooked_beef	minecraft:cooked_beef	farmersdelight
+c:foods/cooked_chicken	minecraft:cooked_chicken	farmersdelight
+c:foods/cooked_cod
+c:foods/cooked_mutton	minecraft:cooked_mutton	farmersdelight
+c:foods/cooked_pork	minecraft:cooked_porkchop	farmersdelight
+c:foods/cooked_salmon	minecraft:cooked_salmon	farmersdelight
+
+
+c:foods/raw_beef	minecraft:beef	farmersdelight
+c:foods/raw_chicken	 minecraft:chicken	farmersdelight
+c:foods/raw_cod	minecraft:cod	farmersdelight
+c:foods/raw_pork	minecraft:porkchop	farmersdelight
+c:foods/raw_salmon	minecraft:salmon
+
+c:foods/sauce
+	#c:foods/sauces/mayonnaise	better_mcdonalds_mod
+	#c:foods/sauces/sweet_sour_sauce	better_mcdonalds_mod
+	#c:foods/sauces/ketchup	better_mcdonalds_mod
+	#c:foods/sauces/mustard	better_mcdonalds_mod
+c:foods/sauces/ketchup	better_mcdonalds_mod:ketchup	better_mcdonalds_mod
+c:foods/sauces/mayonnaise	better_mcdonalds_mod:mayonnaise	better_mcdonalds_mod
+c:foods/sauces/mustard	better_mcdonalds_mod:mustard	better_mcdonalds_mod
+c:foods/sauces/sweet_sour_sauce	better_mcdonalds_mod:sweet_sour_sauce
+
+
+c:fruits/apple	minecraft:apple
+c:fruits/cherry	croptopia:cherry
+c:fruits/grape	croptopia:grape
+c:fruits/orange	croptopia:orange
+
+c:glass_blocks/colorless	minecraft:glass
+c:glass_panes/colorless	minecraft:glass_pane
+
+c:ingots/copper	 minecraft:copper_ingot
+c:ingots/gold	minecraft:gold_ingot
+
+c:nuggets/copper	ingotcraft:copper_nugget	ingotcraft
+c:nuggets/gold	minecraft:gold_nugget
+
+c:rods/blaze	minecraft:blaze_rod	fabric-convention-tags-v2
+c:rods/breeze	minecraft:breeze_rod	fabric-convention-tags-v2
+c:rods/iron	energizedpower:iron_rod	energizedpower
+c:rods/wooden	minecraft:stick
+
+c:saplings/almond	croptopia:almond_sapling	croptopia
+c:saplings/apple	croptopia:apple_sapling	croptopia
+c:saplings/apricot	croptopia:apricot_sapling
+
+c:seeds/rice	croptopia:rice_seed	croptopia
+c:seeds/rutabaga	croptopia:rutabaga_seed	croptopia
+c:seeds/saguaro	croptopia:saguaro_seed	croptopia
+c:seeds/soybean	croptopia:soybean_seed
+
+c:strings	minecraft:string
+c:tofu	croptopia:tofu
+
+c:wool	#minecraft:wool
+

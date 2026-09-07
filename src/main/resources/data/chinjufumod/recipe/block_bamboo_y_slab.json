@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_woodenhalf",
+
+	"pattern": [
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_bamboo_y_cube"
+	},
+
+	"result": { "id": "chinjufumod:block_bamboo_y_slab", "count": 6 }
+}

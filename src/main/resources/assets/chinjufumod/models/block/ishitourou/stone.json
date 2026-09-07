@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/ishitourou",
+	"textures": {
+ 		"ishi": "minecraft:block/stone"
+	}
+}

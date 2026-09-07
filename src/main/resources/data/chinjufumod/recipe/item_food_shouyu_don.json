@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_udon",
+
+	"ingredients": [
+		"minecraft:sugar",
+		"#c:foods/sauces/soysauce",
+		"#c:crops/greenonion",
+		"chinjufumod:item_food_donburi"
+	],
+
+	"result": { "id": "chinjufumod:item_food_shouyu_don", "count" : 1 }
+}

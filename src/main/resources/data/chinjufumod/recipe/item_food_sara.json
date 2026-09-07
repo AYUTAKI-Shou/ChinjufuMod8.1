@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_dish",
+	
+	"ingredient": "chinjufumod:item_clay_sara",
+	
+	"result": { "id": "chinjufumod:item_food_sara" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

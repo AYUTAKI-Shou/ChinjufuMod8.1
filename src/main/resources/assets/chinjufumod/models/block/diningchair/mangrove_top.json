@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/diningchair_top",
+	"textures": {
+		"leg": "chinjufumod:block/muku_mangrove",
+		"side": "minecraft:block/mangrove_planks",
+		"top": "minecraft:block/mangrove_planks"
+	}
+}

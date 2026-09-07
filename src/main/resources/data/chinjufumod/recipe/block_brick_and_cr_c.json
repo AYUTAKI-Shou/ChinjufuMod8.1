@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_rock",
+	
+	"ingredient": "chinjufumod:block_brick_and_c",
+	
+	"result": { "id": "chinjufumod:block_brick_and_cr_c" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

@@ -1,0 +1,14 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "chinjufumod:item/item_kk_type97"
+		},
+		"on_true": {
+			"type": "minecraft:model",
+			"model": "chinjufumod:item/item_kk_type97_pull"
+		},
+		"property": "minecraft:using_item"
+	}
+}

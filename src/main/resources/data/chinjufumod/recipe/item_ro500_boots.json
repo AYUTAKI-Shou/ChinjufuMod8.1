@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_boots",
+
+	"ingredients": [
+		"minecraft:leather_boots",
+		"#c:dyes/white",
+		"minecraft:coal",
+		"#c:ingots/iron",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_ro500_boots", "count": 1 }
+}

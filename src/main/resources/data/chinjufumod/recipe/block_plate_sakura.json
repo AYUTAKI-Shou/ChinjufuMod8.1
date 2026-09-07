@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_plate",
+
+	"pattern": [
+		"XX"
+	],
+
+	"key": {
+		"X": "#c:planks/sakura"
+	},
+
+	"result": { "id": "chinjufumod:block_plate_sakura", "count": 1 }
+}

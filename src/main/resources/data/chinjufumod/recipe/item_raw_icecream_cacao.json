@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_icecream",
+
+	"ingredients": [
+		"chinjufumod:item_custard",
+		"minecraft:cocoa_beans",
+		"minecraft:bowl"
+	],
+
+	"result": { "id": "chinjufumod:item_raw_icecream_cacao", "count" : 1 }
+}

@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"" : [ { "model" : "chinjufumod:block/garden/paleoak", "y": 0 },
+			{ "model" : "chinjufumod:block/garden/paleoak", "y": 90 },
+			{ "model" : "chinjufumod:block/garden/paleoak", "y": 180 },
+			{ "model" : "chinjufumod:block/garden/paleoak", "y": 270 } ]
+	}
+}

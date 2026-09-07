@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kansaiki",
+
+	"ingredients": [
+		"#c:dyes/lime",
+		"minecraft:coal",
+		"minecraft:coal",
+		"chinjufumod:item_workorder",
+		"chinjufumod:item_ammunition_kc",
+		"#c:ingots/aluminum",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_sb_zuiun", "count": 1 }
+}

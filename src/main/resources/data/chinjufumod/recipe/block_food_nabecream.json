@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_cream",
+
+	"ingredients": [
+		"minecraft:egg",
+		"minecraft:egg",
+		"minecraft:sugar",
+		"minecraft:sugar",
+		"#c:buckets/milk",
+		"#c:flour",
+		"#c:dried_vanillabeans",
+		"chinjufumod:block_food_karanabe"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabecream", "count" : 1 }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/chabudai1_none2",
+	"textures": {
+		"ten": "minecraft:block/pale_oak_planks",
+		"leg": "chinjufumod:block/muku_paleoak"
+	}
+}

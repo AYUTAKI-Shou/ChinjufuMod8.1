@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_seeds",
+
+	"ingredients": [
+		"#c:crops/wheat",
+		"#chinjufumod:materials_potato",
+		"#c:crops/carrot",
+		"minecraft:oak_sapling"
+	],
+
+	"result": { "id": "chinjufumod:block_seedsbox", "count": 1 }
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_pizza",
+	
+	"ingredient": "chinjufumod:item_food_pizza_sn",
+	
+	"result": { "id": "chinjufumod:block_food_pizza_s1" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

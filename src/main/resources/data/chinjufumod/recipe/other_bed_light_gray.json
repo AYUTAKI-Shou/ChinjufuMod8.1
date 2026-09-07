@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "bed",
+	"pattern": [
+		"XXX",
+		"YYY"
+	],
+	"key": {
+		"X": "minecraft:light_gray_wool",
+		"Y": "#minecraft:planks"
+	},
+	"result": { "id": "minecraft:light_gray_bed", "count": 1 }
+}

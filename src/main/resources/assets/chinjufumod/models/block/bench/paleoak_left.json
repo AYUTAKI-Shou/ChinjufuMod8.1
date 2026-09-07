@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/bench_left",
+	"textures": {
+		"leg": "chinjufumod:block/muku_paleoak",
+		"sheet_top": "chinjufumod:block/cloth_brown",
+		"sheet_side": "chinjufumod:block/cloth_white"
+	}
+}

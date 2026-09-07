@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "chinjufumod:ro500"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "chinjufumod:ro500"
+      }
+    ]
+  }
+}

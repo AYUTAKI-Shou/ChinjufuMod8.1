@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/windowtall_left_top_open",
+	"textures": {
+		"front": "chinjufumod:block/window_top_paleoak",
+		"side": "chinjufumod:block/muku_paleoak",
+		"totte": "chinjufumod:block/window_top_darkoak"
+	}
+}

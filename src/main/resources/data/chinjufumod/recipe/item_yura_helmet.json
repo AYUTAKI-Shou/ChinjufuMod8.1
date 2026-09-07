@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_helmet",
+
+	"ingredients": [
+		"minecraft:iron_helmet",
+		"#c:dyes/pink",
+		"chinjufumod:item_workorder",
+		"minecraft:coal",
+		"chinjufumod:item_ammunition_kc"
+	],
+
+	"result": { "id": "chinjufumod:item_yura_helmet", "count": 1 }
+}

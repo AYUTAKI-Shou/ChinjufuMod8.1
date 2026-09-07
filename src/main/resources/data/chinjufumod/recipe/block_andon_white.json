@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_andon",
+
+	"pattern": [
+		"XAX",
+		"XBX",
+		"XCX"
+	],
+
+	"key": {
+		"X": "#c:rods/wooden",
+		"A": "minecraft:paper",
+		"B": "#chinjufumod:materials_yarn",
+		"C": "#chinjufumod:materials_oil"
+	},
+
+	"result": { "id": "chinjufumod:block_andon_white", "count" : 1 }
+}

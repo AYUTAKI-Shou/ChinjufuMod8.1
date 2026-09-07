@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_garden",
+
+	"pattern": [
+		"X X",
+		" X ",
+		"X X"
+	],
+
+	"key": {
+		"X": "#c:nuggets/iron"
+	},
+
+	"result": { "id": "chinjufumod:block_makibishi", "count": 3 }
+}

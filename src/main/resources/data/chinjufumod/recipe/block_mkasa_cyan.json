@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_mkasa",
+
+	"pattern": [
+		"X",
+		"Y"
+	],
+
+	"key": {
+		"X": "minecraft:cyan_wool",
+		"Y": "#minecraft:planks"
+	},
+
+	"result": { "id": "chinjufumod:block_mkasa_cyan", "count": 9 }
+}

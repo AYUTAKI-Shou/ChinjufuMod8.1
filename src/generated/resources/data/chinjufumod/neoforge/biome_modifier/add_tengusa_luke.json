@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:lukewarm_ocean",
+  "features": "chinjufumod:tengusa_l_place",
+  "step": "vegetal_decoration"
+}

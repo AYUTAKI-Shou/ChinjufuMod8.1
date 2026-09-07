@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/kanki_left_1",
+	"textures": {
+		"muku": "chinjufumod:block/muku_paleoak"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_plaster",
+
+	"pattern": [
+		"XXX",
+		"ZYZ",
+		"XXX"
+	],
+	"key": {
+		"X": "minecraft:dirt",
+		"Y": "#c:buckets/water",
+		"Z": "#chinjufumod:materials_straw"
+	},
+	"result": { "id": "chinjufumod:block_dirtwall", "count": 6 }
+}

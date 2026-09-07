@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_boxh2",
+
+	"ingredients": [
+		"#c:crops/cabbage",
+		"#c:crops/cabbage",
+		"#c:crops/cabbage",
+		"#c:crops/cabbage",
+		"chinjufumod:block_boxh_empty"
+	],
+
+	"result": { "id": "chinjufumod:block_boxh_cabbage", "count": 1 }
+}

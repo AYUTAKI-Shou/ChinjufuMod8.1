@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/kanyou_bot",
+	"textures": {
+		"miki": "minecraft:block/pale_oak_log",
+		"miki_top": "minecraft:block/pale_oak_log_top"
+	}
+}

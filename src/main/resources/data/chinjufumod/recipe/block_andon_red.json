@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_andon",
+
+	"ingredients": [
+		"chinjufumod:block_andon_white",
+		"chinjufumod:block_andon_white",
+		"chinjufumod:block_andon_white",
+		"chinjufumod:block_andon_white",
+		"#c:dyes/red"
+	],
+
+	"result": { "id": "chinjufumod:block_andon_red", "count" : 4 }
+}

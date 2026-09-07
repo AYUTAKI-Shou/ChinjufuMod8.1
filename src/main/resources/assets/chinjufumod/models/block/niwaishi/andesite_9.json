@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/niwaishi_9",
+	"textures": {
+		"rock": "minecraft:block/polished_andesite"
+	}
+}

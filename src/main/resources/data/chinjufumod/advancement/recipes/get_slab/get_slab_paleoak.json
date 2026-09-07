@@ -1,0 +1,39 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_officedesk_paleoak",
+			"chinjufumod:block_dressingtable_paleoak",
+			"chinjufumod:block_unitdesk_paleoak",
+			"chinjufumod:block_cafetable_paleoak",
+			"chinjufumod:block_diningchair_paleoak",
+			"chinjufumod:block_bench_paleoak",
+			"chinjufumod:block_schoolchair_paleoak",
+			"chinjufumod:block_schooldesk_paleoak",
+			"chinjufumod:block_teacherdesk_paleoak",
+			"chinjufumod:block_lowdesk_paleoak",
+			
+			"chinjufumod:block_mizuoke",
+			
+			"chinjufumod:block_ranma_paleoak",
+			"chinjufumod:block_ranmab_paleoak",
+			"chinjufumod:block_ranmac_paleoak",
+			"chinjufumod:block_kanki_paleoak",
+			"chinjufumod:block_koushi_paleoak",
+			"chinjufumod:block_itabei_paleoak",
+			"chinjufumod:block_kido_paleoak"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "minecraft:pale_oak_slab" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

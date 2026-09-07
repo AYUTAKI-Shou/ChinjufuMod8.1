@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_pwall",
+
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_plaster_gray"
+	},
+
+	"result": { "id": "chinjufumod:block_pwall_gray", "count": 12 }
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_tea",
+
+	"ingredients": [
+		"minecraft:sugar",
+		"#c:buckets/milk",
+		"#c:crops/cherry",
+		"#c:crops/cherry",
+		"chinjufumod:item_food_scone",
+		"chinjufumod:item_food_scone",
+		"chinjufumod:item_food_scone",
+		"chinjufumod:item_food_scone"
+	],
+
+	"result": { "id": "chinjufumod:item_food_cake", "count" : 4 }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanyou",
+
+	"ingredients": [
+		"#c:saplings/sakura",
+		"#c:saplings/sakura",
+		"minecraft:dirt",
+		"minecraft:flower_pot"
+	],
+
+	"result": { "id": "chinjufumod:block_kanyousakura_bot", "count" : 1 }
+}

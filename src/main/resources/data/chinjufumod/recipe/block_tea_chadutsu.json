@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_jptea",
+
+	"pattern": [
+		"XXX",
+		"X X",
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:item_chaba_green"
+	},
+
+	"result": { "id": "chinjufumod:block_tea_chadutsu", "count": 1 }
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_okonomiyaki",
+
+	"ingredients": [
+		"#c:cheese",
+		"minecraft:egg",
+		"#c:crops/cabbage",
+		"#c:foods/sauces/worcestersauce",
+		"#c:flour",
+		"#c:dusts/dashi",
+		"#chinjufumod:cooking_water",
+		"chinjufumod:item_food_sobaplate",
+		"minecraft:bowl"
+	],
+
+	"result": { "id": "chinjufumod:block_food_teppan_n_okonomisobac", "count" : 1 }
+}

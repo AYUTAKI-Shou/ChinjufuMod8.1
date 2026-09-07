@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_nabe",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"chinjufumod:item_soy",
+		"chinjufumod:item_soy",
+		"chinjufumod:item_soy",
+		"chinjufumod:item_soy",
+		"chinjufumod:block_food_karanabe"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabenimame_n", "count" : 1 }
+}

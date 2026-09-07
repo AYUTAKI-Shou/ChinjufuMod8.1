@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kitchen",
+
+	"ingredients": [
+		"minecraft:crafting_table",
+		"chinjufumod:block_kitchen"
+	],
+
+	"result": { "id": "chinjufumod:block_kit_board", "count": 1 }
+}

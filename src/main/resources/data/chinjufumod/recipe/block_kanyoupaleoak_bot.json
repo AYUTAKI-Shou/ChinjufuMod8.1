@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanyou",
+
+	"ingredients": [
+		"minecraft:pale_oak_sapling",
+		"minecraft:pale_oak_sapling",
+		"minecraft:dirt",
+		"minecraft:flower_pot"
+	],
+
+	"result": { "id": "chinjufumod:block_kanyoupaleoak_bot", "count": 1 }
+}

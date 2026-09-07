@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kanyou",
+
+	"ingredients": [
+		"#c:saplings/acer",
+		"#c:saplings/acer",
+		"minecraft:dirt",
+		"minecraft:flower_pot"
+	],
+
+	"result": { "id": "chinjufumod:block_kanyoukaede_bot", "count" : 1 }
+}

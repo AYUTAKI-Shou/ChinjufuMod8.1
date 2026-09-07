@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/windowtalltop_close",
+	"textures": {
+		"front_top": "chinjufumod:block/window_top_cherry",
+		"front_bot": "chinjufumod:block/window_bot_cherry",
+		"totte": "chinjufumod:block/window_top_darkoak",
+		"side": "chinjufumod:block/muku_cherry"
+	}
+}

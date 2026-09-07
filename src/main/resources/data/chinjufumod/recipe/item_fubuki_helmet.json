@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_helmet",
+
+	"ingredients": [
+		"minecraft:iron_helmet",
+		"minecraft:snowball",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_fubuki_helmet", "count": 1 }
+}

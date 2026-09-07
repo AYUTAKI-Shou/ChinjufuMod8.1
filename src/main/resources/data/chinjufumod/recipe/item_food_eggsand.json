@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_tea",
+
+	"ingredients": [
+		"#c:foods/sauces/mayonnaise",
+		"minecraft:egg",
+		"minecraft:egg",
+		"chinjufumod:item_food_bun",
+		"chinjufumod:item_food_bun"
+	],
+
+	"result": { "id": "chinjufumod:item_food_eggsand", "count" : 4 }
+}

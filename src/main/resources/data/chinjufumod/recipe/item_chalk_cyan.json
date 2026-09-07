@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chalk",
+
+	"ingredients": [
+		"#c:dyes/cyan",
+		"minecraft:bone_meal",
+		"#chinjufumod:cooking_water"
+	],
+
+	"result": { "id": "chinjufumod:item_chalk_cyan", "count" : 1 }
+}

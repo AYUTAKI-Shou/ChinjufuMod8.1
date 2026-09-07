@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_ammu",
+
+	"ingredients": [
+		"chinjufumod:item_ammunition_small",
+		"chinjufumod:item_ammunition_small"
+	],
+
+	"result": { "id": "chinjufumod:item_ammunition_kijyuu", "count" : 5 }
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_gohan",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"chinjufumod:item_kome",
+		"chinjufumod:item_kome",
+		"chinjufumod:item_kome",
+		"chinjufumod:block_food_karanabe",
+		"#c:crops/bambooshoot",
+		"#c:crops/bambooshoot",
+		"#c:foods/sauces/soysauce",
+		"#c:dusts/dashi"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabegohantake_n", "count" : 1 }
+}

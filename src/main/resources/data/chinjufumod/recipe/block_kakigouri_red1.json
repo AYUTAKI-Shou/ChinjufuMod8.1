@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kakigouri",
+
+	"ingredients": [
+		"minecraft:sugar",
+		"minecraft:ice",
+		"#c:crops/grape",
+		"chinjufumod:item_food_driglass"
+	],
+
+	"result": { "id": "chinjufumod:block_kakigouri_red1", "count" : 1 }
+}

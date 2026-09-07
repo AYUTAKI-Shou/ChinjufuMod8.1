@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_yukata",
+
+	"ingredients": [
+		"minecraft:dark_oak_slab",
+		"#c:dyes/red",
+		"chinjufumod:item_tanmono"
+	],
+
+	"result": { "id": "chinjufumod:item_ykt_getadoak", "count": 1 }
+}

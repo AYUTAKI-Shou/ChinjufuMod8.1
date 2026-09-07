@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_schooldesk",
+
+	"pattern": [
+		"YYY",
+		"XYX",
+		"X X"
+	],
+
+	"key": {
+		"X": "#c:rods/wooden",
+		"Y": "minecraft:spruce_slab"
+	},
+
+	"result": { "id": "chinjufumod:block_schooldesk_s", "count": 1 }
+}

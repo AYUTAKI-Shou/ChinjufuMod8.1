@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_cream",
+
+	"ingredients": [
+		"#c:crops/vanillabeans",
+		"#c:crops/vanillabeans",
+		"#c:crops/vanillabeans",
+		"#c:crops/vanillabeans",
+		"#c:crops/vanillabeans",
+		"#c:crops/vanillabeans",
+		"#c:crops/vanillabeans",
+		"#c:crops/vanillabeans",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_vanilla_f", "count": 1 }
+}

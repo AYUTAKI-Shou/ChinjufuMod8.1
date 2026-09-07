@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_tea",
+	
+	"ingredient": "chinjufumod:item_kiji_scone",
+	
+	"result": { "id": "chinjufumod:item_food_scone" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

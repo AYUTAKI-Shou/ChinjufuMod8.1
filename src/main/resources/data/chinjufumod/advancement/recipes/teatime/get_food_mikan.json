@@ -1,0 +1,28 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:item_kiji_pancitrus",
+			"chinjufumod:item_food_choco_citrus",
+
+			"chinjufumod:block_boxh_citrus",
+			"chinjufumod:block_kakigouri_orange1",
+			"chinjufumod:block_watagashi_orange",
+			
+			"chinjufumod:block_food_mikan",
+			"chinjufumod:block_kagamimochi"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "#c:crops/citrus" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

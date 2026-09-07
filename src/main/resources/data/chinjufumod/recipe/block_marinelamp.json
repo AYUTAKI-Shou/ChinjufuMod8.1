@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_lamp",
+
+	"ingredients": [
+		"#c:dusts/redstone",
+		"#c:dusts/redstone",
+		"minecraft:white_stained_glass",
+		"minecraft:glowstone",
+		"#chinjufumod:materials_lamp"
+	],
+
+	"result": { "id": "chinjufumod:block_marinelamp", "count": 2 }
+}

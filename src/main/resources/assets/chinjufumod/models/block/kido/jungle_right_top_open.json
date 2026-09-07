@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/kido_right_top_open",
+	"textures": {
+		"ita": "chinjufumod:block/muku_jungle",
+		"totte": "chinjufumod:block/muku_oak"
+	}
+}

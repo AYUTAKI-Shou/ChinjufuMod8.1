@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kettle",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"chinjufumod:item_kettle_kara"
+	],
+
+	"result": { "id": "chinjufumod:block_kettle_full", "count" : 1 }
+}

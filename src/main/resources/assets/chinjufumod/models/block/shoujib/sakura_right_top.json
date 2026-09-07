@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/shoujib_right_top",
+	"textures": {
+		"waku": "chinjufumod:block/muku_sakura",
+		"totte": "chinjufumod:block/muku_darkoak"
+	}
+}

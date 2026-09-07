@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_ramen",
+
+	"ingredients": [
+		"#c:crops/greenonion",
+		"#c:crops/carrot",
+		"#c:foods/raw_chicken",
+		"#c:crops/onion",
+		"#c:buckets/water",
+		"chinjufumod:block_food_zundou"
+	],
+
+	"result": { "id": "chinjufumod:block_food_rsoup_n", "count" : 1 }
+}

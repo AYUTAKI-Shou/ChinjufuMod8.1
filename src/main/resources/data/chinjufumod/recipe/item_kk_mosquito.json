@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kansaiki",
+
+	"ingredients": [
+		"#c:dyes/blue",
+		"#minecraft:planks",
+		"#minecraft:planks",
+		"minecraft:coal",
+		"chinjufumod:item_workorder",
+		"chinjufumod:item_ammunition_kc",
+		"#c:ingots/aluminum",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_kk_mosquito", "count": 1 }
+}

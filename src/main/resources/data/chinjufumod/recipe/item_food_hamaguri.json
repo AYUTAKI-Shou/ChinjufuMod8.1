@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_smelt",
+	
+	"ingredient": "#c:clams",
+	
+	"result": { "id": "chinjufumod:item_food_hamaguri" },
+	"experience": 0.1,
+	"cookingtime": 100
+}

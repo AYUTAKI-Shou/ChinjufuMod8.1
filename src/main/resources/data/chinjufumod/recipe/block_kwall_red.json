@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_kwall",
+
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_kawara_red"
+	},
+
+	"result": { "id": "chinjufumod:block_kwall_red", "count": 12 }
+}

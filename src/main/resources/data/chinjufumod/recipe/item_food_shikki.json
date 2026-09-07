@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_dish",
+
+	"ingredients": [
+		"#c:dyes/red",
+		"minecraft:bowl"
+	],
+
+	"result": { "id": "chinjufumod:item_food_shikki", "count" : 1 }
+}

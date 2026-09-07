@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_yakizakanatei",
+
+	"ingredients": [
+		"chinjufumod:block_food_jpteacup_1",
+		"#c:foods/cooked_cod",
+		"chinjufumod:item_food_sara",
+		"chinjufumod:block_food_sekihan",
+		"chinjufumod:block_food_misosp_1",
+		"chinjufumod:block_food_hsd_1"
+	],
+
+	"result": { "id": "chinjufumod:block_food_yakizakanatei_sekihan_1", "count" : 1 }
+}

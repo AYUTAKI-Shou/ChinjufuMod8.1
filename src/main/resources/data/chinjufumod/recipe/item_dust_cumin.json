@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_spice",
+
+	"ingredients": [
+		"#c:crops/cumin",
+		"#c:crops/cumin",
+		"#c:crops/cumin",
+		"#c:crops/cumin"
+	],
+
+	"result": { "id": "chinjufumod:item_dust_cumin", "count": 4 }
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_alcohol",
+	
+	"ingredient": "chinjufumod:block_bot_sakenama_1",
+	
+	"result": { "id": "chinjufumod:block_bot_sake_1" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

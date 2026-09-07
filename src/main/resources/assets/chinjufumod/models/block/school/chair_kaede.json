@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/schoolchair",
+	"textures": {
+		"leg": "chinjufumod:block/muku_kaede",
+		"top": "chinjufumod:block/planks_kaede"
+	}
+}

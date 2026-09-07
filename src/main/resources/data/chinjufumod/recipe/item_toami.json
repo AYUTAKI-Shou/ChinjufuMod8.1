@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_ami",
+
+	"pattern": [
+		"YXY",
+		"XXX",
+		"YXY"
+	],
+
+	"key": {
+		"X": "minecraft:cobweb",
+		"Y": "#c:nuggets/iron"
+	},
+
+	"result": { "id": "chinjufumod:item_toami", "count": 1 }
+}

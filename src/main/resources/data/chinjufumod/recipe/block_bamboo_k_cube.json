@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_pillar",
+	
+	"ingredient": "chinjufumod:block_bamboo_cube",
+	
+	"result": { "id": "chinjufumod:block_bamboo_k_cube" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

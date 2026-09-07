@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_candle",
+
+	"ingredients": [
+		"#chinjufumod:materials_yarn",
+		"#chinjufumod:materials_yarn",
+		"#chinjufumod:materials_yarn",
+		"#chinjufumod:materials_oil",
+		"#chinjufumod:materials_oil",
+		"#chinjufumod:materials_oil",
+		"#c:glass_blocks/colorless",
+		"#c:dyes/brown"
+	],
+
+	"result": { "id": "chinjufumod:block_candle_brown", "count" : 3 }
+}

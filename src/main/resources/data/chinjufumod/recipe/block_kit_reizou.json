@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_kitchen",
+
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "minecraft:ice",
+		"Y": "chinjufumod:block_steel_block"
+	},
+
+	"result": { "id": "chinjufumod:block_kit_reizou", "count": 1 }
+}

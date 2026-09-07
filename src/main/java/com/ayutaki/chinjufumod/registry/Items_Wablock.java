@@ -1,0 +1,323 @@
+package com.ayutaki.chinjufumod.registry;
+
+import java.util.function.Function;
+
+import com.ayutaki.chinjufumod.ChinjufuMod;
+import com.ayutaki.chinjufumod.items.addinfo.AddInfo_Item;
+import com.ayutaki.chinjufumod.items.fuel.Not_Fuel;
+import com.ayutaki.chinjufumod.items.fuel.Shikkui_Slab;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.Item;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public class Items_Wablock {
+
+	public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ChinjufuMod.MOD_ID);
+
+	public static final DeferredItem<Item> CLAYKAWARA = register("item_claykawara", AddInfo_Item::new, new Item.Properties());
+	public static final DeferredItem<Item> SHOUSEKKAI = register("item_shousekkai_c", AddInfo_Item::new, new Item.Properties());
+
+	public static final DeferredItem<Item> KAWARA_white = register("block_kawara_white", (props) -> new Not_Fuel(JP_Blocks.KAWARA_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_orange = register("block_kawara_orange", (props) -> new Not_Fuel(JP_Blocks.KAWARA_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_magenta = register("block_kawara_magenta", (props) -> new Not_Fuel(JP_Blocks.KAWARA_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_lightb = register("block_kawara_lightb", (props) -> new Not_Fuel(JP_Blocks.KAWARA_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_yellow = register("block_kawara_yellow", (props) -> new Not_Fuel(JP_Blocks.KAWARA_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_lime = register("block_kawara_lime", (props) -> new Not_Fuel(JP_Blocks.KAWARA_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_pink = register("block_kawara_pink", (props) -> new Not_Fuel(JP_Blocks.KAWARA_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_gray = register("block_kawara_gray", (props) -> new Not_Fuel(JP_Blocks.KAWARA_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_lightg = register("block_kawara_lightg", (props) -> new Not_Fuel(JP_Blocks.KAWARA_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_cyan = register("block_kawara_cyan", (props) -> new Not_Fuel(JP_Blocks.KAWARA_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_purple = register("block_kawara_purple", (props) -> new Not_Fuel(JP_Blocks.KAWARA_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_blue = register("block_kawara_blue", (props) -> new Not_Fuel(JP_Blocks.KAWARA_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_brown = register("block_kawara_brown", (props) -> new Not_Fuel(JP_Blocks.KAWARA_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_green = register("block_kawara_green", (props) -> new Not_Fuel(JP_Blocks.KAWARA_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_red = register("block_kawara_red", (props) -> new Not_Fuel(JP_Blocks.KAWARA_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_black = register("block_kawara_black", (props) -> new Not_Fuel(JP_Blocks.KAWARA_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> KAWARA_ST_white = register("block_kst_white", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_orange = register("block_kst_orange", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_magenta = register("block_kst_magenta", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_lightb = register("block_kst_lightb", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_yellow = register("block_kst_yellow", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_lime = register("block_kst_lime", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_pink = register("block_kst_pink", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_gray = register("block_kst_gray", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_lightg = register("block_kst_lightg", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_cyan = register("block_kst_cyan", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_purple = register("block_kst_purple", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_blue = register("block_kst_blue", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_brown = register("block_kst_brown", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_green = register("block_kst_green", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_red = register("block_kst_red", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_ST_black = register("block_kst_black", (props) -> new Not_Fuel(JP_Blocks.KAWARA_ST_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> KAWARA_SH_white = register("block_ksh_white", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_orange = register("block_ksh_orange", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_magenta = register("block_ksh_magenta", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_lightb = register("block_ksh_lightb", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_yellow = register("block_ksh_yellow", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_lime = register("block_ksh_lime", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_pink = register("block_ksh_pink", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_gray = register("block_ksh_gray", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_lightg = register("block_ksh_lightg", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_cyan = register("block_ksh_cyan", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_purple = register("block_ksh_purple", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_blue = register("block_ksh_blue", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_brown = register("block_ksh_brown", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_green = register("block_ksh_green", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_red = register("block_ksh_red", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_SH_black = register("block_ksh_black", (props) -> new Not_Fuel(JP_Blocks.KAWARA_SH_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> DIRTWALL = register("block_dirtwall", (props) -> new Not_Fuel(JP_Blocks.DIRTWALL.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> DIRTWALL_stairs = register("block_dirtwall_st", (props) -> new Not_Fuel(JP_Blocks.DIRTWALL_stairs.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> DIRTWALL_SH = register("block_dirtwall_sh", (props) -> new Shikkui_Slab(JP_Blocks.DIRTWALL_SH.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> SHIKKUI_white = register("block_plaster_white", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_orange = register("block_plaster_orange", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_magenta = register("block_plaster_magenta", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_lightb = register("block_plaster_lightb", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_yellow = register("block_plaster_yellow", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_lime = register("block_plaster_lime", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_pink = register("block_plaster_pink", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_gray = register("block_plaster_gray", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_lightg = register("block_plaster_lightg", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_cyan = register("block_plaster_cyan", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_purple = register("block_plaster_purple", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_blue = register("block_plaster_blue", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_brown = register("block_plaster_brown", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_green = register("block_plaster_green", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_red = register("block_plaster_red", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_black = register("block_plaster_black", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> SHIKKUI_ST_white = register("block_pst_white", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_orange = register("block_pst_orange", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_magenta = register("block_pst_magenta", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_lightb = register("block_pst_lightb", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_yellow = register("block_pst_yellow", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_lime = register("block_pst_lime", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_pink = register("block_pst_pink", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_gray = register("block_pst_gray", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_lightg = register("block_pst_lightg", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_cyan = register("block_pst_cyan", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_purple = register("block_pst_purple", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_blue = register("block_pst_blue", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_brown = register("block_pst_brown", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_green = register("block_pst_green", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_red = register("block_pst_red", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_ST_black = register("block_pst_black", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_ST_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> SHIKKUI_SH_white = register("block_psh_white", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_orange = register("block_psh_orange", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_magenta = register("block_psh_magenta", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_lightb = register("block_psh_lightb", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_yellow = register("block_psh_yellow", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_lime = register("block_psh_lime", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_pink = register("block_psh_pink", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_gray = register("block_psh_gray", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_lightg = register("block_psh_lightg", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_cyan = register("block_psh_cyan", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_purple = register("block_psh_purple", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_blue = register("block_psh_blue", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_brown = register("block_psh_brown", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_green = register("block_psh_green", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_red = register("block_psh_red", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SH_black = register("block_psh_black", (props) -> new Shikkui_Slab(JP_Blocks.SHIKKUI_SH_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> NAMAKO_white = register("block_namako_white", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_orange = register("block_namako_orange", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_magenta = register("block_namako_magenta", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_lightb = register("block_namako_lightb", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_yellow = register("block_namako_yellow", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_lime = register("block_namako_lime", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_pink = register("block_namako_pink", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_gray = register("block_namako_gray", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_lightg = register("block_namako_lightg", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_cyan = register("block_namako_cyan", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_purple = register("block_namako_purple", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_blue = register("block_namako_blue", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_brown = register("block_namako_brown", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_green = register("block_namako_green", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_red = register("block_namako_red", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_black = register("block_namako_black", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> NAMAKO_ST_white = register("block_nst_white", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_orange = register("block_nst_orange", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_magenta = register("block_nst_magenta", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_lightb = register("block_nst_lightb", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_yellow = register("block_nst_yellow", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_lime = register("block_nst_lime", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_pink = register("block_nst_pink", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_gray = register("block_nst_gray", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_lightg = register("block_nst_lightg", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_cyan = register("block_nst_cyan", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_purple = register("block_nst_purple", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_blue = register("block_nst_blue", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_brown = register("block_nst_brown", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_green = register("block_nst_green", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_red = register("block_nst_red", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_ST_black = register("block_nst_black", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_ST_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> NAMAKO_SH_white = register("block_nsh_white", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_orange = register("block_nsh_orange", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_magenta = register("block_nsh_magenta", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_lightb = register("block_nsh_lightb", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_yellow = register("block_nsh_yellow", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_lime = register("block_nsh_lime", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_pink = register("block_nsh_pink", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_gray = register("block_nsh_gray", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_lightg = register("block_nsh_lightg", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_cyan = register("block_nsh_cyan", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_purple = register("block_nsh_purple", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_blue = register("block_nsh_blue", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_brown = register("block_nsh_brown", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_green = register("block_nsh_green", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_red = register("block_nsh_red", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_SH_black = register("block_nsh_black", (props) -> new Not_Fuel(JP_Blocks.NAMAKO_SH_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> NAMAKOB_white = register("block_namako_b_white", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_orange = register("block_namako_b_orange", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_magenta = register("block_namako_b_magenta", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_lightb = register("block_namako_b_lightb", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_yellow = register("block_namako_b_yellow", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_lime = register("block_namako_b_lime", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_pink = register("block_namako_b_pink", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_gray = register("block_namako_b_gray", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_lightg = register("block_namako_b_lightg", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_cyan = register("block_namako_b_cyan", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_purple = register("block_namako_b_purple", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_blue = register("block_namako_b_blue", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_brown = register("block_namako_b_brown", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_green = register("block_namako_b_green", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_red = register("block_namako_b_red", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_black = register("block_namako_b_black", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> NAMAKOB_ST_white = register("block_nst_b_white", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_orange = register("block_nst_b_orange", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_magenta = register("block_nst_b_magenta", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_lightb = register("block_nst_b_lightb", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_yellow = register("block_nst_b_yellow", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_lime = register("block_nst_b_lime", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_pink = register("block_nst_b_pink", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_gray = register("block_nst_b_gray", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_lightg = register("block_nst_b_lightg", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_cyan = register("block_nst_b_cyan", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_purple = register("block_nst_b_purple", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_blue = register("block_nst_b_blue", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_brown = register("block_nst_b_brown", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_green = register("block_nst_b_green", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_red = register("block_nst_b_red", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_ST_black = register("block_nst_b_black", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_ST_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> NAMAKOB_SH_white = register("block_nsh_b_white", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_orange = register("block_nsh_b_orange", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_magenta = register("block_nsh_b_magenta", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_lightb = register("block_nsh_b_lightb", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_yellow = register("block_nsh_b_yellow", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_lime = register("block_nsh_b_lime", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_pink = register("block_nsh_b_pink", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_gray = register("block_nsh_b_gray", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_lightg = register("block_nsh_b_lightg", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_cyan = register("block_nsh_b_cyan", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_purple = register("block_nsh_b_purple", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_blue = register("block_nsh_b_blue", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_brown = register("block_nsh_b_brown", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_green = register("block_nsh_b_green", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_red = register("block_nsh_b_red", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_SH_black = register("block_nsh_b_black", (props) -> new Not_Fuel(JP_Blocks.NAMAKOB_SH_black.get(), props), new Item.Properties());
+	
+	public static final DeferredItem<Item> DIRTWALL_WALL = register("block_dirtwall_wall", (props) -> new Not_Fuel(JP_Blocks.DIRTWALL_WALL.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_white = register("block_pwall_white", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_orange = register("block_pwall_orange", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_magenta = register("block_pwall_magenta", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_lightb = register("block_pwall_lightb", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_yellow = register("block_pwall_yellow", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_lime = register("block_pwall_lime", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_pink = register("block_pwall_pink", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_gray = register("block_pwall_gray", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_lightg = register("block_pwall_lightg", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_cyan = register("block_pwall_cyan", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_purple = register("block_pwall_purple", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_blue = register("block_pwall_blue", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_brown = register("block_pwall_brown", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_green = register("block_pwall_green", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_red = register("block_pwall_red", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_WALL_black = register("block_pwall_black", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_WALL_black.get(), props), new Item.Properties());
+
+	public static final DeferredItem<Item> NAMAKO_WALL_white = register("block_nwall_white", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_orange = register("block_nwall_orange", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_magenta = register("block_nwall_magenta", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_lightb = register("block_nwall_lightb", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_yellow = register("block_nwall_yellow", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_lime = register("block_nwall_lime", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_pink = register("block_nwall_pink", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_gray = register("block_nwall_gray", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_lightg = register("block_nwall_lightg", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_cyan = register("block_nwall_cyan", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_purple = register("block_nwall_purple", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_blue = register("block_nwall_blue", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_brown = register("block_nwall_brown", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_green = register("block_nwall_green", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_red = register("block_nwall_red", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKO_WALL_black = register("block_nwall_black", (props) -> new Not_Fuel(JP_Blocks. NAMAKO_WALL_black.get(), props), new Item.Properties());
+	
+	public static final DeferredItem<Item> NAMAKOB_WALL_white = register("block_nwall_b_white", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_orange = register("block_nwall_b_orange", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_magenta = register("block_nwall_b_magenta", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_lightb = register("block_nwall_b_lightb", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_yellow = register("block_nwall_b_yellow", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_lime = register("block_nwall_b_lime", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_pink = register("block_nwall_b_pink", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_gray = register("block_nwall_b_gray", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_lightg = register("block_nwall_b_lightg", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_cyan = register("block_nwall_b_cyan", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_purple = register("block_nwall_b_purple", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_blue = register("block_nwall_b_blue", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_brown = register("block_nwall_b_brown", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_green = register("block_nwall_b_green", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_red = register("block_nwall_b_red", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> NAMAKOB_WALL_black = register("block_nwall_b_black", (props) -> new Not_Fuel(JP_Blocks. NAMAKOB_WALL_black.get(), props), new Item.Properties());
+	
+	public static final DeferredItem<Item> DIRTWALL_SAMA = register("block_dirtwall_sama", (props) -> new Not_Fuel(JP_Blocks.DIRTWALL_SAMA.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_white = register("block_sama_white", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_orange = register("block_sama_orange", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_magenta = register("block_sama_magenta", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_lightb = register("block_sama_lightb", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_yellow = register("block_sama_yellow", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_lime = register("block_sama_lime", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_pink = register("block_sama_pink", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_gray = register("block_sama_gray", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_lightg = register("block_sama_lightg", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_cyan = register("block_sama_cyan", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_purple = register("block_sama_purple", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_blue = register("block_sama_blue", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_brown = register("block_sama_brown", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_green = register("block_sama_green", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_red = register("block_sama_red", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> SHIKKUI_SAMA_black = register("block_sama_black", (props) -> new Not_Fuel(JP_Blocks.SHIKKUI_SAMA_black.get(), props), new Item.Properties());
+	
+	public static final DeferredItem<Item> KAWARA_WALL_white = register("block_kwall_white", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_white.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_orange = register("block_kwall_orange", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_orange.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_magenta = register("block_kwall_magenta", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_magenta.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_lightb = register("block_kwall_lightb", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_lightb.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_yellow = register("block_kwall_yellow", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_yellow.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_lime = register("block_kwall_lime", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_lime.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_pink = register("block_kwall_pink", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_pink.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_gray = register("block_kwall_gray", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_gray.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_lightg = register("block_kwall_lightg", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_lightg.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_cyan = register("block_kwall_cyan", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_cyan.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_purple = register("block_kwall_purple", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_purple.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_blue = register("block_kwall_blue", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_blue.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_brown = register("block_kwall_brown", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_brown.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_green = register("block_kwall_green", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_green.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_red = register("block_kwall_red", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_red.get(), props), new Item.Properties());
+	public static final DeferredItem<Item> KAWARA_WALL_black = register("block_kwall_black", (props) -> new Not_Fuel(JP_Blocks.KAWARA_WALL_black.get(), props), new Item.Properties());
+
+	
+	///* Register *///
+	private static DeferredItem<Item> register(String name, Function<Item.Properties, Item> function, Item.Properties props) {
+		return ITEMS.register(name, () -> function.apply(props.setId(ResourceKey.create(Registries.ITEM, ChinjufuMod.id(name)))));
+	}
+}

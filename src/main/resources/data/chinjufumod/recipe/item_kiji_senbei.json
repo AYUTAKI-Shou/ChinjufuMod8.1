@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_jptea",
+
+	"ingredients": [
+		"chinjufumod:item_mushigome",
+		"chinjufumod:item_food_noriita",
+		"#c:foods/sauces/soysauce"
+	],
+
+	"result": { "id": "chinjufumod:item_kiji_senbei", "count": 6 }
+}

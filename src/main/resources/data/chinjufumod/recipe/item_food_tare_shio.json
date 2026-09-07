@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_ramen",
+
+	"ingredients": [
+		"minecraft:sugar",
+		"#c:dusts/salt",
+		"#c:dusts/salt",
+		"#c:dusts/dashi",
+		"#c:crops/greenonion",
+		"#c:foods/cooked_pork",
+		"minecraft:egg",
+		"chinjufumod:item_food_donburi",
+		"chinjufumod:item_food_donburi"
+	],
+
+	"result": { "id": "chinjufumod:item_food_tare_shio", "count" : 2 }
+}

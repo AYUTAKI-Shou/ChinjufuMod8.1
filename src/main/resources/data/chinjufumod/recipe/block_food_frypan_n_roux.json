@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_curry",
+	
+	"ingredients": [
+		"#c:dusts/chili_pepper",
+		"#c:dusts/cumin",
+		"#c:dusts/turmeric",
+		"#c:dusts/dashi",
+		"#c:butter",
+		"minecraft:sugar",
+		"#c:dusts/salt",
+		"#c:flour",
+		"chinjufumod:block_food_frypan"
+	],
+
+	"result": { "id": "chinjufumod:block_food_frypan_n_roux", "count" : 1 }
+}

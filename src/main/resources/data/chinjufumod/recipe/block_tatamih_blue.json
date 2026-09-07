@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_tatami",
+
+	"pattern": [
+		"YYY",
+		"YXY",
+		"YYY"
+	],
+
+	"key": {
+		"X": "minecraft:blue_wool",
+		"Y": "chinjufumod:block_tatamih"
+	},
+
+	"result": { "id": "chinjufumod:block_tatamih_blue", "count": 8 }
+}

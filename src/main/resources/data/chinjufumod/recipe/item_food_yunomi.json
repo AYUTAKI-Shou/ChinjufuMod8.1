@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_dish",
+	
+	"ingredient": "chinjufumod:item_clay_yunomi",
+	
+	"result": { "id": "chinjufumod:item_food_yunomi" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

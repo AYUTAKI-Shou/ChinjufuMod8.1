@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_pasta",
+
+	"ingredients": [
+		"#c:fresh_cheese",
+		"#c:cheese",
+		"chinjufumod:item_food_pasta_s"
+	],
+
+	"result": { "id": "chinjufumod:block_food_pastacheese_1", "count" : 1 }
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_ishitourou",
+
+	"pattern": [
+		"X",
+		"Y"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_ishitourou_stone",
+		"Y": "minecraft:stone"
+	},
+
+	"result": { "id": "chinjufumod:block_longtourou_stone", "count": 1 }
+}

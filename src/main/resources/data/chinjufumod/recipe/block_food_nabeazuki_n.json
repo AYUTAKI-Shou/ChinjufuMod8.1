@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"#c:seeds/azukibean",
+		"#c:seeds/azukibean",
+		"#c:seeds/azukibean",
+		"#c:seeds/azukibean",
+		"#c:seeds/azukibean",
+		"#c:seeds/azukibean",
+		"chinjufumod:block_food_karanabe"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabeazuki_n", "count" : 1 }
+}

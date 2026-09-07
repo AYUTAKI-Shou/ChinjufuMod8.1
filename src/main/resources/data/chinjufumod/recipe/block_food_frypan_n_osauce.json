@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_okonomiyaki",
+	
+	"ingredients": [
+		"#c:crops/apple",
+		"#c:crops/carrot",
+		"#c:crops/tomato",
+		"#c:crops/onion",
+		"minecraft:sugar",
+		"#c:dusts/salt",
+		"#c:vinegar",
+		"#c:dusts/black_pepper",
+		"chinjufumod:block_food_frypan"
+	],
+
+	"result": { "id": "chinjufumod:block_food_frypan_n_osauce", "count" : 1 }
+}

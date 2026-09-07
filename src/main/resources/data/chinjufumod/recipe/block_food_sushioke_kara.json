@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_sushi",
+
+	"ingredients": [
+		"#c:dyes/red",
+		"#c:dyes/black",
+		"minecraft:bowl"
+	],
+
+	"result": { "id": "chinjufumod:block_food_sushioke_kara", "count" : 1 }
+}

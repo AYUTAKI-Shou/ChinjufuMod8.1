@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chestnut",
+
+	"ingredients": [
+		"chinjufumod:item_chestnut_mash",
+		"chinjufumod:item_choco_raw"
+	],
+
+	"result": { "id": "chinjufumod:item_food_chestnutchoco", "count": 6 }
+}

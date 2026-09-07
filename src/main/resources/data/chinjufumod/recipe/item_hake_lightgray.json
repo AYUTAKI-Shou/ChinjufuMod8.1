@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_hake",
+
+	"pattern": [
+		"X",
+		"Y"
+	],
+
+	"key": {
+		"X": "#c:dyes/light_gray",
+		"Y": "chinjufumod:item_hake"
+	},
+
+	"result": { "id": "chinjufumod:item_hake_lightgray", "count": 1 }
+}

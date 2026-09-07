@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_tea",
+	
+	"ingredient": "chinjufumod:item_clay_teapot",
+	
+	"result": { "id": "chinjufumod:block_food_teapot" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

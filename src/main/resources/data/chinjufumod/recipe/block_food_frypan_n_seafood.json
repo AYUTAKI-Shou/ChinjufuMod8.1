@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_pasta",
+
+	"ingredients": [
+		"#c:crops/tomato",
+		"#c:crops/tomato",
+		"#c:crops/onion",
+		"#c:clams",
+		"#c:clams",
+		"#c:clams",
+		"chinjufumod:item_squid_cut",
+		"#c:dusts/salt",
+		"chinjufumod:block_food_frypan"
+	],
+
+	"result": { "id": "chinjufumod:block_food_frypan_n_seafood", "count" : 1 }
+}

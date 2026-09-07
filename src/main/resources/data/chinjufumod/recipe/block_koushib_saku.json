@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_koushib",
+
+	"pattern": [
+		"X"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_koushi_saku"
+	},
+
+	"result": { "id": "chinjufumod:block_koushib_saku", "count": 1 }
+}

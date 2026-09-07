@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_tea",
+
+	"ingredients": [
+		"#c:foods/sauces/mayonnaise",
+		"#c:foods/cooked_chicken",
+		"#c:crops/cabbage",
+		"chinjufumod:item_food_bun",
+		"chinjufumod:item_food_bun"
+	],
+
+	"result": { "id": "chinjufumod:item_food_chickensand", "count" : 4 }
+}

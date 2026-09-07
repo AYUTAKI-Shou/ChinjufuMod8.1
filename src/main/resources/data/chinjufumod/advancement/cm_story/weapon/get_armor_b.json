@@ -1,0 +1,50 @@
+{
+	"parent": "chinjufumod:cm_story/weapon/get_workorder",
+	"display": {
+		"title": {
+			"translate": "advancements.cm_story.weapon.get_armor_b.title"
+		},
+		"description": {
+			"translate": "advancements.cm_story.weapon.get_armor.description"
+		},
+		"icon": { "count": 1, 
+			"id": "chinjufumod:item_kongou_chestplate"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": [
+				"chinjufumod:item_kongou_helmet",
+				"chinjufumod:item_kongou_chestplate",
+				"chinjufumod:item_kongou_leggings",
+				"chinjufumod:item_kongou_boots",
+
+				"chinjufumod:item_fusou_helmet",
+				"chinjufumod:item_fusou_chestplate",
+				"chinjufumod:item_fusou_leggings",
+				"chinjufumod:item_fusou_boots",
+				
+				"chinjufumod:item_ise_helmet",
+				"chinjufumod:item_ise_chestplate",
+				"chinjufumod:item_ise_leggings",
+				"chinjufumod:item_ise_boots",
+
+				"chinjufumod:item_nagato_helmet",
+				"chinjufumod:item_nagato_chestplate",
+				"chinjufumod:item_nagato_leggings",
+				"chinjufumod:item_nagato_boots" ] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	],
+	"rewards": { "experience": 3 }
+}

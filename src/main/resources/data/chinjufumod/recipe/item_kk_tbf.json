@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kansaiki",
+
+	"ingredients": [
+		"#c:dyes/blue",
+		"#c:dyes/black",
+		"minecraft:coal",
+		"minecraft:coal",
+		"chinjufumod:item_workorder",
+		"chinjufumod:item_ammunition_kc",
+		"chinjufumod:item_ammunition_kc",
+		"#c:ingots/aluminum",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_kk_tbf", "count": 1 }
+}

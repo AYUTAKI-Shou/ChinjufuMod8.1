@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/nabe_nimame_b",
+	"textures": {
+		"particle": "chinjufumod:block/dish_usuki",
+		"mame": "chinjufumod:block/food_nimame",
+		"nabe": "chinjufumod:block/dish_usuki"
+	}
+}

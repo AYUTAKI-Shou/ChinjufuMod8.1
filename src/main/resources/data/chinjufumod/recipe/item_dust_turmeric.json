@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_spice",
+
+	"ingredients": [
+		"#c:crops/turmeric",
+		"#c:crops/turmeric",
+		"#c:crops/turmeric",
+		"#c:crops/turmeric"
+	],
+
+	"result": { "id": "chinjufumod:item_dust_turmeric", "count": 4 }
+}

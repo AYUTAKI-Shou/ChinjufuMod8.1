@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_zundou",
+
+	"ingredients": [
+		"#c:buckets/milk",
+		"chinjufumod:block_food_zundou"
+	],
+
+	"result": { "id": "chinjufumod:block_zundou_milk", "count": 1 }
+}

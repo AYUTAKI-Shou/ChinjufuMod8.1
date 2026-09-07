@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "chinjufumod:kasumi"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "chinjufumod:kasumi"
+      }
+    ]
+  }
+}

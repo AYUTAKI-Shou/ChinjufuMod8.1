@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_mochi",
+
+	"ingredients": [
+		"chinjufumod:item_mochi",
+		"chinjufumod:item_food_noriita",
+		"chinjufumod:item_food_noriita",
+		"#c:foods/sauces/soysauce"
+	],
+
+	"result": { "id": "chinjufumod:item_food_mochinori", "count": 4 }
+}

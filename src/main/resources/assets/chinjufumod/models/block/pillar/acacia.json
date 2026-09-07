@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/planks_pillar",
+	"textures": {
+		"top": "chinjufumod:block/pillar_acacia_top",
+		"side": "chinjufumod:block/pillar_acacia_side"
+	}
+}

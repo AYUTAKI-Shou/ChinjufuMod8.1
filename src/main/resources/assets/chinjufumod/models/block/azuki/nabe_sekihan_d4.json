@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabegohan_d4",
+	"textures": {
+		"gohan": "chinjufumod:block/sekihan"
+	}
+}

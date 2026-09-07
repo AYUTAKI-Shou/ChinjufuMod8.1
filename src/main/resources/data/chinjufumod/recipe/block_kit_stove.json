@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kitchen",
+
+	"ingredients": [
+		"chinjufumod:block_kitchen",
+		"chinjufumod:block_steel_block",
+		"minecraft:netherrack",
+		"minecraft:redstone_torch",
+		"minecraft:redstone_torch",
+		"minecraft:stone_button",
+		"minecraft:stone",
+		"minecraft:stone",
+		"#c:dusts/redstone"
+	],
+
+	"result": { "id": "chinjufumod:block_kit_stove", "count": 1 }
+}

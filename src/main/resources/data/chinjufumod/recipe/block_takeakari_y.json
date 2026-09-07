@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_takeakari",
+
+	"ingredients": [
+		"chinjufumod:block_bamboo_y_cube",
+		"#chinjufumod:materials_yarn",
+		"#chinjufumod:materials_yarn",
+		"#chinjufumod:materials_yarn",
+		"#chinjufumod:materials_yarn",
+		"#chinjufumod:materials_oil",
+		"#chinjufumod:materials_oil",
+		"#chinjufumod:materials_oil",
+		"#chinjufumod:materials_oil"
+	],
+
+	"result": { "id": "chinjufumod:block_takeakari_y", "count" : 4 }
+}

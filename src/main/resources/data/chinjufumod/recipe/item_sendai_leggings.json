@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_leggings",
+
+	"ingredients": [
+		"minecraft:iron_leggings",
+		"#c:dyes/orange",
+		"chinjufumod:item_workorder",
+		"minecraft:coal",
+		"chinjufumod:item_ammunition_kc"
+	],
+
+	"result": { "id": "chinjufumod:item_sendai_leggings", "count": 1 }
+}

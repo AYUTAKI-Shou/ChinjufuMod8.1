@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_alcohol",
+
+	"ingredients": [
+		"chinjufumod:block_bot_sake_1",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_jukusei_f", "count": 1 }
+}

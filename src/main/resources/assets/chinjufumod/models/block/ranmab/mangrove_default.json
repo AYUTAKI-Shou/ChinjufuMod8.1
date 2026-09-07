@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/ranmab_default",
+	"textures": {
+		"muku": "chinjufumod:block/muku_mangrove"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_choco",
+
+	"ingredients": [
+		"minecraft:cocoa_beans",
+		"minecraft:cocoa_beans",
+		"minecraft:cocoa_beans",
+		"minecraft:cocoa_beans",
+		"minecraft:cocoa_beans",
+		"minecraft:cocoa_beans",
+		"chinjufumod:item_nyusan",
+		"#c:yeast",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_cocoa_f", "count": 1 }
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_dish",
+	
+	"ingredient": "chinjufumod:item_clay_tonsui",
+	
+	"result": { "id": "chinjufumod:item_food_tonsui" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

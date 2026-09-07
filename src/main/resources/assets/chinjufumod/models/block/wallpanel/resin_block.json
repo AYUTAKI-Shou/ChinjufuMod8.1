@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/wallpanel_wide",
+	"textures": {
+		"front": "minecraft:block/resin_block",
+		"back": "minecraft:block/resin_block",
+		"side": "minecraft:block/resin_block"
+	}
+}

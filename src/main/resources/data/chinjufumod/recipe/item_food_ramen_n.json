@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_ramen",
+
+	"ingredients": [
+		"chinjufumod:item_kansui",
+		"#c:flour",
+		"#c:flour",
+		"#c:flour"
+	],
+
+	"result": { "id": "chinjufumod:item_food_ramen_n", "count" : 1 }
+}

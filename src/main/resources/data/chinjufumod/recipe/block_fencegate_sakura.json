@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_fencegate",
+
+	"pattern": [
+		"YXY",
+		"YXY"
+	],
+
+	"key": {
+		"X": "#c:planks/sakura",
+		"Y": "#c:rods/wooden"
+	},
+
+	"result": { "id": "chinjufumod:block_fencegate_sakura", "count": 1 }
+}

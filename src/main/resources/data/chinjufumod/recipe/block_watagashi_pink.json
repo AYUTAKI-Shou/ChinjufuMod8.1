@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_watagashi",
+
+	"ingredients": [
+		"minecraft:sugar",
+		"#c:rods/wooden",
+		"minecraft:paper",
+		"#c:crops/cherry"
+	],
+
+	"result": { "id": "chinjufumod:block_watagashi_pink", "count" : 1 }
+}

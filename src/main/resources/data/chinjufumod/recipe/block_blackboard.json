@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_board",
+
+	"ingredients": [
+		"#minecraft:planks",
+		"chinjufumod:item_sumi_c",
+		"chinjufumod:item_sumi_c",
+		"chinjufumod:item_sumi_c",
+		"chinjufumod:item_sumi_c"
+	],
+
+	"result": { "id": "chinjufumod:block_blackboard", "count" : 8 }
+}

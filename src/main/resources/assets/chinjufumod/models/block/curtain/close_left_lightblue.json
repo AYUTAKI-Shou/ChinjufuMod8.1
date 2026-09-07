@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/curtain_closeleft",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_lightblue"
+	}
+}

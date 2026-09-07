@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_unitdesk",
+
+	"pattern": [
+		"XXX",
+		"X X",
+		"X X"
+	],
+
+	"key": {
+		"X": "#c:wooden_slabs/ginkgo"
+	},
+
+	"result": { "id": "chinjufumod:block_unitdesk_ichoh", "count": 1 }
+}

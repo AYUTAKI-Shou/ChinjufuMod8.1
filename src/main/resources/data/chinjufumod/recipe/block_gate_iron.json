@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_gate",
+
+	"pattern": [
+		"XX",
+		"XX",
+		"XX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_steel_block"
+	},
+
+	"result": { "id": "chinjufumod:block_gate_iron", "count": 4 }
+}

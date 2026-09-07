@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_gohan",
+
+	"ingredients": [
+		"#c:buckets/water",
+		"chinjufumod:item_kome",
+		"chinjufumod:item_kome",
+		"chinjufumod:item_kome",
+		"chinjufumod:block_food_karanabe",
+		"#c:crops/chestnut",
+		"#c:crops/chestnut",
+		"#c:crops/chestnut",
+		"#c:dusts/salt"
+	],
+
+	"result": { "id": "chinjufumod:block_food_nabegohankuri_n", "count" : 1 }
+}

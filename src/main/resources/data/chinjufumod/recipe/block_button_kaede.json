@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_button",
+
+	"pattern": [
+		"X"
+	],
+
+	"key": {
+		"X": "#c:planks/acer"
+	},
+
+	"result": { "id": "chinjufumod:block_button_kaede", "count": 1 }
+}

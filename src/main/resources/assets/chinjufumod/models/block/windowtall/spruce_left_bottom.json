@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/windowtall_left_bottom",
+	"textures": {
+		"front": "chinjufumod:block/window_bot_spruce",
+		"side": "chinjufumod:block/muku_spruce",
+		"totte": "chinjufumod:block/window_bot_oak"
+	}
+}

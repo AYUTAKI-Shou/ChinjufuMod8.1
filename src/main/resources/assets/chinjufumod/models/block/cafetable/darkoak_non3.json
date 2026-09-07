@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/ctable_none3",
+	"textures": {
+		"leg": "chinjufumod:block/muku_darkoak",
+		"top": "minecraft:block/dark_oak_planks"
+	}
+}

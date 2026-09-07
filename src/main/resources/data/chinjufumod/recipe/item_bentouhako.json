@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_bentou",
+
+	"pattern": [
+		"X X",
+		"XXX"
+	],
+
+	"key": {
+		"X": "minecraft:bamboo"
+	},
+
+	"result": { "id": "chinjufumod:item_bentouhako", "count": 2 }
+}

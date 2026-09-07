@@ -1,0 +1,43 @@
+{
+	"variants": {
+		"facing=north,open=false,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_closeleft", "y": 180 },
+		"facing=south,open=false,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_closeleft", "y": 0 },
+		"facing=west,open=false,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_closeleft", "y": 90 },
+		"facing=east,open=false,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_closeleft", "y": 270 },
+
+		"facing=north,open=true,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_openleft", "y": 180 },
+		"facing=south,open=true,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_openleft", "y": 0 },
+		"facing=west,open=true,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_openleft", "y": 90 },
+		"facing=east,open=true,powered=false,right=false": { "model": "chinjufumod:block/kitchen/reizoutop_openleft", "y": 270 },
+
+			"facing=north,open=false,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_closeright", "y": 180 },
+			"facing=south,open=false,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_closeright", "y": 0 },
+			"facing=west,open=false,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_closeright", "y": 90 },
+			"facing=east,open=false,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_closeright", "y": 270 },
+	
+			"facing=north,open=true,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_openright", "y": 180 },
+			"facing=south,open=true,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_openright", "y": 0 },
+			"facing=west,open=true,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_openright", "y": 90 },
+			"facing=east,open=true,powered=false,right=true": { "model": "chinjufumod:block/kitchen/reizoutop_openright", "y": 270 },
+			
+		"facing=north,open=false,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeleft", "y": 180 },
+		"facing=south,open=false,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeleft", "y": 0 },
+		"facing=west,open=false,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeleft", "y": 90 },
+		"facing=east,open=false,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeleft", "y": 270 },
+
+		"facing=north,open=true,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openleft", "y": 180 },
+		"facing=south,open=true,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openleft", "y": 0 },
+		"facing=west,open=true,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openleft", "y": 90 },
+		"facing=east,open=true,powered=true,right=false": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openleft", "y": 270 },
+
+			"facing=north,open=false,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeright", "y": 180 },
+			"facing=south,open=false,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeright", "y": 0 },
+			"facing=west,open=false,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeright", "y": 90 },
+			"facing=east,open=false,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_closeright", "y": 270 },
+	
+			"facing=north,open=true,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openright", "y": 180 },
+			"facing=south,open=true,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openright", "y": 0 },
+			"facing=west,open=true,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openright", "y": 90 },
+			"facing=east,open=true,powered=true,right=true": { "model": "chinjufumod:block/kitchen/lit_reizoutop_openright", "y": 270 }
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_custard",
+	
+	"ingredient": "chinjufumod:item_kiji_pancustard",
+	
+	"result": { "id": "chinjufumod:item_food_pancustard" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

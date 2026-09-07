@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_chestplate",
+
+	"ingredients": [
+		"minecraft:iron_chestplate",
+		"#c:dyes/brown",
+		"chinjufumod:item_workorder",
+		"minecraft:coal",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_ryujou_chestplate", "count": 1 }
+}

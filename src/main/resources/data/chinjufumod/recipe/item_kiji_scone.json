@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_tea",
+
+	"ingredients": [
+		"minecraft:sugar",
+		"#c:buckets/milk",
+		"#c:dusts/salt",
+		"#c:yeast",
+		"#c:butter",
+		"#c:flour",
+		"#c:flour",
+		"#c:flour",
+		"#c:flour"
+	],
+
+	"result": { "id": "chinjufumod:item_kiji_scone", "count" : 4 }
+}

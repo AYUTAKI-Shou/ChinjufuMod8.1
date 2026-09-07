@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_sofa",
+
+	"pattern": [
+		"Z  ",
+		"YZY",
+		"X X"
+	],
+
+	"key": {
+		"X": "#minecraft:planks",
+		"Y": "#minecraft:wool",
+		"Z": "minecraft:leather"
+	},
+
+	"result": { "id": "chinjufumod:block_sofa_leather", "count" : 2 }
+}

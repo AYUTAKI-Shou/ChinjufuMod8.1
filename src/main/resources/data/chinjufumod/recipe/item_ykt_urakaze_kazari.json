@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_yukata",
+
+	"ingredients": [
+		"minecraft:birch_slab",
+		"#c:dyes/blue",
+		"#chinjufumod:materials_yarn"
+	],
+
+	"result": { "id": "chinjufumod:item_ykt_urakaze_kazari", "count": 1 }
+}

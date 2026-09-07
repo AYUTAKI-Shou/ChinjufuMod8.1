@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_kotatsu",
+
+	"pattern": [
+		"X",
+		"Y"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_lowdesk_kaede",
+		"Y": "#minecraft:wool"
+	},
+
+	"result": { "id": "chinjufumod:block_kotatsu_kaede", "count": 1 }
+}

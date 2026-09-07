@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_koushi",
+
+	"pattern": [
+		" X ",
+		"YYY",
+		"YYY"
+	],
+
+	"key": {
+		"X": "#c:wooden_slabs/acer",
+		"Y": "#c:rods/wooden"
+	},
+
+	"result": { "id": "chinjufumod:block_koushi_kae", "count": 1 }
+}

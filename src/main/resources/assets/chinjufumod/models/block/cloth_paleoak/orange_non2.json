@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/clothtable_non2",
+	"textures": {
+		"particle": "chinjufumod:block/clothl_orange",
+		"leg": "chinjufumod:block/muku_paleoak",
+		"top": "minecraft:block/pale_oak_planks",
+		"cloth": "chinjufumod:block/clothl_orange"
+	}
+}

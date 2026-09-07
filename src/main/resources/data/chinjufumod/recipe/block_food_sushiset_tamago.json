@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_sushi",
+
+	"ingredients": [
+		"chinjufumod:block_food_sushigeta_kara",
+		"#c:foods/sauces/soysauce",
+		"chinjufumod:block_food_jpteacup_1",
+		"chinjufumod:item_food_sushi_tamago",
+		"chinjufumod:item_food_sushi_tamago",
+		"chinjufumod:item_food_sushi_tamago",
+		"chinjufumod:item_food_sushi_tamago"
+	],
+
+	"result": { "id": "chinjufumod:block_food_sushiset_tamago", "count" : 1 }
+}

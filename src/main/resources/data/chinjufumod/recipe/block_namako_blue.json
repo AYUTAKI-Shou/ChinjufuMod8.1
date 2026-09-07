@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_namako",
+
+	"pattern": [
+		"XY",
+		"YX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_kawara_black",
+		"Y": "chinjufumod:block_plaster_blue"
+	},
+
+	"result": { "id": "chinjufumod:block_namako_blue", "count": 4 }
+}

@@ -1,0 +1,49 @@
+{
+	"parent": "chinjufumod:cm_story/teatime/get_tea",
+	"display": {
+		"title": {
+			"translate": "advancements.cm_story.teatime.get_sweets2.title"
+		},
+		"description": {
+			"translate": "advancements.cm_story.teatime.get_sweets.description"
+		},
+		"icon": { "count": 1, 
+			"id": "chinjufumod:item_food_pananko"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": [
+			    "chinjufumod:block_food_icecream_1",
+			    "chinjufumod:block_food_icecream_greentea",
+			    "chinjufumod:block_food_icecream_redtea",
+			    "chinjufumod:block_food_icecream_cacao",
+			    
+			    "chinjufumod:block_food_pudding_custard",
+			    "chinjufumod:block_food_pudding_greentea",
+			    "chinjufumod:block_food_pudding_redtea",
+			    "chinjufumod:block_food_pudding_cacao",
+			    
+			    "chinjufumod:block_food_kanten_apple",
+			    "chinjufumod:block_food_kanten_cherry",
+			    "chinjufumod:block_food_kanten_citrus",
+			    "chinjufumod:block_food_kanten_grape",
+			    "chinjufumod:block_food_kanten_milk",
+			    "chinjufumod:block_food_yokan",
+			    "chinjufumod:block_food_yokan_matcha"
+				 ] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	],
+	"rewards": { "experience":5 }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cm_firstaid",
+  "ingredients": [
+    "minecraft:golden_apple",
+    "#c:crops/apple",
+    "#c:crops/apple",
+    "#c:crops/apple",
+    "#c:crops/apple",
+    "minecraft:totem_of_undying",
+    "chinjufumod:item_workorder"
+  ],
+  "result": {
+    "count": 1,
+    "id": "chinjufumod:item_kit_goddess"
+  }
+}

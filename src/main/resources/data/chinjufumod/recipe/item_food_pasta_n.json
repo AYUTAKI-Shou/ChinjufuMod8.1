@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_pasta",
+
+	"ingredients": [
+		"minecraft:egg",
+		"#c:dusts/salt",
+		"#c:flour",
+		"#c:flour"
+	],
+
+	"result": { "id": "chinjufumod:item_food_pasta_n", "count" : 1 }
+}

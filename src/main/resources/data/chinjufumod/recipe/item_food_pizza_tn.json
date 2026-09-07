@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_pizza",
+
+	"ingredients": [
+		"#c:cheese",
+		"#c:foods/raw_chicken",
+		"#c:crops/onion",
+		"#c:foods/sauces/mayonnaise",
+		"minecraft:sugar",
+		"#c:foods/sauces/soysauce",
+		"chinjufumod:item_kiji_pizza"
+	],
+
+	"result": { "id": "chinjufumod:item_food_pizza_tn", "count" : 1 }
+}

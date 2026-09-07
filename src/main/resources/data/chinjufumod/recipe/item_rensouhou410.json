@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_hou",
+
+	"ingredients": [
+		"minecraft:coal",
+		"#c:ingots/iron",
+		"#c:ingots/iron",
+		"#c:ingots/iron",
+		"chinjufumod:item_workorder",
+		"chinjufumod:item_ammunition_kc",
+		"chinjufumod:item_ammunition_kc",
+		"chinjufumod:item_ammunition_kc",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_rensouhou410", "count": 1 }
+}

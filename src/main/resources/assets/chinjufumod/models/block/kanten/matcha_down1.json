@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/kanten_d1",
+	"textures": {
+		"kanten": "chinjufumod:block/kanten_matcha"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_boots",
+
+	"ingredients": [
+		"minecraft:iron_boots",
+		"#c:dyes/purple",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_akatsuki_boots", "count": 1 }
+}

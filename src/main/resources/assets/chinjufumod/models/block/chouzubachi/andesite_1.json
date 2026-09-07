@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/chouzubachi_1",
+	"textures": {
+ 		"ishi": "minecraft:block/polished_andesite"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "chinjufumod:item/block_mzabuton_orange",
+		"tints": [ 
+			{ "type": "minecraft:constant", "value": -1 },
+			{ "type": "minecraft:constant", "value": 15461355 } ]
+	}
+}

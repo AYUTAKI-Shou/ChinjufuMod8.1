@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_carpet",
+
+	"pattern": [
+		"XX"
+	],
+
+	"key": {
+		"X": "#c:leaves/sakura"
+	},
+
+	"result": { "id": "chinjufumod:block_carpet_sakura", "count": 8 }
+}

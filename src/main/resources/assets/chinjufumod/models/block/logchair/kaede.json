@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/logchair",
+	"textures": {
+		"side": "chinjufumod:block/log_kaede",
+		"top": "chinjufumod:block/log_kaede_top"
+	}
+}

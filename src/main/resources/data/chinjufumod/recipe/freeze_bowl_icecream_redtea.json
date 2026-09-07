@@ -1,0 +1,10 @@
+{
+	"type": "chinjufumod:freeze_recipe",
+	"category": "food",
+	"group": "cm_icecream",
+	"ingredient": "chinjufumod:item_raw_icecream_redtea",
+	
+	"result": { "id": "chinjufumod:item_bowl_icecream_redtea", "count" : 1 },
+	"experience": 0.5,
+	"cookingtime": 400
+}

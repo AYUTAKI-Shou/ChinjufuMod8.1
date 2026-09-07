@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_fence",
+
+	"pattern": [
+		"XYX",
+		"XYX"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_bamboo_y_cube",
+		"Y": "#c:rods/wooden"
+	},
+
+	"result": { "id": "chinjufumod:block_bamboo_y_fence", "count": 3 }
+}

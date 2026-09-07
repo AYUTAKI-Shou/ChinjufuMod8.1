@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_helmet",
+
+	"ingredients": [
+		"minecraft:iron_helmet",
+		"#c:dyes/brown",
+		"chinjufumod:item_workorder",
+		"minecraft:coal",
+		"#c:ingots/iron",
+		"chinjufumod:item_ammunition_kc"
+	],
+
+	"result": { "id": "chinjufumod:item_mogami_helmet", "count": 1 }
+}

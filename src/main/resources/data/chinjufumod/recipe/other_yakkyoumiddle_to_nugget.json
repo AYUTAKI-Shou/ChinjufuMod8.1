@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_ammu",
+
+	"ingredients": [
+		"chinjufumod:item_cartridge_medium",
+		"chinjufumod:item_cartridge_medium",
+		"chinjufumod:item_cartridge_medium"
+	],
+
+	"result": { "id": "minecraft:iron_nugget", "count": 1 }
+}

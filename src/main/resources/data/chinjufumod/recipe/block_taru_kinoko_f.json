@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_taru",
+
+	"ingredients": [
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_kinoko_f", "count": 1 }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_seasonal",
+
+	"ingredients": [
+		"minecraft:white_carpet",
+		"minecraft:yellow_carpet",
+		"minecraft:red_carpet",
+		"minecraft:spruce_sapling",
+		"minecraft:spruce_sapling"
+	],
+
+	"result": { "id": "chinjufumod:block_xmastree", "count": 1 }
+}

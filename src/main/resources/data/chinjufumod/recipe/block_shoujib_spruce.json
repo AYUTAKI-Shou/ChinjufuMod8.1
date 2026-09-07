@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_shoujib",
+
+	"pattern": [
+		"X"
+	],
+
+	"key": {
+		"X": "chinjufumod:block_shouji_spruce"
+	},
+
+	"result": { "id": "chinjufumod:block_shoujib_spruce", "count": 1 }
+}

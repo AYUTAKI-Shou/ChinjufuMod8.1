@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_lamp",
+
+	"ingredients": [
+		"#c:dusts/redstone",
+		"#c:dusts/redstone",
+		"minecraft:glowstone",
+		"#c:ingots/iron"
+	],
+
+	"result": { "id": "chinjufumod:block_standbedroom", "count": 2 }
+}

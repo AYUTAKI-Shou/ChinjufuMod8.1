@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_taru",
+
+	"ingredients": [
+		"chinjufumod:item_nimame",
+		"#c:flour",
+		"chinjufumod:item_komekouji",
+		"#c:dusts/salt",
+		"#c:buckets/water",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_shouyu_f", "count": 1 }
+}

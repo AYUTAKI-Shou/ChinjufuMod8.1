@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_boxh2",
+
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "#c:crops/blackpepper",
+		"Y": "chinjufumod:block_boxh_empty"
+	},
+
+	"result": { "id": "chinjufumod:block_boxh_bpepper", "count": 1 }
+}

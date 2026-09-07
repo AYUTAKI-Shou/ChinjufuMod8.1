@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_kakigouri",
+
+	"ingredients": [
+		"minecraft:ice",
+		"#c:dyes/red",
+		"#c:dyes/cyan",
+		"chinjufumod:item_tanmono"
+	],
+
+	"result": { "id": "chinjufumod:block_kakigouri_hata", "count" : 1 }
+}

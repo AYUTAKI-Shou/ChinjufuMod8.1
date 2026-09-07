@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_plaster",
+
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "chinjufumod:item_shousekkai_c",
+		"Y": "#c:buckets/water"
+	},
+
+	"result": { "id": "chinjufumod:block_plaster_white", "count": 8 }
+}

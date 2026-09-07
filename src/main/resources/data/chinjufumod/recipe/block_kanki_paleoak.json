@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_kanki",
+
+	"pattern": [
+		"XYX",
+		"XYX",
+		"XYX"
+	],
+
+	"key": {
+		"X": "#c:rods/wooden",
+		"Y": "minecraft:pale_oak_slab"
+	},
+
+	"result": { "id": "chinjufumod:block_kanki_paleoak", "count": 3 }
+}

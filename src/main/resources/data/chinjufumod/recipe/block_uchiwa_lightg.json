@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_uchiwa",
+
+	"ingredients": [
+		"#c:rods/wooden",
+		"minecraft:paper",
+		"minecraft:paper",
+		"#c:dyes/light_gray"
+	],
+
+	"result": { "id": "chinjufumod:block_uchiwa_lightg", "count" : 1 }
+}

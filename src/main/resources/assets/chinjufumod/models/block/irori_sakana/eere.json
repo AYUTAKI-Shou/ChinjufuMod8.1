@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/irori_sakana/base_00s0",
+	"textures": {
+
+
+		"south": "chinjufumod:block/irori_sakana"
+
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_ami",
+
+	"pattern": [
+		"YYY",
+		"XXX",
+		"XXX"
+	],
+
+	"key": {
+		"X": "minecraft:cobweb",
+		"Y": "minecraft:bamboo"
+	},
+
+	"result": { "id": "chinjufumod:block_ami_youshoku", "count": 1 }
+}

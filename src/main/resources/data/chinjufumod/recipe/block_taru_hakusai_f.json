@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_taru",
+
+	"ingredients": [
+		"minecraft:stone_slab",
+		"minecraft:stone_slab",
+		"#c:crops/chinese_cabbage",
+		"#c:dusts/salt",
+		"#c:dusts/salt",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_hakusai_f", "count": 1 }
+}

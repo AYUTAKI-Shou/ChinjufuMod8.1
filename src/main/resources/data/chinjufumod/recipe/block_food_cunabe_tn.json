@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_curry",
+
+	"ingredients": [
+		"chinjufumod:item_curry_roux",
+		"#c:dusts/black_pepper",
+		"#c:crops/spinach",
+		"#c:crops/carrot",
+		"#c:crops/tomato",
+		"#c:crops/tomato",
+		"#c:crops/onion",
+		"#c:buckets/water",
+		"chinjufumod:block_food_zundou"
+	],
+
+	"result": { "id": "chinjufumod:block_food_cunabe_tn", "count" : 1 }
+}

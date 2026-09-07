@@ -1,0 +1,33 @@
+{
+	"parent": "chinjufumod:block/item/kushi_sakana",
+	"textures": {
+		"fish": "chinjufumod:block/irori_sakana_cooked"
+	},
+	"display": {
+		"gui": {
+			"rotation": [ 0, -30, -45 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 2.5, 2.5, 2.5 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 0, 120, 0 ],
+			"translation": [ -1, 4, 1 ],
+			"scale": [ 1.5, 1.5, 1.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ 0, 300, 0 ],
+			"translation": [ 1, 4, 0 ],
+			"scale": [ 1.5, 1.5, 1.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ -90, 120, 0 ],
+			"translation": [ 0, -3, 3 ],
+			"scale": [ 2.5, 2.5, 2.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ -80, 300, 0 ],
+			"translation": [ 0, 2, 3 ],
+			"scale": [ 1.5, 1.5, 1.5]
+		}
+	}
+}

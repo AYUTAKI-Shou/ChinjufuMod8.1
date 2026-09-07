@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_sozai",
+	
+	"ingredient": "chinjufumod:block_tree_sakura_log",
+	
+	"result": { "id": "minecraft:charcoal" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

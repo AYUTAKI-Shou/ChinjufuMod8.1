@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "cms_sweets",
+	
+	"ingredient": "chinjufumod:item_kiji_pananko",
+	
+	"result": { "id": "chinjufumod:item_food_pananko" },
+	"experience": 0.5,
+	"cookingtime": 200
+}

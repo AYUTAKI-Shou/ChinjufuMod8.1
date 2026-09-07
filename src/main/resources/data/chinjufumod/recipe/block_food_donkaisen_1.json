@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_sushi",
+
+	"ingredients": [
+		"#c:foods/raw_cod",
+		"#c:foods/raw_salmon",
+		"chinjufumod:item_squid_cut",
+		"chinjufumod:item_food_noriita",
+		"#c:foods/sauces/soysauce",
+		"chinjufumod:block_food_sushimeshi",
+		"chinjufumod:item_food_donburi",
+		"chinjufumod:item_food_donburi",
+		"chinjufumod:item_food_donburi"
+	],
+
+	"result": { "id": "chinjufumod:block_food_donkaisen_1", "count" : 3 }
+}

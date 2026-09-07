@@ -1,0 +1,27 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:item_kiji_pangrape",
+			"chinjufumod:item_food_choco_grape",
+
+			"chinjufumod:block_boxh_grape",
+			"chinjufumod:block_kakigouri_red1",
+			"chinjufumod:block_watagashi_red",
+			
+			"chinjufumod:block_taru_budoushu_f"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": "#c:crops/grape" } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

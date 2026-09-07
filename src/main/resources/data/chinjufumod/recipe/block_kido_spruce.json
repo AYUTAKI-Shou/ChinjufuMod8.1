@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_kido",
+
+	"pattern": [
+		"XX",
+		"XX",
+		"XX"
+	],
+
+	"key": {
+		"X": "minecraft:spruce_slab"
+	},
+
+	"result": { "id": "chinjufumod:block_kido_spruce", "count": 3 }
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_taru",
+
+	"pattern": [
+		"XYX",
+		"XZX",
+		"XYX"
+	],
+
+	"key": {
+		"X": "minecraft:oak_planks",
+		"Y": "minecraft:oak_slab",
+		"Z": "minecraft:brown_mushroom"
+	},
+
+	"result": { "id": "chinjufumod:block_taru_hakkou", "count": 3 }
+}

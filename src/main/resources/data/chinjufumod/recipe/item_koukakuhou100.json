@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_hou",
+
+	"ingredients": [
+		"#c:dyes/red",
+		"minecraft:coal",
+		"#c:ingots/iron",
+		"chinjufumod:item_workorder",
+		"chinjufumod:item_ammunition_kc",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_koukakuhou100", "count": 1 }
+}

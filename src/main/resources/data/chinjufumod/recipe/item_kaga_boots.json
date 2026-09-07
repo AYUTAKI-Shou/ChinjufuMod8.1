@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_boots",
+
+	"ingredients": [
+		"minecraft:iron_boots",
+		"#c:dyes/blue",
+		"chinjufumod:item_workorder",
+		"minecraft:coal",
+		"#c:ingots/iron",
+		"#c:ingots/aluminum"
+	],
+
+	"result": { "id": "chinjufumod:item_kaga_boots", "count": 1 }
+}

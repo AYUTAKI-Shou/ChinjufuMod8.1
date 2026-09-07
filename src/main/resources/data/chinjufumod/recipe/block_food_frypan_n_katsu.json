@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_donburi",
+
+	"ingredients": [
+		"minecraft:egg",
+		"#c:foods/raw_pork",
+		"#c:dusts/salt",
+		"#c:dusts/black_pepper",
+		"chinjufumod:item_food_bun",
+		"#c:flour",
+		"#c:cookingoil",
+		"chinjufumod:block_food_frypan"
+	],
+
+	"result": { "id": "chinjufumod:block_food_frypan_n_katsu", "count" : 1 }
+}

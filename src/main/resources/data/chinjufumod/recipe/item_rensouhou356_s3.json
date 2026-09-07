@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_hou",
+
+	"ingredients": [
+		"chinjufumod:item_rensouhou356",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_rensouhou356_s3", "count": 1 }
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_helmet",
+
+	"ingredients": [
+		"minecraft:leather_helmet",
+		"#c:dyes/red",
+		"minecraft:coal",
+		"#c:ingots/iron",
+		"#c:ingots/iron",
+		"chinjufumod:item_workorder"
+	],
+
+	"result": { "id": "chinjufumod:item_i13_helmet", "count": 1 }
+}

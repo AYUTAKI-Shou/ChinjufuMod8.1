@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_taru",
+
+	"ingredients": [
+		"minecraft:brown_mushroom",
+		"chinjufumod:item_mushigome",
+		"chinjufumod:item_tanmono",
+		"chinjufumod:item_tanmono",
+		"chinjufumod:item_tanmono",
+		"chinjufumod:item_tanmono",
+		"chinjufumod:block_taru_hakkou"
+	],
+
+	"result": { "id": "chinjufumod:block_taru_kouji_f", "count": 1 }
+}
