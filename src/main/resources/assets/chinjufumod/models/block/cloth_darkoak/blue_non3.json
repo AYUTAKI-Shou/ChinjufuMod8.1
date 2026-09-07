@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/clothtable_non3",
+	"textures": {
+		"leg": "chinjufumod:block/muku_darkoak",
+		"top": "minecraft:block/dark_oak_planks",
+		"cloth": "chinjufumod:block/clothl_blue"
+	}
+}

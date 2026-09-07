@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"facing=north": [
+			{ "model": "chinjufumod:block/bin/vanilla_4", "y": 180 },
+			{ "model": "chinjufumod:block/bin/vanilla_4b", "y": 180 }],
+		"facing=south": [
+			{ "model": "chinjufumod:block/bin/vanilla_4" },
+			{ "model": "chinjufumod:block/bin/vanilla_4b" }],
+		"facing=west": [
+			{ "model": "chinjufumod:block/bin/vanilla_4", "y": 90 },
+			{ "model": "chinjufumod:block/bin/vanilla_4b", "y": 90 }],
+		"facing=east": [
+			{ "model": "chinjufumod:block/bin/vanilla_4", "y": 270 },
+			{ "model": "chinjufumod:block/bin/vanilla_4b", "y": 270 }]
+	}
+}

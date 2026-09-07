@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/bench_default",
+	"textures": {
+		"leg": "chinjufumod:block/muku_ichoh",
+		"sheet_top": "chinjufumod:block/cloth_orange",
+		"sheet_side": "chinjufumod:block/cloth_white"
+	}
+}

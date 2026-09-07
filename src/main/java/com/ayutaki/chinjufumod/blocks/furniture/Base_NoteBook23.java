@@ -1,0 +1,70 @@
+package com.ayutaki.chinjufumod.blocks.furniture;
+
+import java.util.Random;
+
+import com.ayutaki.chinjufumod.blocks.dish.BaseFood_Stage4WA;
+import com.ayutaki.chinjufumod.handler.CMEvents;
+import com.ayutaki.chinjufumod.registry.Items_Chinjufu;
+
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.util.Hand;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
+
+public class Base_NoteBook23 extends BaseFood_Stage4WA {
+
+	public Base_NoteBook23(AbstractBlock.Properties props) {
+		super(props);
+	}
+	
+	/* RightClick Action */
+	@Override
+	public ActionResultType use(BlockState state, World worldIn, BlockPos pos, PlayerEntity playerIn, Hand hand, BlockRayTraceResult hit) {
+		int i = state.getValue(STAGE_1_4);
+		ItemStack hStack = playerIn.getItemInHand(hand);
+		Item hItem = hStack.getItem();
+		
+		if (hItem == Items_Chinjufu.SHOUHOU_empty) {
+			if (i == 4) { return ActionResultType.PASS; }
+			
+			else { //i != 4
+				worldIn.setBlock(pos, state.setValue(STAGE_1_4, Integer.valueOf(i + 1)), 3);
+				CMEvents.consume1_seWoodP(worldIn, pos, playerIn, hand); 
+				return ActionResultType.SUCCESS; }
+		}
+		
+		if (hStack.isEmpty()) {
+			CMEvents.emptyTake_1Item(worldIn, pos, playerIn, Items_Chinjufu.SHOUHOU_empty);
+			
+			if (i == 1) { worldIn.setBlock(pos, Blocks.AIR.defaultBlockState(), 3); }
+			else { //i != 1
+				worldIn.setBlock(pos, state.setValue(STAGE_1_4, Integer.valueOf(i - 1)), 3); }
+			return ActionResultType.SUCCESS;
+		}
+		return ActionResultType.PASS;
+	}
+
+	@Override
+	public void tick(BlockState state, ServerWorld worldIn, BlockPos pos, Random rand) {
+		if (waterIn(state, worldIn, pos)) {
+			worldIn.getBlockTicks().scheduleTick(pos, this, 60);
+			CMEvents.destroyDrop_ClothB(worldIn, pos); }
+		
+		else { }
+	}
+	
+	/* Clone Item in Creative. */
+	@Override
+	public ItemStack getCloneItemStack(IBlockReader worldIn, BlockPos pos, BlockState state) {
+		return new ItemStack(Items_Chinjufu.SHOUHOU_empty);
+	}
+}

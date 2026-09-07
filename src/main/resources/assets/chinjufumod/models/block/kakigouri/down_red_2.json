@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/kakigouri_d2",
+	"textures": {
+		"siroop": "chinjufumod:block/kakigouri_red"
+	}
+}

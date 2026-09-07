@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/zabuton_down",
+	"textures": {
+		"top": "chinjufumod:block/zabuton_brown_top",
+		"side": "chinjufumod:block/zabuton_brown_side"
+	}
+}

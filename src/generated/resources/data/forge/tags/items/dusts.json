@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:dusts/blackpepper",
+    "#forge:dusts/chili",
+    "#forge:dusts/cumin",
+    "#forge:dusts/dashi",
+    "#forge:dusts/glowstone",
+    "#forge:dusts/pepper",
+    "#forge:dusts/prismarine",
+    "#forge:dusts/redstone",
+    "#forge:dusts/salt",
+    "#forge:dusts/turmeric"
+  ]
+}

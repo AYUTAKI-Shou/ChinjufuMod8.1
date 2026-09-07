@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/curtainlarge_left_bottom_open",
+	"textures": {
+		"cloth": "chinjufumod:block/cloth_yellow",
+		"obi": "minecraft:block/orange_wool"
+	}
+}

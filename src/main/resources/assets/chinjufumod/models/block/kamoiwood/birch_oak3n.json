@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/kamoislab_3north",
+	"textures": {
+		"shikkui": "minecraft:block/birch_planks",
+		"ki": "chinjufumod:block/pillar_oak_side",
+		"ki_top": "chinjufumod:block/pillar_oak_top",
+		"ki_inside": "chinjufumod:block/pillar_oak_inside"
+	}
+}

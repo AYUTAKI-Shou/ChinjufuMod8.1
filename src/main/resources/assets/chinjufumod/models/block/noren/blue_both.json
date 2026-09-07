@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/noren_both",
+	"textures": {
+		"kiji": "chinjufumod:block/noren_blue",
+		"bou": "chinjufumod:block/muku_oak"
+	}
+}

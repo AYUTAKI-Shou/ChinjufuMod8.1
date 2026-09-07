@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_ctruss",
+
+	"pattern": [
+		"XY",
+		"XY",
+		"XY"
+	],
+
+	"key": {
+		"X": { "item": "chinjufumod:block_steel_block" },
+		"Y": { "tag": "forge:dusts/redstone" }
+	},
+
+	"result": { "item": "chinjufumod:block_ctruss", "count": 12 }
+}

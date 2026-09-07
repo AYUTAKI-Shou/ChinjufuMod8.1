@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_donburi",
+
+	"ingredients": [
+		{ "tag": "forge:sugar" },
+		{ "tag": "chinjufumod:cooking_water" },
+		{ "tag": "forge:raw_beef" },
+		{ "tag": "forge:sauces/soysauce" },
+		{ "tag": "forge:dusts/dashi" },
+		{ "tag": "forge:crops/onion" },
+		{ "item": "chinjufumod:block_food_frypan" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_frypan_n_gyudon", "count" : 1 }
+}

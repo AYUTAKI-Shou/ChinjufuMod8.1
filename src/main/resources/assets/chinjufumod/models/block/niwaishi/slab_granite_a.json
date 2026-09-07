@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/niwaishi_slab_a",
+	"textures": {
+		"rock": "minecraft:block/polished_granite"
+	}
+}

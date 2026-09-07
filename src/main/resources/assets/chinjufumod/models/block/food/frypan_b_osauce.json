@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/frypan_115",
+	"textures": {
+		"sauce": "chinjufumod:block/osauce_bake"
+	}
+}

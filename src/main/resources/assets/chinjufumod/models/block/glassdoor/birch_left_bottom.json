@@ -1,0 +1,9 @@
+{
+	"parent": "chinjufumod:block/base/garasudo_left_bottom",
+	"textures": {
+		"ita": "minecraft:block/birch_planks",
+		"waku": "chinjufumod:block/muku_birch",
+		"totte": "chinjufumod:block/muku_darkoak",
+		"rail": "chinjufumod:block/muku_birch"
+	}
+}

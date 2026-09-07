@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/carpet_leaf",
+	"textures": {
+		"ha": "chinjufumod:block/carpet_ichoh"
+	}
+}

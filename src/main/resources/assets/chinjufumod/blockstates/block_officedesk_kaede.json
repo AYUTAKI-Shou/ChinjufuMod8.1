@@ -1,0 +1,33 @@
+{
+ "variants": {
+	"facing=north,open=false,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c", "y": 180 },
+	"facing=south,open=false,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c" },
+	"facing=west,open=false,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c", "y": 90 },
+	"facing=east,open=false,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c", "y": 270 },
+	
+	"facing=north,open=false,stage=2": { "model": "chinjufumod:block/officedesk/kaede_r", "y": 180 },
+	"facing=south,open=false,stage=2": { "model": "chinjufumod:block/officedesk/kaede_r" },
+	"facing=west,open=false,stage=2": { "model": "chinjufumod:block/officedesk/kaede_r", "y": 90 },
+	"facing=east,open=false,stage=2": { "model": "chinjufumod:block/officedesk/kaede_r", "y": 270 },
+	
+	"facing=north,open=false,stage=3": { "model": "chinjufumod:block/officedesk/kaede_l", "y": 180 },
+	"facing=south,open=false,stage=3": { "model": "chinjufumod:block/officedesk/kaede_l" },
+	"facing=west,open=false,stage=3": { "model": "chinjufumod:block/officedesk/kaede_l", "y": 90 },
+	"facing=east,open=false,stage=3": { "model": "chinjufumod:block/officedesk/kaede_l", "y": 270 },
+	
+		"facing=north,open=true,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c", "y": 180 },
+		"facing=south,open=true,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c" },
+		"facing=west,open=true,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c", "y": 90 },
+		"facing=east,open=true,stage=1": { "model": "chinjufumod:block/officedesk/kaede_c", "y": 270 },
+		
+		"facing=north,open=true,stage=2": { "model": "chinjufumod:block/officedesk/kaede_ro", "y": 180 },
+		"facing=south,open=true,stage=2": { "model": "chinjufumod:block/officedesk/kaede_ro" },
+		"facing=west,open=true,stage=2": { "model": "chinjufumod:block/officedesk/kaede_ro", "y": 90 },
+		"facing=east,open=true,stage=2": { "model": "chinjufumod:block/officedesk/kaede_ro", "y": 270 },
+		
+		"facing=north,open=true,stage=3": { "model": "chinjufumod:block/officedesk/kaede_lo", "y": 180 },
+		"facing=south,open=true,stage=3": { "model": "chinjufumod:block/officedesk/kaede_lo" },
+		"facing=west,open=true,stage=3": { "model": "chinjufumod:block/officedesk/kaede_lo", "y": 90 },
+		"facing=east,open=true,stage=3": { "model": "chinjufumod:block/officedesk/kaede_lo", "y": 270 }
+ }
+}

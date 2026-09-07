@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_candle",
+
+	"ingredients": [
+		{ "tag": "chinjufumod:materials_yarn" },
+		{ "tag": "chinjufumod:materials_yarn" },
+		{ "tag": "chinjufumod:materials_yarn" },
+		{ "tag": "chinjufumod:materials_oil" },
+		{ "tag": "chinjufumod:materials_oil" },
+		{ "tag": "chinjufumod:materials_oil" },
+		{ "tag": "forge:glass/colorless" },
+		{ "tag": "forge:dyes/orange" }
+	],
+
+	"result": { "item": "chinjufumod:block_candle_orange", "count" : 3 }
+}

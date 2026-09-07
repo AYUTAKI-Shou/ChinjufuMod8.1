@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabe_yokan_5",
+	"textures": {
+		"kanten": "chinjufumod:block/kanten_yokan56"
+	}
+}

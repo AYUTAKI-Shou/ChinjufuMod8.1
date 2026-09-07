@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "chinjufumod:item_kiji_pangrape"
+	},
+	"result": "chinjufumod:item_food_pangrape",
+	"experience": 0.5,
+	"cookingtime": 200
+}

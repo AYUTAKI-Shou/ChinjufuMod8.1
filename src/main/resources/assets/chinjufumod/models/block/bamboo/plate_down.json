@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/bamboo_plate_down",
+	"textures": {
+		"front": "chinjufumod:block/bamboo_side",
+		"inside": "chinjufumod:block/bamboo_inside"
+	}
+}

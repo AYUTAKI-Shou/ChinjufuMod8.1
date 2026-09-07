@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/chouzubachi_2",
+	"textures": {
+ 		"ishi": "minecraft:block/polished_diorite"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/niwaishi_7",
+	"textures": {
+		"rock": "minecraft:block/polished_diorite"
+	}
+}

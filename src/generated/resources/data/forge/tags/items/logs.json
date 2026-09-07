@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs",
+    "#forge:logs/cherry",
+    "#forge:logs/acer",
+    "#forge:logs/ginkgo"
+  ]
+}

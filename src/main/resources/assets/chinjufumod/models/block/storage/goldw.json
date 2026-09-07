@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/ingotw",
+	"textures": {
+		"up": "chinjufumod:block/gold_up",
+		"down": "chinjufumod:block/gold_down_we",
+		"side": "chinjufumod:block/gold_side"
+	 }
+}

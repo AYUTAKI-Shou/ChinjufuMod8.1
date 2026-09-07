@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_custard",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_custard" },
+		{ "item": "minecraft:cocoa_beans" },
+		{ "item": "chinjufumod:item_food_driglass" },
+		{ "item": "chinjufumod:item_food_driglass" },
+		{ "item": "chinjufumod:item_food_driglass" },
+		{ "tag": "forge:buckets/water" },
+		{ "item": "chinjufumod:item_tanmono" },
+		{ "item": "chinjufumod:item_tanmono" },
+		{ "item": "chinjufumod:block_food_karanabe" }
+	],
+
+	"result": { "item": "chinjufumod:block_food_nabepudding_c", "count" : 1 }
+}

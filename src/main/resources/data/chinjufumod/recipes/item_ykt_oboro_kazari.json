@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_yukata",
+
+	"ingredients": [
+		{ "item": "minecraft:dandelion" },
+		{ "tag": "chinjufumod:materials_yarn" }
+	],
+
+	"result": { "item": "chinjufumod:item_ykt_oboro_kazari", "count": 1 }
+}

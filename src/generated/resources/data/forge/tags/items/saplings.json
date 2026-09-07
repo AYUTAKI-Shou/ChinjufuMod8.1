@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:saplings",
+    "#forge:saplings/cherry",
+    "#forge:saplings/acer",
+    "#forge:saplings/ginkgo",
+    "#forge:saplings/autumn_oak"
+  ]
+}

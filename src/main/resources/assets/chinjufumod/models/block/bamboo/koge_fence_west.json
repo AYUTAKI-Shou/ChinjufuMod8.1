@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/bamboofence_west",
+	"textures": {
+		"side": "chinjufumod:block/bamboo_k_side",
+		"inside": "chinjufumod:block/bamboo_k_inside"
+	}
+}

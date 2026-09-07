@@ -1,0 +1,83 @@
+package com.ayutaki.chinjufumod.entity;
+
+import com.ayutaki.chinjufumod.handler.EntityTypes_CM;
+import com.ayutaki.chinjufumod.handler.SoundEvents_CM;
+import com.ayutaki.chinjufumod.registry.Items_Weapon;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.merchant.villager.VillagerEntity;
+import net.minecraft.entity.passive.IronGolemEntity;
+import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.entity.passive.horse.DonkeyEntity;
+import net.minecraft.entity.passive.horse.HorseEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.util.math.EntityRayTraceResult;
+import net.minecraft.world.World;
+
+public class SB_SeiranEntity extends AbstractKK_Entity {
+
+	private ItemStack projectile = new ItemStack(Items_Weapon.SEIRAN);
+	private double baseDamage = 11.0D; /** 試製晴嵐 爆装+11 **/
+	
+	public SB_SeiranEntity(EntityType<SB_SeiranEntity> type, World world) {
+		super(type, world);
+	}
+
+	public SB_SeiranEntity(LivingEntity entityIn, World worldIn, ItemStack stack) {
+		super(EntityTypes_CM.SEIRAN, entityIn, worldIn);
+		projectile = stack.copy();
+	}
+
+	protected Item getDefaultItem() {
+		return this.projectile.getItem();
+	}
+	
+	/** Collision to Entity. **/
+	@Override
+	protected void onHitEntity(EntityRayTraceResult result) {
+		Entity thrower = getOwner();
+
+		if (!level.isClientSide && result.getEntity() instanceof LivingEntity && result.getEntity() != thrower) {
+			/** Do not attack Friendly Mobs. **/
+			boolean friendly = (result.getEntity() instanceof VillagerEntity || result.getEntity() instanceof HorseEntity || 
+					result.getEntity() instanceof DonkeyEntity || result.getEntity() instanceof TameableEntity ||
+					result.getEntity() instanceof IronGolemEntity);
+			
+			if (friendly) {
+				playSound(SoundEvents_CM.KK_STOP, 2.0F, 1.0F);
+				dropAndKill(); }
+
+			else { this.redBAKUGEKI(result); }
+		}
+	}
+	
+	/* Reflects durability value with "stack.copy()". */
+	protected ItemStack getItemStack() {
+		return projectile.copy();
+	}
+
+	@Override
+	public void addAdditionalSaveData(CompoundNBT compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putDouble("damage", this.baseDamage);
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundNBT compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("damage", 99)) {
+			this.baseDamage = compound.getDouble("damage"); }
+	}
+	
+	public void setBaseDamage(double damage) {
+		this.baseDamage = damage;
+	}
+	
+	public double getBaseDamage() {
+		return this.baseDamage;
+	}
+}

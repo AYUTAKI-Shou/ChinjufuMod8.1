@@ -1,0 +1,46 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:item/crop_tengusawash_0",
+		"tengusa": "chinjufumod:item/crop_tengusawash_0",
+		"tengusa1": "chinjufumod:item/crop_tengusawash_1"
+	},
+	"elements": [
+		{
+			"name": "tengusa_10-1",
+			"from": [ 7, -7.3, 1 ],
+			"to": [ 15, -7.3, 14 ],
+			"faces": {
+				"up" : { "uv": [ 0.0, 1.0, 15.0, 16.0 ], "texture":"#tengusa" },
+				"down" : { "uv": [ 0.0, 16.0, 15.0, 1.0 ], "texture":"#tengusa" }
+			}
+		},
+		{
+			"name": "tengusa_11-2",
+			"from": [ 7, -7.7, 1 ],
+			"to": [ 15, -7.7, 14 ],
+			"faces": {
+				"up" : { "uv": [ 0.0, 1.0, 15.0, 16.0 ], "texture":"#tengusa1", "tintindex": 1 },
+				"down" : { "uv": [ 0.0, 16.0, 15.0, 1.0 ], "texture":"#tengusa1", "tintindex": 1 }
+			}
+		},
+		{
+			"name": "tengusa_10-3",
+			"from": [ 1, -7.5, 2 ],
+			"to": [ 9, -7.5, 15 ],
+			"faces": {
+				"up" : { "uv": [ 0.0, 16.0, 15.0, 1.0 ], "texture":"#tengusa" },
+				"down" : { "uv": [ 0.0, 1.0, 15.0, 16.0 ], "texture":"#tengusa" }
+			}
+		},
+		{
+			"name": "tengusa_11-4",
+			"from": [ 1, -7.9, 2 ],
+			"to": [ 9, -7.9, 15 ],
+			"faces": {
+				"up" : { "uv": [ 0.0, 16.0, 15.0, 1.0 ], "texture":"#tengusa1", "tintindex": 1 },
+				"down" : { "uv": [ 0.0, 1.0, 15.0, 16.0 ], "texture":"#tengusa1", "tintindex": 1 }
+			}
+		}
+	]
+}

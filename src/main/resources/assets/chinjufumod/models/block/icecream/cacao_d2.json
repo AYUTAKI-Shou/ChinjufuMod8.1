@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/icecream_d2",
+	"textures": {
+		"icecream": "chinjufumod:block/icecream_cacao"
+	}
+}

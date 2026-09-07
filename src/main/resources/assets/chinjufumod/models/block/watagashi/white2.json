@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/watagashi2",
+	"textures": {
+		"watagashi": "chinjufumod:block/watagashi",
+		"top": "chinjufumod:block/watagashi_top",
+		"side": "chinjufumod:block/watagashi_side"
+	}
+}

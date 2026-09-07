@@ -1,0 +1,356 @@
+{
+"variants": {
+	"age=1,east=false,north=false,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1" },
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 270 }],
+		
+	"age=1,east=true,north=false,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 }],
+	"age=1,east=false,north=true,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1" },
+		{ "model": "chinjufumod:block/crop/nori_1b" }],
+	"age=1,east=false,north=false,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+	"age=1,east=false,north=false,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+	
+	"age=1,east=true,north=true,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1" },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 }],
+	"age=1,east=false,north=true,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_1b" }],
+	"age=1,east=true,north=false,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+	"age=1,east=false,north=false,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+
+	"age=1,east=false,north=true,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+	"age=1,east=true,north=false,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1" },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+	
+	"age=1,east=true,north=true,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 }],
+	"age=1,east=true,north=true,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1" },
+		{ "model": "chinjufumod:block/crop/nori_1b" }],
+	"age=1,east=true,north=false,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+	"age=1,east=false,north=true,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+
+	"age=1,east=true,north=true,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_1b" },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+
+
+			"age=2,east=false,north=false,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1" },
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 270 }],
+				
+			"age=2,east=true,north=false,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 }],
+			"age=2,east=false,north=true,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1" },
+				{ "model": "chinjufumod:block/crop/nori_1b" }],
+			"age=2,east=false,north=false,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+			"age=2,east=false,north=false,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+			
+			"age=2,east=true,north=true,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1" },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 }],
+			"age=2,east=false,north=true,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_1b" }],
+			"age=2,east=true,north=false,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+			"age=2,east=false,north=false,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+		
+			"age=2,east=false,north=true,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+			"age=2,east=true,north=false,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1" },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+			
+			"age=2,east=true,north=true,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 }],
+			"age=2,east=true,north=true,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1" },
+				{ "model": "chinjufumod:block/crop/nori_1b" }],
+			"age=2,east=true,north=false,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 }],
+			"age=2,east=false,north=true,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+		
+			"age=2,east=true,north=true,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_1b" },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_1b", "y": 270 }],
+
+
+	"age=3,east=false,north=false,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2" },
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 270 }],
+		
+	"age=3,east=true,north=false,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 }],
+	"age=3,east=false,north=true,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2" },
+		{ "model": "chinjufumod:block/crop/nori_2b" }],
+	"age=3,east=false,north=false,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+	"age=3,east=false,north=false,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+	
+	"age=3,east=true,north=true,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2" },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 }],
+	"age=3,east=false,north=true,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_2b" }],
+	"age=3,east=true,north=false,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+	"age=3,east=false,north=false,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+
+	"age=3,east=false,north=true,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+	"age=3,east=true,north=false,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2" },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+	
+	"age=3,east=true,north=true,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 }],
+	"age=3,east=true,north=true,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2" },
+		{ "model": "chinjufumod:block/crop/nori_2b" }],
+	"age=3,east=true,north=false,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+	"age=3,east=false,north=true,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+
+	"age=3,east=true,north=true,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_2b" },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+
+
+			"age=4,east=false,north=false,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2" },
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 270 }],
+				
+			"age=4,east=true,north=false,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 }],
+			"age=4,east=false,north=true,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2" },
+				{ "model": "chinjufumod:block/crop/nori_2b" }],
+			"age=4,east=false,north=false,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+			"age=4,east=false,north=false,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+			
+			"age=4,east=true,north=true,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2" },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 }],
+			"age=4,east=false,north=true,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_2b" }],
+			"age=4,east=true,north=false,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+			"age=4,east=false,north=false,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+		
+			"age=4,east=false,north=true,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+			"age=4,east=true,north=false,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2" },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+			
+			"age=4,east=true,north=true,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 }],
+			"age=4,east=true,north=true,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2" },
+				{ "model": "chinjufumod:block/crop/nori_2b" }],
+			"age=4,east=true,north=false,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 }],
+			"age=4,east=false,north=true,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+		
+			"age=4,east=true,north=true,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_2b" },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_2b", "y": 270 }],
+
+
+	"age=5,east=false,north=false,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3" },
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 270 }],
+		
+	"age=5,east=true,north=false,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 }],
+	"age=5,east=false,north=true,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3" },
+		{ "model": "chinjufumod:block/crop/nori_3b" }],
+	"age=5,east=false,north=false,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+	"age=5,east=false,north=false,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+	
+	"age=5,east=true,north=true,south=false,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3" },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 }],
+	"age=5,east=false,north=true,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_3b" }],
+	"age=5,east=true,north=false,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+	"age=5,east=false,north=false,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+
+	"age=5,east=false,north=true,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+	"age=5,east=true,north=false,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3" },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+	
+	"age=5,east=true,north=true,south=true,west=false": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 }],
+	"age=5,east=true,north=true,south=false,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3" },
+		{ "model": "chinjufumod:block/crop/nori_3b" }],
+	"age=5,east=true,north=false,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+	"age=5,east=false,north=true,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3", "y": 270 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+
+	"age=5,east=true,north=true,south=true,west=true": [
+		{ "model": "chinjufumod:block/crop/nori_3b" },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 },
+		{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+
+
+			"age=6,east=false,north=false,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3" },
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 270 }],
+				
+			"age=6,east=true,north=false,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 }],
+			"age=6,east=false,north=true,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3" },
+				{ "model": "chinjufumod:block/crop/nori_3b" }],
+			"age=6,east=false,north=false,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+			"age=6,east=false,north=false,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+			
+			"age=6,east=true,north=true,south=false,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3" },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 }],
+			"age=6,east=false,north=true,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_3b" }],
+			"age=6,east=true,north=false,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+			"age=6,east=false,north=false,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+		
+			"age=6,east=false,north=true,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+			"age=6,east=true,north=false,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3" },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+			
+			"age=6,east=true,north=true,south=true,west=false": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 }],
+			"age=6,east=true,north=true,south=false,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3" },
+				{ "model": "chinjufumod:block/crop/nori_3b" }],
+			"age=6,east=true,north=false,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 }],
+			"age=6,east=false,north=true,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3", "y": 270 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }],
+		
+			"age=6,east=true,north=true,south=true,west=true": [
+				{ "model": "chinjufumod:block/crop/nori_3b" },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 90 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 180 },
+				{ "model": "chinjufumod:block/crop/nori_3b", "y": 270 }]
+	}
+}

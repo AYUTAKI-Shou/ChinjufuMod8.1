@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/tatami_double",
+	"textures": {
+		"top": "chinjufumod:block/tatami2_purple",
+		"side": "chinjufumod:block/tatami2_side_purple"
+	}
+}

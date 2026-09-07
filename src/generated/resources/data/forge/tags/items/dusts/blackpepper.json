@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:foods/blackpepper",
+    "#forge:foods/pepper",
+    "#forge:spices/blackpepper",
+    "#forge:spices/pepper",
+    "#forge:dusts/pepper",
+    "chinjufumod:item_dust_blackpepper"
+  ]
+}

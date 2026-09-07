@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/frypan_214",
+	"textures": {
+		"sauce": "chinjufumod:block/gyudon_raw"
+	}
+}

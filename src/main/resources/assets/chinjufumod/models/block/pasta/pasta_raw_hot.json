@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/pastaraw_hot",
+	"textures": {
+		"pasta": "chinjufumod:block/pasta_boil"
+	}
+}
