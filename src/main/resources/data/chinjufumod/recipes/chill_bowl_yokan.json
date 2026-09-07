@@ -1,0 +1,10 @@
+{
+	"type": "chinjufumod:chill_recipe",
+	"group": "cm_kanten",
+	"ingredient": {
+		"item": "chinjufumod:item_raw_yokan"
+	},
+	"result": { "item": "chinjufumod:item_bowl_yokan", "count" : 1 },
+	"experience": 0.5,
+	"cookingtime": 400
+}

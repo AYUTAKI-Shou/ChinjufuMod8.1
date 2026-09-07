@@ -1,0 +1,34 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:block/letterfude_top",
+		"item": "chinjufumod:block/letterfude_item"
+	},
+	"elements": [
+		{
+			"name": "ink",
+			"from": [ 11, 0, 2 ],
+			"to": [ 14, 1, 5 ],
+			"faces": {
+				"up": { "uv": [ 5.0, 0.0, 8.0, 3.0 ], "texture": "#item" },
+				"down": { "uv": [ 5.0, 0.0, 8.0, 3.0 ], "texture": "#item", "cullface": "down" },
+				"north": { "uv": [ 0.0, 0.0, 3.0, 1.0 ], "texture": "#item" },
+				"south": { "uv": [ 0.0, 0.0, 3.0, 1.0 ], "texture": "#item" },
+				"west": { "uv": [ 0.0, 0.0, 3.0, 1.0 ], "texture": "#item" },
+				"east": { "uv": [ 0.0, 0.0, 3.0, 1.0 ], "texture": "#item" }
+			}
+		},
+		{
+			"name": "cap",
+			"from": [ 12, 1, 3 ],
+			"to": [ 13, 1.5, 4 ],
+			"faces": {
+				"up": { "uv": [ 3.0, 0.0, 5.0, 2.0 ], "texture": "#item" },
+				"north": { "uv": [ 3.0, 0.0, 5.0, 1.0 ], "texture": "#item" },
+				"south": { "uv": [ 3.0, 0.0, 5.0, 1.0 ], "texture": "#item" },
+				"west": { "uv": [ 3.0, 0.0, 5.0, 1.0 ], "texture": "#item", "rotation": 90 },
+				"east": { "uv": [ 3.0, 0.0, 5.0, 1.0 ], "texture": "#item", "rotation": 90 }
+			}
+		}
+	]
+}

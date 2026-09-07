@@ -1,0 +1,17 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#side_b"
+	},
+	"elements": [
+		{
+			"name": "north2",
+			"from": [ 0, 0, 1 ],
+			"to": [ 16, 16, 1 ],
+			"faces": {
+				"north": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#side_b" },
+				"south": { "uv": [ 16.0, 0.0, 0.0, 16.0 ], "texture": "#side_b" }
+			}
+		}
+	]
+}

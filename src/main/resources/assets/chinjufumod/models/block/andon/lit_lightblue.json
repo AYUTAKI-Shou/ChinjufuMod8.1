@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/andon_lit",
+	"textures": {
+		"kami": "chinjufumod:block/andon_lightb"
+	 }
+}

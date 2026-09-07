@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/nabe_nimame_n",
+	"textures": {
+		"mame": "chinjufumod:block/soy"
+	}
+}

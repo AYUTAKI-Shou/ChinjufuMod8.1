@@ -1,0 +1,75 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#naka",
+		"masu": "chinjufumod:block/muku_birch",
+		"naka": "chinjufumod:block/kome"
+	},
+	"elements": [
+		{
+			"name": "masu_soko",
+			"from": [ 6.7, 0, 6.7 ],
+			"to": [ 9.3, 0.2, 9.3 ],
+			"faces": {
+				"up" : { "texture": "#masu" },
+				"down" : { "texture": "#masu" }
+			}
+		},
+		{
+			"name": "masu_n",
+			"from": [ 6.5, 0.0, 6.5 ],
+			"to": [ 9.5, 2, 6.7 ],
+			"faces": {
+				"up" : { "texture": "#masu" },
+				"down" : { "texture": "#masu" },
+				"north": { "texture": "#masu" },
+				"south": { "texture": "#masu" },
+				"west" : { "texture": "#masu" },
+				"east" : { "texture": "#masu" }
+			}
+		},
+		{
+			"name": "masu_e",
+			"from": [ 9.3, 0.0, 6.7 ],
+			"to": [ 9.5, 2, 9.3 ],
+			"faces": {
+				"up" : { "texture": "#masu" },
+				"down" : { "texture": "#masu" },
+				"west" : { "texture": "#masu" },
+				"east" : { "texture": "#masu" }
+			}
+		},
+		{
+			"name": "masu_s",
+			"from": [ 6.5, 0.0, 9.3 ],
+			"to": [ 9.5, 2, 9.5 ],
+			"faces": {
+				"up" : { "texture": "#masu" },
+				"down" : { "texture": "#masu" },
+				"north": { "texture": "#masu" },
+				"south": { "texture": "#masu" },
+				"west" : { "texture": "#masu" },
+				"east" : { "texture": "#masu" }
+			}
+		},
+		{
+			"name": "masu_w",
+			"from": [ 6.5, 0.0, 6.7 ],
+			"to": [ 6.7, 2, 9.3 ],
+			"faces": {
+				"up" : { "texture": "#masu" },
+				"down" : { "texture": "#masu" },
+				"west" : { "texture": "#masu" },
+				"east" : { "texture": "#masu" }
+			}
+		},
+		{
+			"name": "masu_naka",
+			"from": [ 6.7, 1, 6.7 ],
+			"to": [ 9.3, 1.9, 9.3 ],
+			"faces": {
+				"up" : { "uv": [ 0.0, 0.0, 8.0, 8.0 ], "texture": "#naka" }
+			}
+		}
+	]
+}

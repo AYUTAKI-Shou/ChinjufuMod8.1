@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/unitdesk_corner",
+	"textures": {
+		"top": "minecraft:block/spruce_planks"
+	}
+}

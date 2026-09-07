@@ -1,0 +1,50 @@
+{
+	"parent": "chinjufumod:cm_story/weapon/get_workorder",
+	"display": {
+		"title": {
+			"translate": "advancements.cm_story.weapon.get_armor_cr.title"
+		},
+		"description": {
+			"translate": "advancements.cm_story.weapon.get_armor.description"
+		},
+		"icon": {
+			"item": "chinjufumod:item_mogami_chestplate"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": [
+				"chinjufumod:item_sendai_helmet",
+				"chinjufumod:item_sendai_chestplate",
+				"chinjufumod:item_sendai_leggings",
+				"chinjufumod:item_sendai_boots",
+				
+				"chinjufumod:item_yura_helmet",
+				"chinjufumod:item_yura_chestplate",
+				"chinjufumod:item_yura_leggings",
+				"chinjufumod:item_yura_boots",
+				
+				"chinjufumod:item_mogami_helmet",
+				"chinjufumod:item_mogami_chestplate",
+				"chinjufumod:item_mogami_leggings",
+				"chinjufumod:item_mogami_boots",
+				
+				"chinjufumod:item_tone_helmet",
+				"chinjufumod:item_tone_chestplate",
+				"chinjufumod:item_tone_leggings",
+				"chinjufumod:item_tone_boots" ] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	],
+	"rewards": { "experience": 3 }
+}

@@ -1,0 +1,26 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:block_food_nabepudding_g",
+			"chinjufumod:item_raw_icecream_greentea",
+			"chinjufumod:item_kiji_pangreentea",
+			
+			"chinjufumod:block_watagashi_green",
+			"chinjufumod:block_kakigouri_green1",
+			"chinjufumod:item_food_choco_greentea"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": ["chinjufumod:item_chaba_matcha"] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

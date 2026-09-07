@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/door_right_bottom",
+	"textures": {
+		"bottom": "chinjufumod:block/door_kaede_right_bottom"
+	}
+}

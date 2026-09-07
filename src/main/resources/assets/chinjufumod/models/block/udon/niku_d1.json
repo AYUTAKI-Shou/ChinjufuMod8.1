@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/udon_d1",
+	"textures": {
+		"udon": "chinjufumod:block/udon_niku_still_1"
+	}
+}

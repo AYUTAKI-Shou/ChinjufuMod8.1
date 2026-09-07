@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/click_okonomi_d",
+	"textures": {
+		"okonomi": "chinjufumod:block/okonomis_bake_re",
+		"okonomi_top": "chinjufumod:block/okonomis_bake"
+	}
+}

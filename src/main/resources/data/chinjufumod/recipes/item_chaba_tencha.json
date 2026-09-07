@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_jptea",
+
+	"ingredients": [
+		{ "tag": "forge:crops/tealeaf" },
+		{ "tag": "forge:crops/tealeaf" },
+		{ "tag": "forge:crops/tealeaf" }
+	],
+
+	"result": { "item": "chinjufumod:item_chaba_tencha", "count": 1 }
+}

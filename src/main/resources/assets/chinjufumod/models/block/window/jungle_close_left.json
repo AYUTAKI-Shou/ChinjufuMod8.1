@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/window_closeleft",
+	"textures": {
+		"front": "chinjufumod:block/window_jungle",
+		"side": "chinjufumod:block/muku_jungle",
+		"totte": "chinjufumod:block/window_oak"
+	}
+}

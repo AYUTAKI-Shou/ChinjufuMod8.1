@@ -1,0 +1,8 @@
+{
+	"parent": "chinjufumod:block/base/currynabe_3",
+	"textures": {
+		"rou": "chinjufumod:block/food_curryrou_chicken",
+		"gu": "chinjufumod:block/food_chicken_boil",
+		"imo": "chinjufumod:block/food_potato_b"
+	}
+}

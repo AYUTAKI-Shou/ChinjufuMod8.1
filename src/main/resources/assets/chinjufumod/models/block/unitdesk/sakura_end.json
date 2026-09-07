@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/unitdesk_end",
+	"textures": {
+		"top": "chinjufumod:block/planks_sakura"
+	}
+}

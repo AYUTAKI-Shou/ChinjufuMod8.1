@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/yakizakanatei_d2",
+	"textures": {
+		"kome": "chinjufumod:block/sekihan"
+	}
+}

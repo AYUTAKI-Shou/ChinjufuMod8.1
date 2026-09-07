@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.ayutaki.chinjufumod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "chinjufumod.refmap.json",
+	"client": [
+		"ClientRecipeBook_CM"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

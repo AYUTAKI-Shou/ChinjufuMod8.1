@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/pizza_4",
+	"textures": {
+		"pizza": "chinjufumod:block/pizza_bake_teriyaki"
+	}
+}

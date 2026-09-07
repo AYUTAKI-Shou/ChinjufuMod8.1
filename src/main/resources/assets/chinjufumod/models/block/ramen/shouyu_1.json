@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/ramen_1",
+	"textures": {
+		"ramen": "chinjufumod:block/ramen_shouyu_1"
+	}
+}

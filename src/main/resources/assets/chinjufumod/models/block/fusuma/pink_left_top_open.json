@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/fusuma_left_top_open",
+	"textures": {
+		"fusuma": "chinjufumod:block/fusuma_pink"
+	}
+}

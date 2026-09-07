@@ -1,0 +1,7 @@
+{
+	"parent": "chinjufumod:block/base/curry_nama",
+	"textures": {
+		"gu": "chinjufumod:block/food_chicken_nama",
+		"imo": "chinjufumod:block/food_potato"
+	}
+}

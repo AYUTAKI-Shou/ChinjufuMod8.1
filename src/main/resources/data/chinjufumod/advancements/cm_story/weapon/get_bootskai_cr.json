@@ -1,0 +1,35 @@
+{
+	"parent": "chinjufumod:cm_story/weapon/get_armor_cr",
+	"display": {
+		"title": {
+			"translate": "advancements.cm_story.weapon.get_bootskai_cr.title"
+		},
+		"description": {
+			"translate": "advancements.cm_story.weapon.get_bootskai.description"
+		},
+		"icon": {
+			"item": "chinjufumod:item_mogami_bootskai"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": [
+				"chinjufumod:item_sendai_bootskai",
+				"chinjufumod:item_yura_bootskai",
+				"chinjufumod:item_mogami_bootskai",
+				"chinjufumod:item_tone_bootskai" ] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	],
+	"rewards": { "experience":10 }
+}

@@ -1,0 +1,25 @@
+{
+	"parent": "chinjufumod:recipes/root",
+	"rewards": {
+		"recipes": [
+			"chinjufumod:item_kiji_pancustard",
+			"chinjufumod:item_kiji_panapple",
+			"chinjufumod:item_kiji_pancherry",
+			"chinjufumod:item_kiji_pancitrus",
+			"chinjufumod:item_kiji_pangrape",
+			"chinjufumod:item_kiji_pangreentea"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ { "items": ["chinjufumod:item_custard_cream"] } ] }
+		}
+	},
+	"requirements": [
+		[
+			"has_material"
+		]
+	]
+}

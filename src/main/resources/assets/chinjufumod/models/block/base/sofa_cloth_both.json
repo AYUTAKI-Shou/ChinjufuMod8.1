@@ -1,0 +1,83 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#cloth",
+		"leg": "chinjufumod:block/muku_spruce"
+	},
+	"elements": [
+		{
+			"name": "leg_right_back",
+			"from": [ 0, 0, 2.5 ],
+			"to": [ 0.75, 1, 4 ],
+			"faces": {
+				"down": { "texture": "#leg", "cullface": "down" },
+				"north": { "texture": "#leg" },
+				"south": { "texture": "#leg" },
+				"east": { "texture": "#leg" },
+				"west": { "texture": "#leg" }
+			}
+		},
+		{
+			"name": "leg_left_back",
+			"from": [ 15.25, 0, 2.5 ],
+			"to": [ 16, 1, 4 ],
+			"faces": {
+				"down": { "texture": "#leg", "cullface": "down" },
+				"north": { "texture": "#leg" },
+				"south": { "texture": "#leg" },
+				"east": { "texture": "#leg" },
+				"west": { "texture": "#leg" }
+			}
+		},
+		{
+			"name": "leg_left_front",
+			"from": [ 15.25, 0, 14 ],
+			"to": [ 16, 1, 15.5 ],
+			"faces": {
+				"down": { "texture": "#leg", "cullface": "down" },
+				"north": { "texture": "#leg" },
+				"south": { "texture": "#leg" },
+				"east": { "texture": "#leg" },
+				"west": { "texture": "#leg" }
+
+			}
+		},
+		{
+			"name": "leg_right_front",
+			"from": [ 0, 0, 14 ],
+			"to": [ 0.75, 1, 15.5 ],
+			"faces": {
+				"down": { "texture": "#leg", "cullface": "down" },
+				"north": { "texture": "#leg" },
+				"south": { "texture": "#leg" },
+				"east": { "texture": "#leg" },
+				"west": { "texture": "#leg" }
+			}
+		},
+
+		{
+			"name": "sit",
+			"from": [ 0, 1, 2 ],
+			"to": [ 16, 6, 14 ],
+			"faces": {
+				"up": { "uv": [ 16.0, 14.0, 0.0, 2.0 ], "texture": "#cloth", "tintindex": 1 },
+				"down": { "uv": [ 16.0, 2.0, 0.0, 14.0 ], "texture": "#cloth", "tintindex": 1 },
+				"north": { "uv": [ 0.0, 10.0, 16.0, 15.0 ], "texture": "#cloth", "tintindex": 1 }
+			}
+		},
+		{
+			"name": "back",
+			"from": [ 0, 1, 14 ],
+			"to": [ 16, 12, 16 ],
+			"faces": {
+				"up": { "uv": [ 16.0, 2.0, 0.0, 0.0 ], "texture": "#cloth", "tintindex": 1 },
+				"down": { "uv": [ 16.0, 0.0, 0.0, 2.0 ], "texture": "#cloth", "tintindex": 1 },
+				"north": { "uv": [ 0.0, 4.0, 16.0, 15.0 ], "texture": "#cloth", "tintindex": 1 },
+				"south": { "uv": [ 16.0, 4.0, 0.0, 15.0 ], "texture": "#cloth", "tintindex": 1 },
+				"east": { "uv": [ 0.0, 4.0, 2.0, 15.0 ], "texture": "#cloth", "tintindex": 1 },
+				"west": { "uv": [ 14.0, 4.0, 16.0, 15.0 ], "texture": "#cloth", "tintindex": 1 }
+			}
+		}
+
+	]
+}

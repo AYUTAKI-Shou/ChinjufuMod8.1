@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "cm_santa",
+
+	"pattern": [
+		"Y Z",
+		"X X"
+	],
+
+	"key": {
+		"X": { "tag": "chinjufumod:materials_boots" },
+		"Y": { "item": "minecraft:white_carpet" },
+		"Z": { "tag": "forge:dyes/brown" }
+	},
+
+	"result": { "item": "chinjufumod:item_santaryujou_boots", "count": 1 }
+}

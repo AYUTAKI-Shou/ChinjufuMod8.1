@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_cream",
+
+	"ingredients": [
+		{ "item": "chinjufumod:item_custard_cream" },
+		{ "item": "chinjufumod:item_food_cherry" },
+		{ "item": "chinjufumod:item_food_cherry" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" },
+		{ "item": "chinjufumod:item_kiji_bun" }
+	],
+
+	"result": { "item": "chinjufumod:item_kiji_pancherry", "count" : 4 }
+}

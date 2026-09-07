@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cm_seasonal",
+
+	"ingredients": [
+		{ "item": "minecraft:snowball" },
+		{ "tag": "forge:rods/wooden" }
+	],
+
+	"result": { "item": "chinjufumod:block_snowcore", "count" : 1 }
+}

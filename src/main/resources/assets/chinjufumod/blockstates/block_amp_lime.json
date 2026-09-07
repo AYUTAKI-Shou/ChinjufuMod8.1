@@ -1,0 +1,17 @@
+{
+	"variants": {
+		"facing=up,powered=false": { "model": "chinjufumod:block/amp/lime", "x": 90 },
+		"facing=down,powered=false": { "model": "chinjufumod:block/amp/lime", "x": 270 },
+		"facing=north,powered=false": { "model": "chinjufumod:block/amp/lime", "y": 180 },
+		"facing=south,powered=false": { "model": "chinjufumod:block/amp/lime", "y": 0 },
+		"facing=west,powered=false": { "model": "chinjufumod:block/amp/lime", "y": 90 },
+		"facing=east,powered=false": { "model": "chinjufumod:block/amp/lime", "y": 270 },
+		
+		"facing=up,powered=true": { "model": "chinjufumod:block/amp/lime_on", "x": 90 },
+		"facing=down,powered=true": { "model": "chinjufumod:block/amp/lime_on", "x": 270 },
+		"facing=north,powered=true": { "model": "chinjufumod:block/amp/lime_on", "y": 180 },
+		"facing=south,powered=true": { "model": "chinjufumod:block/amp/lime_on", "y": 0 },
+		"facing=west,powered=true": { "model": "chinjufumod:block/amp/lime_on", "y": 90 },
+		"facing=east,powered=true": { "model": "chinjufumod:block/amp/lime_on", "y": 270 }
+	}
+}

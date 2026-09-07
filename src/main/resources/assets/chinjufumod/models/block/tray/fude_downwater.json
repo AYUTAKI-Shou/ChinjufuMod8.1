@@ -1,0 +1,22 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:block/letterfude_top",
+		"item": "chinjufumod:block/letterfude_item"
+	},
+	"elements": [
+		{
+			"name": "suzuri",
+			"from": [ 11, -8, 2 ],
+			"to": [ 14, -7, 6 ],
+			"faces": {
+				"up": { "uv": [ 5.0, 4.0, 8.0, 8.0 ], "texture": "#item" },
+				"down": { "uv": [ 5.0, 6.0, 8.0, 8.0 ], "texture": "#item", "cullface": "down" },
+				"north": { "uv": [ 0.0, 4.0, 3.0, 6.0 ], "texture": "#item" },
+				"south": { "uv": [ 0.0, 4.0, 3.0, 6.0 ], "texture": "#item" },
+				"west": { "uv": [ 0.0, 4.0, 3.0, 6.0 ], "texture": "#item", "rotation": 90 },
+				"east": { "uv": [ 0.0, 4.0, 3.0, 6.0 ], "texture": "#item", "rotation": 90 }
+			}
+		}
+	]
+}

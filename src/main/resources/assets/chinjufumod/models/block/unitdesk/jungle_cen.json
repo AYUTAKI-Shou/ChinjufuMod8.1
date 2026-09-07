@@ -1,0 +1,6 @@
+{
+	"parent": "chinjufumod:block/base/unitdesk_center",
+	"textures": {
+		"top": "minecraft:block/jungle_planks"
+	}
+}

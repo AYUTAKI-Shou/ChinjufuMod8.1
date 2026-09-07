@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wooden_trapdoors",
+    "chinjufumod:block_bamboo_trapdoor",
+    "chinjufumod:block_bamboo_y_trapdoor",
+    "chinjufumod:block_bamboo_k_trapdoor"
+  ]
+}
