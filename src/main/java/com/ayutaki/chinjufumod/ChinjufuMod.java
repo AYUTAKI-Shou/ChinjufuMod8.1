@@ -79,7 +79,7 @@ public class ChinjufuMod {
 	/* 参照する値をここで管理 Manage referenced values here. */
 	public static final String MOD_ID = "chinjufumod";
 	public static final String MOD_NAME = "ChinjufuMod";
-	public static final String MOD_VERSION = "[1.12.2]8.1";
+	public static final String MOD_VERSION = "[1.12.2]8.1.1";
 	public static final String GUI_FACTORY = "com.ayutaki.chinjufumod.gui.ConfigCM_Screen";
 
 	public static final String CLIENT_PROXY_CLASS = "com.ayutaki.chinjufumod.proxy.ClientProxy";
