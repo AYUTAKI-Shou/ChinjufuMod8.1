@@ -24,13 +24,14 @@ import net.minecraft.world.World;
 public class Taru_Hakkou_sub extends Base_Taru15 {
 	
 	private static final int COOK_TIME = 2000;
-	/** 0=麹1, 1=麹2 **/
-	/** 2=酒母1, 3=酒母2 **/
-	/** 4=もろみ1, 5=もろみ2 **/
-	/** 6=熟成酒1, 7=熟成酒2 **/
-	/** 8=味噌1, 9=味噌2 **/
-	/** 10=紅茶1, 11=紅茶2 **/
-	/** 12=バニラ1, 13=バニラ2, 14=バニラ3, 15=バニラ4 **/
+	/// 空(T_0)
+	/// 麹:1(sub_0), 2(sub_1), --> 3(T_1), 4(T_2), 空(T_15)
+	/// 酒母:1(sub_2), 2(sub_3), --> 3(T_3), 4(T_4)
+	/// もろみ:1(sub_4), 2(sub_5), --> 3(T_5), 4(T_6)
+	/// 熟成:1(sub_6), 2(sub_7), --> 3(T_7), 4(T_8)
+	/// 味噌:1(sub_8), 2(sub_9), --> 3(T_9), 4(T_10), 空(T_11)
+	/// 紅茶:1(sub_10), 2(sub_11), --> 3(T_12), 4(T_13), 空(T_14)
+	/// バニラ:1(sub_12), 2(sub_13), 3(sub_14), 4(sub_15)
 	
 	public Taru_Hakkou_sub(String name) {
 		super(name);
@@ -45,13 +46,7 @@ public class Taru_Hakkou_sub extends Base_Taru15 {
 	@Override
 	public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
 		if (!worldIn.isAreaLoaded(pos, 1)) { return; }
-		/** 0=麹1, 1=麹2 **/
-		/** 2=酒母1, 3=酒母2 **/
-		/** 4=もろみ1, 5=もろみ2 **/
-		/** 6=熟成酒1, 7=熟成酒2 **/
-		/** 8=味噌1, 9=味噌2 **/
-		/** 10=紅茶1, 11=紅茶2 **/
-		/** 12=バニラ1, 13=バニラ2, 14=バニラ3, 15=バニラ4 **/
+
 		int i = ((Integer)state.getValue(STAGE_0_15)).intValue();
 		
 		if (i == 15) { }
@@ -59,15 +54,18 @@ public class Taru_Hakkou_sub extends Base_Taru15 {
 		else {
 			worldIn.scheduleUpdate(pos, this, COOK_TIME + (500 * rand.nextInt(5)));
 			
-			IBlockState TARU = Hakkou_Blocks.HAKKOUTARU.getDefaultState();
-			if (i == 1) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(1))); }
-			if (i == 3) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(3))); }
-			if (i == 5) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(5))); }
-			if (i == 7) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(7))); }
-			if (i == 9) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(9))); }
-			if (i == 11) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(12))); }
-			
-			else { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(i + 1))); }
+			boolean toTARU = (i == 1 || i == 3 || i == 5 || i == 7 || i == 9 || i == 11);
+			if (toTARU) {
+				IBlockState TARU = Hakkou_Blocks.HAKKOUTARU.getDefaultState();
+				if (i == 1) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(1))); }
+				if (i == 3) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(3))); }
+				if (i == 5) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(5))); }
+				if (i == 7) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(7))); }
+				if (i == 9) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(9))); }
+				if (i == 11) { worldIn.setBlockState(pos, TARU.withProperty(STAGE_0_15, Integer.valueOf(12))); }
+			}
+
+			if(!toTARU) { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(i + 1))); }
 		}
 	}
 
@@ -116,13 +114,6 @@ public class Taru_Hakkou_sub extends Base_Taru15 {
 	public List<ItemStack> getDrops(IBlockAccess worldIn, BlockPos pos, IBlockState state, int fortune) {
 		List<ItemStack> stack = new ArrayList<ItemStack>();
 		int i = ((Integer)state.getValue(STAGE_0_15)).intValue();
-		/** 0=麹1, 1=麹2 **/
-		/** 2=酒母1, 3=酒母2 **/
-		/** 4=もろみ1, 5=もろみ2 **/
-		/** 6=熟成酒1, 7=熟成酒2 **/
-		/** 8=味噌1, 9=味噌2 **/
-		/** 10=紅茶1, 11=紅茶2 **/
-		/** 12=バニラ1, 13=バニラ2, 14=バニラ3, 15=バニラ4 **/
 		
 		if (i == 0 || i == 1) { stack.add(new ItemStack(Items_Teatime.HAKKOUTARU, 1, 1)); }
 		if (i == 2 || i == 3) { stack.add(new ItemStack(Items_Teatime.HAKKOUTARU, 1, 2)); }
@@ -138,13 +129,6 @@ public class Taru_Hakkou_sub extends Base_Taru15 {
 	@Override
 	public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World worldIn, BlockPos pos, EntityPlayer playerIn) {
 		int i = ((Integer)state.getValue(STAGE_0_15)).intValue();
-		/** 0=麹1, 1=麹2 **/
-		/** 2=酒母1, 3=酒母2 **/
-		/** 4=もろみ1, 5=もろみ2 **/
-		/** 6=熟成酒1, 7=熟成酒2 **/
-		/** 8=味噌1, 9=味噌2 **/
-		/** 10=紅茶1, 11=紅茶2 **/
-		/** 12=バニラ1, 13=バニラ2, 14=バニラ3, 15=バニラ4 **/
 		
 		if (i == 0 || i == 1) { return new ItemStack(Items_Teatime.HAKKOUTARU, 1, 1); }
 		if (i == 2 || i == 3) { return new ItemStack(Items_Teatime.HAKKOUTARU, 1, 2); }
