@@ -25,8 +25,14 @@ import net.minecraft.world.World;
 public class Taru_Hakkou extends Base_Taru15 {
 	
 	private static final int COOK_TIME = 2000;
-	/** 0=空, 1=麹未3, 2=麹, 3=酒母未3, 4=酒母, 5=もろみ未3, 6=もろみ, 7=熟成酒未3, 8=熟成酒 **/
-	/** 9=味噌未3, 10=味噌, 11=味噌の空樽, 12=紅茶未3, 13=紅茶, 14=紅茶の空棚, 15=麹の空棚 **/
+	/// 空(T_0)
+	/// 麹:1(sub_0), 2(sub_1), --> 3(T_1), 4(T_2), 空(T_15)
+	/// 酒母:1(sub_2), 2(sub_3), --> 3(T_3), 4(T_4)
+	/// もろみ:1(sub_4), 2(sub_5), --> 3(T_5), 4(T_6)
+	/// 熟成:1(sub_6), 2(sub_7), --> 3(T_7), 4(T_8)
+	/// 味噌:1(sub_8), 2(sub_9), --> 3(T_9), 4(T_10), 空(T_11)
+	/// 紅茶:1(sub_10), 2(sub_11), --> 3(T_12), 4(T_13), 空(T_14)
+	/// バニラ:1(sub_12), 2(sub_13), 3(sub_14), 4(sub_15)
 
 	public Taru_Hakkou(String name) {
 		super(name);
@@ -41,22 +47,14 @@ public class Taru_Hakkou extends Base_Taru15 {
 	@Override
 	public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
 		if (!worldIn.isAreaLoaded(pos, 1)) { return; }
-		/** 0=空, 1=麹未3, 2=麹, 3=酒母未3, 4=酒母, 5=もろみ未3, 6=もろみ, 7=熟成酒未3, 8=熟成酒 **/
-		/** 9=味噌未3, 10=味噌, 11=味噌の空樽, 12=紅茶未3, 13=紅茶, 14=紅茶の空棚, 15=麹の空棚 **/
 		int i = ((Integer)state.getValue(STAGE_0_15)).intValue();
 		
-		if (i == 1 || i == 3 || i == 5 || i == 7 || i == 9 || i == 12) {
+		boolean canPLUS = (i == 1 || i == 3 || i == 5 || i == 7 || i == 9 || i == 12);
+		if (canPLUS) {
 			worldIn.scheduleUpdate(pos, this, COOK_TIME + (500 * rand.nextInt(5)));
-			
-			if (i == 1) { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(2))); }
-			if (i == 3) { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(4))); }
-			if (i == 5) { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(6))); }
-			if (i == 7) { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(8))); }
-			if (i == 9) { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(10))); }
-			if (i == 12) { worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(13))); }
-		}
+			worldIn.setBlockState(pos, state.withProperty(STAGE_0_15, Integer.valueOf(i + 1))); }
 
-		else { }
+		if (!canPLUS) { }
 	}
 
 	/* RightClick Action */
@@ -64,8 +62,7 @@ public class Taru_Hakkou extends Base_Taru15 {
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		ItemStack hStack = playerIn.getHeldItem(hand);
 		Item hItem = hStack.getItem();
-		/** 0=空, 1=麹未3, 2=麹, 3=酒母未3, 4=酒母, 5=もろみ未3, 6=もろみ, 7=熟成酒未3, 8=熟成酒 **/
-		/** 9=味噌未3, 10=味噌, 11=味噌の空樽, 12=紅茶未3, 13=紅茶, 14=紅茶の空棚, 15=麹の空棚 **/
+
 		int i = ((Integer)state.getValue(STAGE_0_15)).intValue();
 
 		if (hStack.isEmpty()) {
@@ -103,8 +100,6 @@ public class Taru_Hakkou extends Base_Taru15 {
 			if (i == 1 || i == 3 || i == 5 || i == 7 || i == 9 || i == 12) { CMEvents.textEarlyCollect(worldIn, pos, playerIn); }
 		}
 
-		/** 0=空, 1=麹未3, 2=麹, 3=酒母未3, 4=酒母, 5=もろみ未3, 6=もろみ, 7=熟成酒未3, 8=熟成酒 **/
-		/** 9=味噌未3, 10=味噌, 11=味噌の空樽, 12=紅茶未3, 13=紅茶, 14=紅茶の空棚, 15=麹の空棚 **/
 		else { //!empty
 			IBlockState TARU_sub = Hakkou_Blocks.HAKKOUTARU_sub.getDefaultState();
 			IBlockState SHOUYU = Hakkou_Blocks.SHOUYUTARU.getDefaultState();
@@ -192,9 +187,7 @@ public class Taru_Hakkou extends Base_Taru15 {
 	public List<ItemStack> getDrops(IBlockAccess worldIn, BlockPos pos, IBlockState state, int fortune) {
 		List<ItemStack> stack = new ArrayList<ItemStack>();
 		int i = ((Integer)state.getValue(STAGE_0_15)).intValue();
-		/** 0=空, 1=麹未3, 2=麹, 3=酒母未3, 4=酒母, 5=もろみ未3, 6=もろみ, 7=熟成酒未3, 8=熟成酒 **/
-		/** 9=味噌未3, 10=味噌, 11=味噌の空樽, 12=紅茶未3, 13=紅茶, 14=紅茶の空棚, 15=麹の空棚 **/
-		
+
 		if (i == 0 || i == 4 || i == 6 || i == 14) {
 			stack.add(new ItemStack(Items_Teatime.HAKKOUTARU, 1, 0)); }
 		if (i == 1) { stack.add(new ItemStack(Items_Teatime.HAKKOUTARU, 1, 1)); }
@@ -218,9 +211,7 @@ public class Taru_Hakkou extends Base_Taru15 {
 	@Override
 	public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World worldIn, BlockPos pos, EntityPlayer playerIn) {
 		int i = ((Integer)state.getValue(STAGE_0_15)).intValue();
-		/** 0=空, 1=麹未3, 2=麹, 3=酒母未3, 4=酒母, 5=もろみ未3, 6=もろみ, 7=熟成酒未3, 8=熟成酒 **/
-		/** 9=味噌未3, 10=味噌, 11=味噌の空樽, 12=紅茶未3, 13=紅茶, 14=紅茶の空棚, 15=麹の空棚 **/
-		
+
 		if (i == 1 || i == 2) { return new ItemStack(Items_Teatime.HAKKOUTARU, 1, 1); }
 		if (i == 3 || i == 4) { return new ItemStack(Items_Teatime.HAKKOUTARU, 1, 2); }
 		if (i == 5 || i == 6) { return new ItemStack(Items_Teatime.HAKKOUTARU, 1, 3); }
